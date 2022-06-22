@@ -1,4 +1,4 @@
-export default {
+const client_manifest = {
   "node_modules/nuxt3/dist/app/entry.mjs": {
     "file": "entry-96e9f8c6.mjs",
     "src": "node_modules/nuxt3/dist/app/entry.mjs",
@@ -164,4 +164,6 @@ export default {
       "_bootstrap-424b9d72.mjs"
     ]
   }
-}
+};
+
+export { client_manifest as default };

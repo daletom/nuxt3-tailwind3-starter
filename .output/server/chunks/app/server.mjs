@@ -1,3 +1,9 @@
+import { v as vue_cjs_prod, s as serverRenderer, r as require$$0 } from '../index.mjs';
+import { MenuIcon, XIcon, GlobeAltIcon, ScaleIcon, LightningBoltIcon, AnnotationIcon } from '@heroicons/vue/outline';
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
+import 'unenv/runtime/mock/proxy';
+import 'stream';
+
 var __defProp = Object.defineProperty;
 var __defProps = Object.defineProperties;
 var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
@@ -17,10 +23,6 @@ var __spreadValues = (a, b) => {
   return a;
 };
 var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
-import require$$0, { reactive, getCurrentInstance, ref, computed, defineComponent, resolveComponent, withCtx, createVNode, resolveDynamicComponent, openBlock, createBlock, useSSRContext, h, Transition, Suspense, createCommentVNode, shallowRef, defineAsyncComponent, createApp, unref, mergeProps, Fragment, renderList, toDisplayString as toDisplayString$1 } from "vue";
-import { ssrRenderComponent, ssrRenderVNode, ssrRenderSuspense, ssrRenderList, ssrRenderAttr, ssrInterpolate } from "vue/server-renderer";
-import { MenuIcon, XIcon, GlobeAltIcon, ScaleIcon, LightningBoltIcon, AnnotationIcon } from "@heroicons/vue/outline";
-import { Popover, PopoverButton, PopoverPanel } from "@headlessui/vue";
 const entry$1 = (ctx) => Promise.resolve().then(function() {
   return bootstrap$1;
 }).then((m) => m.default(ctx));
@@ -252,7 +254,7 @@ function createNuxtApp(options) {
   const nuxtApp = __spreadValues({
     provide: void 0,
     globalName: "nuxt",
-    payload: reactive(__spreadValues({
+    payload: vue_cjs_prod.reactive(__spreadValues({
       data: {},
       state: {},
       _errors: {}
@@ -337,7 +339,7 @@ function callWithNuxt(nuxt, setup) {
   return p;
 }
 function useNuxtApp() {
-  const vm = getCurrentInstance();
+  const vm = vue_cjs_prod.getCurrentInstance();
   if (!vm) {
     if (!currentNuxtAppInstance) {
       throw new Error("nuxt instance unavailable");
@@ -2082,7 +2084,6 @@ function destr(val) {
     return val;
   }
 }
-const tailwind = "";
 const preload = defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.mixin({
     beforeCreate() {
@@ -2392,7 +2393,7 @@ const vueuseHead_5cafb2ca = defineNuxtPlugin((nuxtApp) => {
   const head = createHead();
   nuxtApp.vueApp.use(head);
   nuxtApp._useMeta = (meta) => {
-    const headObj = ref(meta);
+    const headObj = vue_cjs_prod.ref(meta);
     head.addHeadObjs(headObj);
     {
       return;
@@ -2822,7 +2823,7 @@ shared_cjs_prod.toNumber = toNumber;
 shared_cjs_prod.toRawType = toRawType;
 shared_cjs_prod.toTypeString = toTypeString;
 function useMeta(meta) {
-  const resolvedMeta = isFunction_1(meta) ? computed(meta) : meta;
+  const resolvedMeta = isFunction_1(meta) ? vue_cjs_prod.computed(meta) : meta;
   useNuxtApp()._useMeta(resolvedMeta);
 }
 const removeUndefinedProps = (props) => Object.fromEntries(Object.entries(props).filter(([, value]) => value !== void 0));
@@ -2878,7 +2879,7 @@ const globalProps = {
   title: String,
   translate: String
 };
-const Script = defineComponent({
+const Script = vue_cjs_prod.defineComponent({
   name: "Script",
   props: __spreadProps(__spreadValues({}, globalProps), {
     async: Boolean,
@@ -2900,7 +2901,7 @@ const Script = defineComponent({
     script: [script]
   }))
 });
-const Link = defineComponent({
+const Link = vue_cjs_prod.defineComponent({
   name: "Link",
   props: __spreadProps(__spreadValues({}, globalProps), {
     as: String,
@@ -2928,7 +2929,7 @@ const Link = defineComponent({
     link: [link]
   }))
 });
-const Base = defineComponent({
+const Base = vue_cjs_prod.defineComponent({
   name: "Base",
   props: __spreadProps(__spreadValues({}, globalProps), {
     href: String,
@@ -2938,7 +2939,7 @@ const Base = defineComponent({
     base
   }))
 });
-const Title = defineComponent({
+const Title = vue_cjs_prod.defineComponent({
   name: "Title",
   setup: setupForUseMeta((_, { slots }) => {
     var _a, _b;
@@ -2948,7 +2949,7 @@ const Title = defineComponent({
     };
   })
 });
-const Meta = defineComponent({
+const Meta = vue_cjs_prod.defineComponent({
   name: "Meta",
   props: __spreadProps(__spreadValues({}, globalProps), {
     charset: String,
@@ -2961,7 +2962,7 @@ const Meta = defineComponent({
     meta: [meta]
   }))
 });
-const Style = defineComponent({
+const Style = vue_cjs_prod.defineComponent({
   name: "Style",
   props: __spreadProps(__spreadValues({}, globalProps), {
     type: String,
@@ -2985,11 +2986,11 @@ const Style = defineComponent({
     };
   })
 });
-const Head = defineComponent({
+const Head = vue_cjs_prod.defineComponent({
   name: "Head",
   setup: (_props, ctx) => ctx.slots.default
 });
-const Html = defineComponent({
+const Html = vue_cjs_prod.defineComponent({
   name: "Html",
   props: __spreadProps(__spreadValues({}, globalProps), {
     manifest: String,
@@ -2998,7 +2999,7 @@ const Html = defineComponent({
   }),
   setup: setupForUseMeta((htmlAttrs) => ({ htmlAttrs }), true)
 });
-const Body = defineComponent({
+const Body = vue_cjs_prod.defineComponent({
   name: "Body",
   props: globalProps,
   setup: setupForUseMeta((bodyAttrs) => ({ bodyAttrs }), true)
@@ -3022,7 +3023,7 @@ const plugin_c10716e2 = defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.mixin({
     [metaConfig.mixinKey]() {
       var _a;
-      const instance = getCurrentInstance();
+      const instance = vue_cjs_prod.getCurrentInstance();
       const options = (instance == null ? void 0 : instance.type) || ((_a = instance == null ? void 0 : instance.proxy) == null ? void 0 : _a.$options);
       if (!options || !("head" in options)) {
         return;
@@ -3045,16 +3046,16 @@ const _sfc_main$i = {
   name: "NuxtNestedPage"
 };
 function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_RouterView = resolveComponent("RouterView");
-  _push(ssrRenderComponent(_component_RouterView, _attrs, {
-    default: withCtx(({ Component }, _push2, _parent2, _scopeId) => {
+  const _component_RouterView = vue_cjs_prod.resolveComponent("RouterView");
+  _push(serverRenderer.exports.ssrRenderComponent(_component_RouterView, _attrs, {
+    default: vue_cjs_prod.withCtx(({ Component }, _push2, _parent2, _scopeId) => {
       if (_push2) {
-        ssrRenderVNode(_push2, createVNode(resolveDynamicComponent(Component), {
+        serverRenderer.exports.ssrRenderVNode(_push2, vue_cjs_prod.createVNode(vue_cjs_prod.resolveDynamicComponent(Component), {
           key: _ctx.$route.path
         }, null), _parent2, _scopeId);
       } else {
         return [
-          (openBlock(), createBlock(resolveDynamicComponent(Component), {
+          (vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock(vue_cjs_prod.resolveDynamicComponent(Component), {
             key: _ctx.$route.path
           }))
         ];
@@ -3065,13 +3066,13 @@ function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
 }
 const _sfc_setup$i = _sfc_main$i.setup;
 _sfc_main$i.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("node_modules/nuxt3/dist/pages/runtime/nested-page.vue");
   return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
 };
 const NuxtNestedPage = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$4]]);
 const layouts = {};
-const NuxtLayout = defineComponent({
+const NuxtLayout = vue_cjs_prod.defineComponent({
   props: {
     name: {
       type: [String, Boolean],
@@ -3084,7 +3085,7 @@ const NuxtLayout = defineComponent({
       if (!layouts[layout]) {
         return context.slots.default();
       }
-      return h(layouts[layout], props, context.slots);
+      return vue_cjs_prod.h(layouts[layout], props, context.slots);
     };
   }
 });
@@ -3114,20 +3115,20 @@ const _sfc_main$h = {
   }
 };
 function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_RouterView = resolveComponent("RouterView");
-  const _component_NuxtLayout = resolveComponent("NuxtLayout");
-  _push(ssrRenderComponent(_component_RouterView, _attrs, {
-    default: withCtx(({ Component }, _push2, _parent2, _scopeId) => {
+  const _component_RouterView = vue_cjs_prod.resolveComponent("RouterView");
+  const _component_NuxtLayout = vue_cjs_prod.resolveComponent("NuxtLayout");
+  _push(serverRenderer.exports.ssrRenderComponent(_component_RouterView, _attrs, {
+    default: vue_cjs_prod.withCtx(({ Component }, _push2, _parent2, _scopeId) => {
       if (_push2) {
         if (Component) {
-          _push2(ssrRenderComponent(_component_NuxtLayout, {
+          _push2(serverRenderer.exports.ssrRenderComponent(_component_NuxtLayout, {
             name: $props.layout || $setup.updatedComponentLayout || Component.type.layout
           }, {
-            default: withCtx((_, _push3, _parent3, _scopeId2) => {
+            default: vue_cjs_prod.withCtx((_, _push3, _parent3, _scopeId2) => {
               if (_push3) {
-                ssrRenderSuspense(_push3, {
+                serverRenderer.exports.ssrRenderSuspense(_push3, {
                   default: () => {
-                    ssrRenderVNode(_push3, createVNode(resolveDynamicComponent(Component), {
+                    serverRenderer.exports.ssrRenderVNode(_push3, vue_cjs_prod.createVNode(vue_cjs_prod.resolveDynamicComponent(Component), {
                       key: _ctx.$route.path
                     }, null), _parent3, _scopeId2);
                   },
@@ -3135,17 +3136,17 @@ function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
                 });
               } else {
                 return [
-                  createVNode(Transition, {
+                  vue_cjs_prod.createVNode(vue_cjs_prod.Transition, {
                     name: "page",
                     mode: "out-in"
                   }, {
-                    default: withCtx(() => [
-                      (openBlock(), createBlock(Suspense, {
+                    default: vue_cjs_prod.withCtx(() => [
+                      (vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock(vue_cjs_prod.Suspense, {
                         onPending: () => $setup.onSuspensePending(Component),
                         onResolve: () => $setup.onSuspenseResolved(Component)
                       }, {
-                        default: withCtx(() => [
-                          (openBlock(), createBlock(resolveDynamicComponent(Component), {
+                        default: vue_cjs_prod.withCtx(() => [
+                          (vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock(vue_cjs_prod.resolveDynamicComponent(Component), {
                             key: _ctx.$route.path
                           }))
                         ]),
@@ -3164,22 +3165,22 @@ function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
         }
       } else {
         return [
-          Component ? (openBlock(), createBlock(_component_NuxtLayout, {
+          Component ? (vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock(_component_NuxtLayout, {
             key: 0,
             name: $props.layout || $setup.updatedComponentLayout || Component.type.layout
           }, {
-            default: withCtx(() => [
-              createVNode(Transition, {
+            default: vue_cjs_prod.withCtx(() => [
+              vue_cjs_prod.createVNode(vue_cjs_prod.Transition, {
                 name: "page",
                 mode: "out-in"
               }, {
-                default: withCtx(() => [
-                  (openBlock(), createBlock(Suspense, {
+                default: vue_cjs_prod.withCtx(() => [
+                  (vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock(vue_cjs_prod.Suspense, {
                     onPending: () => $setup.onSuspensePending(Component),
                     onResolve: () => $setup.onSuspenseResolved(Component)
                   }, {
-                    default: withCtx(() => [
-                      (openBlock(), createBlock(resolveDynamicComponent(Component), {
+                    default: vue_cjs_prod.withCtx(() => [
+                      (vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock(vue_cjs_prod.resolveDynamicComponent(Component), {
                         key: _ctx.$route.path
                       }))
                     ]),
@@ -3190,7 +3191,7 @@ function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
               }, 1024)
             ]),
             _: 2
-          }, 1032, ["name"])) : createCommentVNode("", true)
+          }, 1032, ["name"])) : vue_cjs_prod.createCommentVNode("", true)
         ];
       }
     }),
@@ -3199,7 +3200,7 @@ function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
 }
 const _sfc_setup$h = _sfc_main$h.setup;
 _sfc_main$h.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("node_modules/nuxt3/dist/pages/runtime/page.vue");
   return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
 };
@@ -3344,7 +3345,7 @@ const router_2907ff20 = defineNuxtPlugin((nuxtApp) => {
     routes
   });
   nuxtApp.vueApp.use(router);
-  const previousRoute = shallowRef(router.currentRoute.value);
+  const previousRoute = vue_cjs_prod.shallowRef(router.currentRoute.value);
   router.afterEach((_to, from) => {
     previousRoute.value = from;
   });
@@ -3353,9 +3354,9 @@ const router_2907ff20 = defineNuxtPlugin((nuxtApp) => {
   });
   const route = {};
   for (const key in router.currentRoute.value) {
-    route[key] = computed(() => router.currentRoute.value[key]);
+    route[key] = vue_cjs_prod.computed(() => router.currentRoute.value[key]);
   }
-  nuxtApp._route = reactive(route);
+  nuxtApp._route = vue_cjs_prod.reactive(route);
   nuxtApp.hook("app:created", async () => {
     {
       router.push(nuxtApp.ssrContext.url);
@@ -3711,7 +3712,7 @@ const _globalThis = function() {
   }
   throw new Error("unable to locate global object");
 }();
-const fetch = _globalThis.fetch || (() => Promise.reject(new Error("[ohmyfetch] global.fetch is not supported!")));
+const fetch = _globalThis.fetch || (() => Promise.reject(new Error("[ohmyfetch] globalThis.fetch is not supported!")));
 const Headers = _globalThis.Headers;
 const $fetch = createFetch({ fetch, Headers });
 if (!globalThis.$fetch) {
@@ -3720,7 +3721,7 @@ if (!globalThis.$fetch) {
 const nitroClient_3ce765e2 = () => {
 };
 const components = {
-  "TheHeader": defineAsyncComponent(() => Promise.resolve().then(function() {
+  "TheHeader": vue_cjs_prod.defineAsyncComponent(() => Promise.resolve().then(function() {
     return TheHeader;
   }).then((c) => c.default || c))
 };
@@ -3745,29 +3746,29 @@ const _sfc_main$g = {
   }
 };
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_App = resolveComponent("App");
-  ssrRenderSuspense(_push, {
+  const _component_App = vue_cjs_prod.resolveComponent("App");
+  serverRenderer.exports.ssrRenderSuspense(_push, {
     default: () => {
-      _push(ssrRenderComponent(_component_App, null, null, _parent));
+      _push(serverRenderer.exports.ssrRenderComponent(_component_App, null, null, _parent));
     },
     _: 1
   });
 }
 const _sfc_setup$g = _sfc_main$g.setup;
 _sfc_main$g.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("node_modules/nuxt3/dist/app/components/nuxt-root.vue");
   return _sfc_setup$g ? _sfc_setup$g(props, ctx) : void 0;
 };
 const RootComponent = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["ssrRender", _sfc_ssrRender$2]]);
 const _sfc_main$f = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
-  const _component_NuxtPage = resolveComponent("NuxtPage");
-  _push(ssrRenderComponent(_component_NuxtPage, _attrs, null, _parent));
+  const _component_NuxtPage = vue_cjs_prod.resolveComponent("NuxtPage");
+  _push(serverRenderer.exports.ssrRenderComponent(_component_NuxtPage, _attrs, null, _parent));
 }
 const _sfc_setup$f = _sfc_main$f.setup;
 _sfc_main$f.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("node_modules/nuxt3/dist/pages/runtime/app.vue");
   return _sfc_setup$f ? _sfc_setup$f(props, ctx) : void 0;
 };
@@ -3776,7 +3777,7 @@ let entry;
 const plugins = normalizePlugins(_plugins);
 {
   entry = async function createNuxtAppServer(ssrContext = {}) {
-    const vueApp = createApp(RootComponent);
+    const vueApp = vue_cjs_prod.createApp(RootComponent);
     vueApp.component("App", AppComponent);
     const nuxt = createNuxtApp({ vueApp, ssrContext });
     await applyPlugins(nuxt, plugins);
@@ -3800,22 +3801,22 @@ const _sfc_main$e = {
       { name: "Company", href: "#" }
     ];
     return (_ctx, _push, _parent, _attrs) => {
-      _push(ssrRenderComponent(unref(Popover), _attrs, {
-        default: withCtx((_, _push2, _parent2, _scopeId) => {
+      _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(Popover), _attrs, {
+        default: vue_cjs_prod.withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
             _push2(`<div class="relative pt-6 px-4 sm:px-6 lg:px-8"${_scopeId}><nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global"${_scopeId}><div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"${_scopeId}><div class="flex items-center justify-between w-full md:w-auto"${_scopeId}><a href="/"${_scopeId}><span class="sr-only"${_scopeId}>Workflow</span><img alt="Workflow" class="h-8 w-auto sm:h-10" src="https://tom.imgix.net/imgix-presskit.pdf?page=3&amp;auto=format&amp;w=100"${_scopeId}></a><div class="-mr-2 flex items-center md:hidden"${_scopeId}>`);
-            _push2(ssrRenderComponent(unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
-              default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+            _push2(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+              default: vue_cjs_prod.withCtx((_2, _push3, _parent3, _scopeId2) => {
                 if (_push3) {
                   _push3(`<span class="sr-only"${_scopeId2}>Open main menu</span>`);
-                  _push3(ssrRenderComponent(unref(MenuIcon), {
+                  _push3(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(MenuIcon), {
                     class: "h-6 w-6",
                     "aria-hidden": "true"
                   }, null, _parent3, _scopeId2));
                 } else {
                   return [
-                    createVNode("span", { class: "sr-only" }, "Open main menu"),
-                    createVNode(unref(MenuIcon), {
+                    vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Open main menu"),
+                    vue_cjs_prod.createVNode(vue_cjs_prod.unref(MenuIcon), {
                       class: "h-6 w-6",
                       "aria-hidden": "true"
                     })
@@ -3825,29 +3826,29 @@ const _sfc_main$e = {
               _: 1
             }, _parent2, _scopeId));
             _push2(`</div></div></div><div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8"${_scopeId}><!--[-->`);
-            ssrRenderList(navigation, (item) => {
-              _push2(`<a${ssrRenderAttr("href", item.href)} class="font-medium text-gray-500 hover:text-gray-900"${_scopeId}>${ssrInterpolate(item.name)}</a>`);
+            serverRenderer.exports.ssrRenderList(navigation, (item) => {
+              _push2(`<a${serverRenderer.exports.ssrRenderAttr("href", item.href)} class="font-medium text-gray-500 hover:text-gray-900"${_scopeId}>${serverRenderer.exports.ssrInterpolate(item.name)}</a>`);
             });
             _push2(`<!--]--></div></nav></div>`);
-            _push2(ssrRenderComponent(unref(PopoverPanel), mergeProps({
+            _push2(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(PopoverPanel), vue_cjs_prod.mergeProps({
               focus: "",
               class: "absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
             }, _attrs), {
-              default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+              default: vue_cjs_prod.withCtx((_2, _push3, _parent3, _scopeId2) => {
                 if (_push3) {
                   _push3(`<div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"${_scopeId2}><div class="px-5 pt-4 flex items-center justify-between"${_scopeId2}><div${_scopeId2}><img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt=""${_scopeId2}></div><div class="-mr-2"${_scopeId2}>`);
-                  _push3(ssrRenderComponent(unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
-                    default: withCtx((_3, _push4, _parent4, _scopeId3) => {
+                  _push3(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+                    default: vue_cjs_prod.withCtx((_3, _push4, _parent4, _scopeId3) => {
                       if (_push4) {
                         _push4(`<span class="sr-only"${_scopeId3}>Close main menu</span>`);
-                        _push4(ssrRenderComponent(unref(XIcon), {
+                        _push4(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(XIcon), {
                           class: "h-6 w-6",
                           "aria-hidden": "true"
                         }, null, _parent4, _scopeId3));
                       } else {
                         return [
-                          createVNode("span", { class: "sr-only" }, "Close main menu"),
-                          createVNode(unref(XIcon), {
+                          vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Close main menu"),
+                          vue_cjs_prod.createVNode(vue_cjs_prod.unref(XIcon), {
                             class: "h-6 w-6",
                             "aria-hidden": "true"
                           })
@@ -3857,26 +3858,26 @@ const _sfc_main$e = {
                     _: 1
                   }, _parent3, _scopeId2));
                   _push3(`</div></div><div class="px-2 pt-2 pb-3 space-y-1"${_scopeId2}><!--[-->`);
-                  ssrRenderList(navigation, (item) => {
-                    _push3(`<a${ssrRenderAttr("href", item.href)} class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"${_scopeId2}>${ssrInterpolate(item.name)}</a>`);
+                  serverRenderer.exports.ssrRenderList(navigation, (item) => {
+                    _push3(`<a${serverRenderer.exports.ssrRenderAttr("href", item.href)} class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"${_scopeId2}>${serverRenderer.exports.ssrInterpolate(item.name)}</a>`);
                   });
                   _push3(`<!--]--></div></div>`);
                 } else {
                   return [
-                    createVNode("div", { class: "rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden" }, [
-                      createVNode("div", { class: "px-5 pt-4 flex items-center justify-between" }, [
-                        createVNode("div", null, [
-                          createVNode("img", {
+                    vue_cjs_prod.createVNode("div", { class: "rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden" }, [
+                      vue_cjs_prod.createVNode("div", { class: "px-5 pt-4 flex items-center justify-between" }, [
+                        vue_cjs_prod.createVNode("div", null, [
+                          vue_cjs_prod.createVNode("img", {
                             class: "h-8 w-auto",
                             src: "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
                             alt: ""
                           })
                         ]),
-                        createVNode("div", { class: "-mr-2" }, [
-                          createVNode(unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
-                            default: withCtx(() => [
-                              createVNode("span", { class: "sr-only" }, "Close main menu"),
-                              createVNode(unref(XIcon), {
+                        vue_cjs_prod.createVNode("div", { class: "-mr-2" }, [
+                          vue_cjs_prod.createVNode(vue_cjs_prod.unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+                            default: vue_cjs_prod.withCtx(() => [
+                              vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Close main menu"),
+                              vue_cjs_prod.createVNode(vue_cjs_prod.unref(XIcon), {
                                 class: "h-6 w-6",
                                 "aria-hidden": "true"
                               })
@@ -3885,13 +3886,13 @@ const _sfc_main$e = {
                           })
                         ])
                       ]),
-                      createVNode("div", { class: "px-2 pt-2 pb-3 space-y-1" }, [
-                        (openBlock(), createBlock(Fragment, null, renderList(navigation, (item) => {
-                          return createVNode("a", {
+                      vue_cjs_prod.createVNode("div", { class: "px-2 pt-2 pb-3 space-y-1" }, [
+                        (vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock(vue_cjs_prod.Fragment, null, vue_cjs_prod.renderList(navigation, (item) => {
+                          return vue_cjs_prod.createVNode("a", {
                             key: item.name,
                             href: item.href,
                             class: "block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                          }, toDisplayString$1(item.name), 9, ["href"]);
+                          }, vue_cjs_prod.toDisplayString(item.name), 9, ["href"]);
                         }), 64))
                       ])
                     ])
@@ -3902,26 +3903,26 @@ const _sfc_main$e = {
             }, _parent2, _scopeId));
           } else {
             return [
-              createVNode("div", { class: "relative pt-6 px-4 sm:px-6 lg:px-8" }, [
-                createVNode("nav", {
+              vue_cjs_prod.createVNode("div", { class: "relative pt-6 px-4 sm:px-6 lg:px-8" }, [
+                vue_cjs_prod.createVNode("nav", {
                   class: "relative flex items-center justify-between sm:h-10 lg:justify-start",
                   "aria-label": "Global"
                 }, [
-                  createVNode("div", { class: "flex items-center flex-grow flex-shrink-0 lg:flex-grow-0" }, [
-                    createVNode("div", { class: "flex items-center justify-between w-full md:w-auto" }, [
-                      createVNode("a", { href: "/" }, [
-                        createVNode("span", { class: "sr-only" }, "Workflow"),
-                        createVNode("img", {
+                  vue_cjs_prod.createVNode("div", { class: "flex items-center flex-grow flex-shrink-0 lg:flex-grow-0" }, [
+                    vue_cjs_prod.createVNode("div", { class: "flex items-center justify-between w-full md:w-auto" }, [
+                      vue_cjs_prod.createVNode("a", { href: "/" }, [
+                        vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Workflow"),
+                        vue_cjs_prod.createVNode("img", {
                           alt: "Workflow",
                           class: "h-8 w-auto sm:h-10",
                           src: "https://tom.imgix.net/imgix-presskit.pdf?page=3&auto=format&w=100"
                         })
                       ]),
-                      createVNode("div", { class: "-mr-2 flex items-center md:hidden" }, [
-                        createVNode(unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
-                          default: withCtx(() => [
-                            createVNode("span", { class: "sr-only" }, "Open main menu"),
-                            createVNode(unref(MenuIcon), {
+                      vue_cjs_prod.createVNode("div", { class: "-mr-2 flex items-center md:hidden" }, [
+                        vue_cjs_prod.createVNode(vue_cjs_prod.unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+                          default: vue_cjs_prod.withCtx(() => [
+                            vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Open main menu"),
+                            vue_cjs_prod.createVNode(vue_cjs_prod.unref(MenuIcon), {
                               class: "h-6 w-6",
                               "aria-hidden": "true"
                             })
@@ -3931,18 +3932,18 @@ const _sfc_main$e = {
                       ])
                     ])
                   ]),
-                  createVNode("div", { class: "hidden md:block md:ml-10 md:pr-4 md:space-x-8" }, [
-                    (openBlock(), createBlock(Fragment, null, renderList(navigation, (item) => {
-                      return createVNode("a", {
+                  vue_cjs_prod.createVNode("div", { class: "hidden md:block md:ml-10 md:pr-4 md:space-x-8" }, [
+                    (vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock(vue_cjs_prod.Fragment, null, vue_cjs_prod.renderList(navigation, (item) => {
+                      return vue_cjs_prod.createVNode("a", {
                         key: item.name,
                         href: item.href,
                         class: "font-medium text-gray-500 hover:text-gray-900"
-                      }, toDisplayString$1(item.name), 9, ["href"]);
+                      }, vue_cjs_prod.toDisplayString(item.name), 9, ["href"]);
                     }), 64))
                   ])
                 ])
               ]),
-              createVNode(Transition, {
+              vue_cjs_prod.createVNode(vue_cjs_prod.Transition, {
                 "enter-active-class": "duration-150 ease-out",
                 "enter-from-class": "opacity-0 scale-95",
                 "enter-to-class": "opacity-100 scale-100",
@@ -3950,26 +3951,26 @@ const _sfc_main$e = {
                 "leave-from-class": "opacity-100 scale-100",
                 "leave-to-class": "opacity-0 scale-95"
               }, {
-                default: withCtx(() => [
-                  createVNode(unref(PopoverPanel), {
+                default: vue_cjs_prod.withCtx(() => [
+                  vue_cjs_prod.createVNode(vue_cjs_prod.unref(PopoverPanel), {
                     focus: "",
                     class: "absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
                   }, {
-                    default: withCtx(() => [
-                      createVNode("div", { class: "rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden" }, [
-                        createVNode("div", { class: "px-5 pt-4 flex items-center justify-between" }, [
-                          createVNode("div", null, [
-                            createVNode("img", {
+                    default: vue_cjs_prod.withCtx(() => [
+                      vue_cjs_prod.createVNode("div", { class: "rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden" }, [
+                        vue_cjs_prod.createVNode("div", { class: "px-5 pt-4 flex items-center justify-between" }, [
+                          vue_cjs_prod.createVNode("div", null, [
+                            vue_cjs_prod.createVNode("img", {
                               class: "h-8 w-auto",
                               src: "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
                               alt: ""
                             })
                           ]),
-                          createVNode("div", { class: "-mr-2" }, [
-                            createVNode(unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
-                              default: withCtx(() => [
-                                createVNode("span", { class: "sr-only" }, "Close main menu"),
-                                createVNode(unref(XIcon), {
+                          vue_cjs_prod.createVNode("div", { class: "-mr-2" }, [
+                            vue_cjs_prod.createVNode(vue_cjs_prod.unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+                              default: vue_cjs_prod.withCtx(() => [
+                                vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Close main menu"),
+                                vue_cjs_prod.createVNode(vue_cjs_prod.unref(XIcon), {
                                   class: "h-6 w-6",
                                   "aria-hidden": "true"
                                 })
@@ -3978,13 +3979,13 @@ const _sfc_main$e = {
                             })
                           ])
                         ]),
-                        createVNode("div", { class: "px-2 pt-2 pb-3 space-y-1" }, [
-                          (openBlock(), createBlock(Fragment, null, renderList(navigation, (item) => {
-                            return createVNode("a", {
+                        vue_cjs_prod.createVNode("div", { class: "px-2 pt-2 pb-3 space-y-1" }, [
+                          (vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock(vue_cjs_prod.Fragment, null, vue_cjs_prod.renderList(navigation, (item) => {
+                            return vue_cjs_prod.createVNode("a", {
                               key: item.name,
                               href: item.href,
                               class: "block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                            }, toDisplayString$1(item.name), 9, ["href"]);
+                            }, vue_cjs_prod.toDisplayString(item.name), 9, ["href"]);
                           }), 64))
                         ])
                       ])
@@ -4004,7 +4005,7 @@ const _sfc_main$e = {
 };
 const _sfc_setup$e = _sfc_main$e.setup;
 _sfc_main$e.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("components/TheHeader.vue");
   return _sfc_setup$e ? _sfc_setup$e(props, ctx) : void 0;
 };
@@ -4045,21 +4046,21 @@ const _sfc_main$d = {
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_TheHeader = _sfc_main$e;
   _push(`<!--[-->`);
-  _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
+  _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
   _push(`<div class="py-12 bg-white"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="lg:text-center"><h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2><p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"> A better way to send money </p><p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto"> Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam. </p></div><div class="mt-10"><dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10"><!--[-->`);
-  ssrRenderList($setup.features, (feature) => {
+  serverRenderer.exports.ssrRenderList($setup.features, (feature) => {
     _push(`<div class="relative"><dt><div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">`);
-    ssrRenderVNode(_push, createVNode(resolveDynamicComponent(feature.icon), {
+    serverRenderer.exports.ssrRenderVNode(_push, vue_cjs_prod.createVNode(vue_cjs_prod.resolveDynamicComponent(feature.icon), {
       class: "h-6 w-6",
       "aria-hidden": "true"
     }, null), _parent);
-    _push(`</div><p class="ml-16 text-lg leading-6 font-medium text-gray-900">${ssrInterpolate(feature.name)}</p></dt><dd class="mt-2 ml-16 text-base text-gray-500">${ssrInterpolate(feature.description)}</dd></div>`);
+    _push(`</div><p class="ml-16 text-lg leading-6 font-medium text-gray-900">${serverRenderer.exports.ssrInterpolate(feature.name)}</p></dt><dd class="mt-2 ml-16 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(feature.description)}</dd></div>`);
   });
   _push(`<!--]--></dl></div></div></div><!--]-->`);
 }
 const _sfc_setup$d = _sfc_main$d.setup;
 _sfc_main$d.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/features.vue");
   return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
 };
@@ -4098,10 +4099,10 @@ const _sfc_main$c = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">All Your imgix Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Three Powerful Languages</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> See Demos </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">Languages</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">All Your imgix Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Three Powerful Languages</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> See Demos </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">Languages</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -4109,7 +4110,7 @@ const _sfc_main$c = {
 };
 const _sfc_setup$c = _sfc_main$c.setup;
 _sfc_main$c.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue");
   return _sfc_setup$c ? _sfc_setup$c(props, ctx) : void 0;
 };
@@ -4194,14 +4195,14 @@ const _sfc_main$b = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript imgix Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">eComm Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">eComm Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some eCommerce demos we have made using imgix in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
-      ssrRenderList(posts, (post) => {
-        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${ssrRenderAttr("href", post.category.href)} class="hover:underline">${ssrInterpolate(post.category.name)}</a></p><a${ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${ssrRenderAttr("href", post.author.href)}><span class="sr-only">${ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${ssrRenderAttr("href", post.author.href)} class="hover:underline">${ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${ssrRenderAttr("datetime", post.datetime)}>${ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript imgix Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">eComm Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">eComm Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some eCommerce demos we have made using imgix in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(posts, (post) => {
+        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${serverRenderer.exports.ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${serverRenderer.exports.ssrRenderAttr("href", post.category.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.category.name)}</a></p><a${serverRenderer.exports.ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)}><span class="sr-only">${serverRenderer.exports.ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${serverRenderer.exports.ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${serverRenderer.exports.ssrRenderAttr("datetime", post.datetime)}>${serverRenderer.exports.ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${serverRenderer.exports.ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
       });
       _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -4209,7 +4210,7 @@ const _sfc_main$b = {
 };
 const _sfc_setup$b = _sfc_main$b.setup;
 _sfc_main$b.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/javascript/ecommerce/index.vue");
   return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
 };
@@ -4224,14 +4225,14 @@ const _sfc_main$a = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://www.springboard.com/blog/wp-content/uploads/2019/08/sb-blog-java.png" alt=""></div></div><section aria-labelledby="category-heading" class="bg-gray-50"><div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2><a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> \u2192</span></a></div><div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women&#39;s black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div><div class="p-6 flex items-end"><div><h3 class="font-semibold text-white"><a href="/javascript/ecommerce"><span class="absolute inset-0"></span> eCommerce </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/javascript/media"><span class="absolute inset-0"></span> Media </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/javascript/video"><span class="absolute inset-0"></span> Video </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> \u2192</span></a></div></div></section><!--]-->`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://www.springboard.com/blog/wp-content/uploads/2019/08/sb-blog-java.png" alt=""></div></div><section aria-labelledby="category-heading" class="bg-gray-50"><div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2><a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> \u2192</span></a></div><div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women&#39;s black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div><div class="p-6 flex items-end"><div><h3 class="font-semibold text-white"><a href="/javascript/ecommerce"><span class="absolute inset-0"></span> eCommerce </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/javascript/media"><span class="absolute inset-0"></span> Media </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/javascript/video"><span class="absolute inset-0"></span> Video </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> \u2192</span></a></div></div></section><!--]-->`);
     };
   }
 };
 const _sfc_setup$a = _sfc_main$a.setup;
 _sfc_main$a.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/javascript/index.vue");
   return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
 };
@@ -4316,14 +4317,14 @@ const _sfc_main$9 = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript imgix Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
-      ssrRenderList(posts, (post) => {
-        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${ssrRenderAttr("href", post.category.href)} class="hover:underline">${ssrInterpolate(post.category.name)}</a></p><a${ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${ssrRenderAttr("href", post.author.href)}><span class="sr-only">${ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${ssrRenderAttr("href", post.author.href)} class="hover:underline">${ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${ssrRenderAttr("datetime", post.datetime)}>${ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript imgix Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(posts, (post) => {
+        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${serverRenderer.exports.ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${serverRenderer.exports.ssrRenderAttr("href", post.category.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.category.name)}</a></p><a${serverRenderer.exports.ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)}><span class="sr-only">${serverRenderer.exports.ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${serverRenderer.exports.ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${serverRenderer.exports.ssrRenderAttr("datetime", post.datetime)}>${serverRenderer.exports.ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${serverRenderer.exports.ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
       });
       _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -4331,7 +4332,7 @@ const _sfc_main$9 = {
 };
 const _sfc_setup$9 = _sfc_main$9.setup;
 _sfc_main$9.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/javascript/media/index.vue");
   return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
 };
@@ -4416,14 +4417,14 @@ const _sfc_main$8 = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Video Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
-      ssrRenderList(posts, (post) => {
-        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${ssrRenderAttr("href", post.category.href)} class="hover:underline">${ssrInterpolate(post.category.name)}</a></p><a${ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${ssrRenderAttr("href", post.author.href)}><span class="sr-only">${ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${ssrRenderAttr("href", post.author.href)} class="hover:underline">${ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${ssrRenderAttr("datetime", post.datetime)}>${ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Video Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(posts, (post) => {
+        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${serverRenderer.exports.ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${serverRenderer.exports.ssrRenderAttr("href", post.category.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.category.name)}</a></p><a${serverRenderer.exports.ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)}><span class="sr-only">${serverRenderer.exports.ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${serverRenderer.exports.ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${serverRenderer.exports.ssrRenderAttr("datetime", post.datetime)}>${serverRenderer.exports.ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${serverRenderer.exports.ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
       });
       _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -4431,7 +4432,7 @@ const _sfc_main$8 = {
 };
 const _sfc_setup$8 = _sfc_main$8.setup;
 _sfc_main$8.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/javascript/video/index.vue");
   return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
 };
@@ -4516,14 +4517,14 @@ const _sfc_main$7 = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">eComm Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">eComm Demos in React</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some eCommerce demos we have made using imgix in React.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
-      ssrRenderList(posts, (post) => {
-        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${ssrRenderAttr("href", post.category.href)} class="hover:underline">${ssrInterpolate(post.category.name)}</a></p><a${ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${ssrRenderAttr("href", post.author.href)}><span class="sr-only">${ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${ssrRenderAttr("href", post.author.href)} class="hover:underline">${ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${ssrRenderAttr("datetime", post.datetime)}>${ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">eComm Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">eComm Demos in React</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some eCommerce demos we have made using imgix in React.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(posts, (post) => {
+        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${serverRenderer.exports.ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${serverRenderer.exports.ssrRenderAttr("href", post.category.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.category.name)}</a></p><a${serverRenderer.exports.ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)}><span class="sr-only">${serverRenderer.exports.ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${serverRenderer.exports.ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${serverRenderer.exports.ssrRenderAttr("datetime", post.datetime)}>${serverRenderer.exports.ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${serverRenderer.exports.ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
       });
       _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in React?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -4531,7 +4532,7 @@ const _sfc_main$7 = {
 };
 const _sfc_setup$7 = _sfc_main$7.setup;
 _sfc_main$7.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/react/ecommerce/index.vue");
   return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
 };
@@ -4546,14 +4547,14 @@ const _sfc_main$6 = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><section aria-labelledby="category-heading" class="bg-gray-50"><div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2><a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> \u2192</span></a></div><div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women&#39;s black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div><div class="p-6 flex items-end"><div><h3 class="font-semibold text-white"><a href="/react/ecommerce"><span class="absolute inset-0"></span> eCommerce </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/react/media"><span class="absolute inset-0"></span> Media </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/react/video"><span class="absolute inset-0"></span> Video </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> \u2192</span></a></div></div></section><!--]-->`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><section aria-labelledby="category-heading" class="bg-gray-50"><div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2><a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> \u2192</span></a></div><div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women&#39;s black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div><div class="p-6 flex items-end"><div><h3 class="font-semibold text-white"><a href="/react/ecommerce"><span class="absolute inset-0"></span> eCommerce </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/react/media"><span class="absolute inset-0"></span> Media </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/react/video"><span class="absolute inset-0"></span> Video </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> \u2192</span></a></div></div></section><!--]-->`);
     };
   }
 };
 const _sfc_setup$6 = _sfc_main$6.setup;
 _sfc_main$6.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/react/index.vue");
   return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
 };
@@ -4638,14 +4639,14 @@ const _sfc_main$5 = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in React</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in React.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
-      ssrRenderList(posts, (post) => {
-        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${ssrRenderAttr("href", post.category.href)} class="hover:underline">${ssrInterpolate(post.category.name)}</a></p><a${ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${ssrRenderAttr("href", post.author.href)}><span class="sr-only">${ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${ssrRenderAttr("href", post.author.href)} class="hover:underline">${ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${ssrRenderAttr("datetime", post.datetime)}>${ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in React</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in React.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(posts, (post) => {
+        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${serverRenderer.exports.ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${serverRenderer.exports.ssrRenderAttr("href", post.category.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.category.name)}</a></p><a${serverRenderer.exports.ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)}><span class="sr-only">${serverRenderer.exports.ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${serverRenderer.exports.ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${serverRenderer.exports.ssrRenderAttr("datetime", post.datetime)}>${serverRenderer.exports.ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${serverRenderer.exports.ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
       });
       _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in React?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -4653,7 +4654,7 @@ const _sfc_main$5 = {
 };
 const _sfc_setup$5 = _sfc_main$5.setup;
 _sfc_main$5.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/react/media/index.vue");
   return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
 };
@@ -4738,14 +4739,14 @@ const _sfc_main$4 = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Video Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in React</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in React.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
-      ssrRenderList(posts, (post) => {
-        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${ssrRenderAttr("href", post.category.href)} class="hover:underline">${ssrInterpolate(post.category.name)}</a></p><a${ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${ssrRenderAttr("href", post.author.href)}><span class="sr-only">${ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${ssrRenderAttr("href", post.author.href)} class="hover:underline">${ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${ssrRenderAttr("datetime", post.datetime)}>${ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Video Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in React</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in React.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(posts, (post) => {
+        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${serverRenderer.exports.ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${serverRenderer.exports.ssrRenderAttr("href", post.category.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.category.name)}</a></p><a${serverRenderer.exports.ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)}><span class="sr-only">${serverRenderer.exports.ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${serverRenderer.exports.ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${serverRenderer.exports.ssrRenderAttr("datetime", post.datetime)}>${serverRenderer.exports.ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${serverRenderer.exports.ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
       });
       _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in React?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -4753,7 +4754,7 @@ const _sfc_main$4 = {
 };
 const _sfc_setup$4 = _sfc_main$4.setup;
 _sfc_main$4.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/react/video/index.vue");
   return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
 };
@@ -4838,14 +4839,14 @@ const _sfc_main$3 = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js imgix Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">eComm Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">eComm Demos in Vue.js</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some eCommerce demos we have made using imgix in Vue.js.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
-      ssrRenderList(posts, (post) => {
-        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${ssrRenderAttr("href", post.category.href)} class="hover:underline">${ssrInterpolate(post.category.name)}</a></p><a${ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${ssrRenderAttr("href", post.author.href)}><span class="sr-only">${ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${ssrRenderAttr("href", post.author.href)} class="hover:underline">${ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${ssrRenderAttr("datetime", post.datetime)}>${ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js imgix Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">eComm Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">eComm Demos in Vue.js</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some eCommerce demos we have made using imgix in Vue.js.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(posts, (post) => {
+        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${serverRenderer.exports.ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${serverRenderer.exports.ssrRenderAttr("href", post.category.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.category.name)}</a></p><a${serverRenderer.exports.ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)}><span class="sr-only">${serverRenderer.exports.ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${serverRenderer.exports.ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${serverRenderer.exports.ssrRenderAttr("datetime", post.datetime)}>${serverRenderer.exports.ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${serverRenderer.exports.ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
       });
       _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Vue.js?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -4853,7 +4854,7 @@ const _sfc_main$3 = {
 };
 const _sfc_setup$3 = _sfc_main$3.setup;
 _sfc_main$3.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/vuejs/ecommerce/index.vue");
   return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
@@ -4868,14 +4869,14 @@ const _sfc_main$2 = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><section aria-labelledby="category-heading" class="bg-gray-50"><div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2><a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> \u2192</span></a></div><div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women&#39;s black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div><div class="p-6 flex items-end"><div><h3 class="font-semibold text-white"><a href="/vuejs/ecommerce"><span class="absolute inset-0"></span> eCommerce </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/vuejs/media"><span class="absolute inset-0"></span> Media </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/vuejs/video"><span class="absolute inset-0"></span> Video </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> \u2192</span></a></div></div></section><!--]-->`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><section aria-labelledby="category-heading" class="bg-gray-50"><div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2><a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> \u2192</span></a></div><div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women&#39;s black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div><div class="p-6 flex items-end"><div><h3 class="font-semibold text-white"><a href="/vuejs/ecommerce"><span class="absolute inset-0"></span> eCommerce </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/vuejs/media"><span class="absolute inset-0"></span> Media </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/vuejs/video"><span class="absolute inset-0"></span> Video </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> \u2192</span></a></div></div></section><!--]-->`);
     };
   }
 };
 const _sfc_setup$2 = _sfc_main$2.setup;
 _sfc_main$2.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/vuejs/index.vue");
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
@@ -4960,14 +4961,14 @@ const _sfc_main$1 = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js imgix Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in Vue.js</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in Vue.js.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
-      ssrRenderList(posts, (post) => {
-        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${ssrRenderAttr("href", post.category.href)} class="hover:underline">${ssrInterpolate(post.category.name)}</a></p><a${ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${ssrRenderAttr("href", post.author.href)}><span class="sr-only">${ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${ssrRenderAttr("href", post.author.href)} class="hover:underline">${ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${ssrRenderAttr("datetime", post.datetime)}>${ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js imgix Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in Vue.js</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in Vue.js.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(posts, (post) => {
+        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${serverRenderer.exports.ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${serverRenderer.exports.ssrRenderAttr("href", post.category.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.category.name)}</a></p><a${serverRenderer.exports.ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)}><span class="sr-only">${serverRenderer.exports.ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${serverRenderer.exports.ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${serverRenderer.exports.ssrRenderAttr("datetime", post.datetime)}>${serverRenderer.exports.ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${serverRenderer.exports.ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
       });
       _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Vue.js?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -4975,7 +4976,7 @@ const _sfc_main$1 = {
 };
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/vuejs/media/index.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
@@ -5060,14 +5061,14 @@ const _sfc_main = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_TheHeader = _sfc_main$e;
       _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`);
-      _push(ssrRenderComponent(_component_TheHeader, null, null, _parent));
-      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js imgix Demos</span> ${ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Video Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Vue.js</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Vue.js.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
-      ssrRenderList(posts, (post) => {
-        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${ssrRenderAttr("href", post.category.href)} class="hover:underline">${ssrInterpolate(post.category.name)}</a></p><a${ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${ssrRenderAttr("href", post.author.href)}><span class="sr-only">${ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${ssrRenderAttr("href", post.author.href)} class="hover:underline">${ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${ssrRenderAttr("datetime", post.datetime)}>${ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
+      _push(serverRenderer.exports.ssrRenderComponent(_component_TheHeader, null, null, _parent));
+      _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js imgix Demos</span> ${serverRenderer.exports.ssrInterpolate(" ")} <span class="block text-orange-600 xl:inline text-5xl">Video Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Vue.js</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Vue.js.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`);
+      serverRenderer.exports.ssrRenderList(posts, (post) => {
+        _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${serverRenderer.exports.ssrRenderAttr("src", post.imageUrl)} alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${serverRenderer.exports.ssrRenderAttr("href", post.category.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.category.name)}</a></p><a${serverRenderer.exports.ssrRenderAttr("href", post.href)} class="block mt-2"><p class="text-xl font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(post.title)}</p><p class="mt-3 text-base text-gray-500">${serverRenderer.exports.ssrInterpolate(post.description)}</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)}><span class="sr-only">${serverRenderer.exports.ssrInterpolate(post.author.name)}</span><img class="h-10 w-10 rounded-full"${serverRenderer.exports.ssrRenderAttr("src", post.author.imageUrl)} alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${serverRenderer.exports.ssrRenderAttr("href", post.author.href)} class="hover:underline">${serverRenderer.exports.ssrInterpolate(post.author.name)}</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${serverRenderer.exports.ssrRenderAttr("datetime", post.datetime)}>${serverRenderer.exports.ssrInterpolate(post.date)}</time><span aria-hidden="true"> \xB7 </span><span>${serverRenderer.exports.ssrInterpolate(post.readingTime)} read </span></div></div></div></div></div>`);
       });
       _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Vue.js?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`);
-      ssrRenderList(languages, (language) => {
-        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${ssrRenderAttr("src", language.imageSrc)}${ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${ssrInterpolate(language.description)}</p></div>`);
+      serverRenderer.exports.ssrRenderList(languages, (language) => {
+        _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${serverRenderer.exports.ssrRenderAttr("src", language.imageSrc)}${serverRenderer.exports.ssrRenderAttr("alt", language.imageAlt)} class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${serverRenderer.exports.ssrRenderAttr("href", language.href)}><span class="absolute inset-0"></span> ${serverRenderer.exports.ssrInterpolate(language.name)}</a></h3><p class="text-base font-semibold text-gray-900">${serverRenderer.exports.ssrInterpolate(language.description)}</p></div>`);
       });
       _push(`<!--]--></div></div></div></section><!--]-->`);
     };
@@ -5075,7 +5076,7 @@ const _sfc_main = {
 };
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
+  const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("pages/vuejs/video/index.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
@@ -5084,4 +5085,5 @@ const index = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": _sfc_main
 });
+
 export { entry$1 as default };
