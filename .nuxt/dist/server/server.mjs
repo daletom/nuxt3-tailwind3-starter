@@ -1,12 +1,12 @@
 
 // --------------------
-// Request: /Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry
+// Request: /Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // --------------------
-const $id_1cacbff3 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_40a73310 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const entry = true ? (ctx) => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default(ctx)) : () => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default);
 if (false) {
   entry();
@@ -19,27 +19,27 @@ __vite_ssr_exports__.default = entry;
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/bootstrap.mjs
 // Parents: 
-// - /Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry ($id_1cacbff3)
+// - /Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/entry ($id_40a73310)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs ($id_e56fd3d4)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs ($id_c59bdb44)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs ($id_3ee0f2b0)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs ($id_4a1f2191)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs ($id_c234ba8a)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs ($id_b1ed07fc)
 // --------------------
 const $id_fef466a9 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs");
 
 let entry;
 const plugins = __vite_ssr_import_1__.normalizePlugins(__vite_ssr_import_3__.default);
@@ -99,7 +99,8 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs ($id_15c066b2)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs ($id_1ed87b12)
+// - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@heroicons/vue/outline/esm/AcademicCapIcon.js ($id_8e47f017)
 // - /node_modules/@heroicons/vue/outline/esm/AdjustmentsIcon.js ($id_58abcb04)
 // - /node_modules/@heroicons/vue/outline/esm/AnnotationIcon.js ($id_d6e47bca)
@@ -332,13 +333,25 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/@heroicons/vue/outline/esm/ZoomOutIcon.js ($id_59b10e81)
 // - /pages/features.vue ($id_cdc7ed81)
 // - /pages/index.vue ($id_cca58e97)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs ($id_f92d0614)
+// - /pages/javascript/ecommerce/index.vue ($id_7086506b)
+// - /pages/javascript/index.vue ($id_a186abff)
+// - /pages/javascript/media/index.vue ($id_cd58f00d)
+// - /pages/javascript/video/index.vue ($id_e5af6523)
+// - /pages/react/ecommerce/index.vue ($id_d7595657)
+// - /pages/react/index.vue ($id_8007d07e)
+// - /pages/react/media/index.vue ($id_aa8b42f0)
+// - /pages/react/video/index.vue ($id_b1916b54)
+// - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
+// - /pages/vuejs/index.vue ($id_593882d0)
+// - /pages/vuejs/media/index.vue ($id_b096f2b2)
+// - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs ($id_b6984760)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // Dependencies: 
 
 // --------------------
-const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/dist/vue.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/dist/vue.cjs.js".') })
+const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue/dist/vue.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue/dist/vue.cjs.js".') })
 
 
 // --------------------
@@ -523,7 +536,7 @@ function defineGetter(obj, key, val) {
 // Dependencies: 
 
 // --------------------
-const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/hookable/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/hookable/dist/index.mjs".') })
+const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/hookable/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/hookable/dist/index.mjs".') })
 
 
 // --------------------
@@ -648,7 +661,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 // Dependencies: 
 
 // --------------------
-const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/unenv/runtime/mock/proxy.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/unenv/runtime/mock/proxy.mjs".') })
+const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/unenv/runtime/mock/proxy.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/unenv/runtime/mock/proxy.mjs".') })
 
 
 // --------------------
@@ -760,7 +773,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 // Dependencies: 
 
 // --------------------
-const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue-router/dist/vue-router.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue-router/dist/vue-router.cjs.js".') })
+const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue-router/dist/vue-router.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue-router/dist/vue-router.cjs.js".') })
 
 
 // --------------------
@@ -973,7 +986,7 @@ function generateKey(keys) {
 // Dependencies: 
 
 // --------------------
-const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/murmurhash-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/murmurhash-es/dist/index.mjs".') })
+const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/murmurhash-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/murmurhash-es/dist/index.mjs".') })
 
 
 // --------------------
@@ -1062,7 +1075,7 @@ function writeServerCookie(res, name, value, opts = {}) {
 // Dependencies: 
 
 // --------------------
-const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/cookie-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/cookie-es/dist/index.mjs".') })
+const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/cookie-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/cookie-es/dist/index.mjs".') })
 
 
 // --------------------
@@ -1072,7 +1085,7 @@ const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/h3/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/h3/dist/index.mjs".') })
+const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/h3/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/h3/dist/index.mjs".') })
 
 
 // --------------------
@@ -1082,7 +1095,7 @@ const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/destr/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/destr/dist/index.mjs".') })
+const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/destr/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/destr/dist/index.mjs".') })
 
 
 // --------------------
@@ -1111,13 +1124,13 @@ Object.defineProperty(__vite_ssr_exports__, "useRequestHeaders", { enumerable: t
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs
+// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /assets/css/tailwind.css ($id_f75548e1)
 // --------------------
-const $id_e56fd3d4 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_4a1f2191 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.css");
 ;
 }
@@ -1126,17 +1139,17 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 // --------------------
 // Request: /assets/css/tailwind.css
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs ($id_e56fd3d4)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs ($id_4a1f2191)
 // Dependencies: 
 
 // --------------------
 const $id_f75548e1 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\n.absolute {\n  position: absolute;\n}\n.relative {\n  position: relative;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.mt-2 {\n  margin-top: 0.5rem;\n}\n.mt-4 {\n  margin-top: 1rem;\n}\n.mt-10 {\n  margin-top: 2.5rem;\n}\n.ml-16 {\n  margin-left: 4rem;\n}\n.flex {\n  display: flex;\n}\n.hidden {\n  display: none;\n}\n.h-12 {\n  height: 3rem;\n}\n.h-6 {\n  height: 1.5rem;\n}\n.w-12 {\n  width: 3rem;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.max-w-7xl {\n  max-width: 80rem;\n}\n.max-w-2xl {\n  max-width: 42rem;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.space-y-10 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-indigo-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(99 102 241 / var(--tw-bg-opacity));\n}\n.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}\n.p-8 {\n  padding: 2rem;\n}\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.font-extrabold {\n  font-weight: 800;\n}\n.font-medium {\n  font-weight: 500;\n}\n.font-bold {\n  font-weight: 700;\n}\n.uppercase {\n  text-transform: uppercase;\n}\n.leading-8 {\n  line-height: 2rem;\n}\n.leading-6 {\n  line-height: 1.5rem;\n}\n.tracking-wide {\n  letter-spacing: 0.025em;\n}\n.tracking-tight {\n  letter-spacing: -0.025em;\n}\n.text-indigo-600 {\n  --tw-text-opacity: 1;\n  color: rgb(79 70 229 / var(--tw-text-opacity));\n}\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n.text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\n@media (min-width: 640px) {\n\n  .sm\\:px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:text-4xl {\n    font-size: 2.25rem;\n    line-height: 2.5rem;\n  }\n}\n@media (min-width: 768px) {\n\n  .md\\:grid {\n    display: grid;\n  }\n\n  .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:gap-x-8 {\n    -moz-column-gap: 2rem;\n         column-gap: 2rem;\n  }\n\n  .md\\:gap-y-10 {\n    row-gap: 2.5rem;\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n}\n@media (min-width: 1024px) {\n\n  .lg\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .lg\\:px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .lg\\:text-center {\n    text-align: center;\n  }\n}\n";
+__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\n\n[type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  border-radius: 0px;\n  padding-top: 0.5rem;\n  padding-right: 0.75rem;\n  padding-bottom: 0.5rem;\n  padding-left: 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n  border-color: #2563eb;\n}\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput::placeholder,textarea::placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\n::-webkit-datetime-edit-fields-wrapper {\n  padding: 0;\n}\n\n::-webkit-date-and-time-value {\n  min-height: 1.5em;\n}\n\n::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\nselect {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e\");\n  background-position: right 0.5rem center;\n  background-repeat: no-repeat;\n  background-size: 1.5em 1.5em;\n  padding-right: 2.5rem;\n  print-color-adjust: exact;\n}\n\n[multiple] {\n  background-image: initial;\n  background-position: initial;\n  background-repeat: unset;\n  background-size: initial;\n  padding-right: 0.75rem;\n  print-color-adjust: unset;\n}\n\n[type='checkbox'],[type='radio'] {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n  padding: 0;\n  print-color-adjust: exact;\n  display: inline-block;\n  vertical-align: middle;\n  background-origin: border-box;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  flex-shrink: 0;\n  height: 1rem;\n  width: 1rem;\n  color: #2563eb;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='checkbox'] {\n  border-radius: 0px;\n}\n\n[type='radio'] {\n  border-radius: 100%;\n}\n\n[type='checkbox']:focus,[type='radio']:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 2px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n}\n\n[type='checkbox']:checked,[type='radio']:checked {\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e\");\n}\n\n[type='radio']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e\");\n}\n\n[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='checkbox']:indeterminate {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e\");\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='file'] {\n  background: unset;\n  border-color: inherit;\n  border-width: 0;\n  border-radius: 0;\n  padding: 0;\n  font-size: unset;\n  line-height: inherit;\n}\n\n[type='file']:focus {\n  outline: 1px auto -webkit-focus-ring-color;\n}\n*, ::before, ::after {\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n}\n.aspect-w-2 {\n  position: relative;\n  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n  --tw-aspect-w: 2;\n}\n.aspect-w-2 > * {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.aspect-h-1 {\n  --tw-aspect-h: 1;\n}\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n.absolute {\n  position: absolute;\n}\n.relative {\n  position: relative;\n}\n.inset-0 {\n  top: 0px;\n  right: 0px;\n  bottom: 0px;\n  left: 0px;\n}\n.inset-x-0 {\n  left: 0px;\n  right: 0px;\n}\n.inset-y-0 {\n  top: 0px;\n  bottom: 0px;\n}\n.top-0 {\n  top: 0px;\n}\n.right-0 {\n  right: 0px;\n}\n.z-10 {\n  z-index: 10;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.-mr-2 {\n  margin-right: -0.5rem;\n}\n.mt-2 {\n  margin-top: 0.5rem;\n}\n.mt-4 {\n  margin-top: 1rem;\n}\n.mt-10 {\n  margin-top: 2.5rem;\n}\n.ml-16 {\n  margin-left: 4rem;\n}\n.mt-3 {\n  margin-top: 0.75rem;\n}\n.mt-5 {\n  margin-top: 1.25rem;\n}\n.mt-6 {\n  margin-top: 1.5rem;\n}\n.mt-1 {\n  margin-top: 0.25rem;\n}\n.mt-12 {\n  margin-top: 3rem;\n}\n.ml-3 {\n  margin-left: 0.75rem;\n}\n.block {\n  display: block;\n}\n.flex {\n  display: flex;\n}\n.inline-flex {\n  display: inline-flex;\n}\n.table {\n  display: table;\n}\n.grid {\n  display: grid;\n}\n.hidden {\n  display: none;\n}\n.h-8 {\n  height: 2rem;\n}\n.h-6 {\n  height: 1.5rem;\n}\n.h-12 {\n  height: 3rem;\n}\n.h-full {\n  height: 100%;\n}\n.h-56 {\n  height: 14rem;\n}\n.h-80 {\n  height: 20rem;\n}\n.h-1\\/3 {\n  height: 33.333333%;\n}\n.h-48 {\n  height: 12rem;\n}\n.h-10 {\n  height: 2.5rem;\n}\n.w-full {\n  width: 100%;\n}\n.w-auto {\n  width: auto;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.w-12 {\n  width: 3rem;\n}\n.w-48 {\n  width: 12rem;\n}\n.w-10 {\n  width: 2.5rem;\n}\n.max-w-7xl {\n  max-width: 80rem;\n}\n.max-w-2xl {\n  max-width: 42rem;\n}\n.max-w-lg {\n  max-width: 32rem;\n}\n.flex-1 {\n  flex: 1 1 0%;\n}\n.flex-shrink-0 {\n  flex-shrink: 0;\n}\n.flex-grow {\n  flex-grow: 1;\n}\n.origin-top-right {\n  transform-origin: top right;\n}\n.translate-x-1\\/2 {\n  --tw-translate-x: 50%;\n  transform: var(--tw-transform);\n}\n.scale-95 {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  transform: var(--tw-transform);\n}\n.scale-100 {\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  transform: var(--tw-transform);\n}\n.transform {\n  transform: var(--tw-transform);\n}\n.grid-cols-1 {\n  grid-template-columns: repeat(1, minmax(0, 1fr));\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-end {\n  align-items: flex-end;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.justify-between {\n  justify-content: space-between;\n}\n.gap-5 {\n  gap: 1.25rem;\n}\n.gap-y-6 {\n  row-gap: 1.5rem;\n}\n.space-y-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n.space-y-10 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));\n}\n.space-y-12 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(3rem * var(--tw-space-y-reverse));\n}\n.space-x-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n.overflow-hidden {\n  overflow: hidden;\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n.rounded-full {\n  border-radius: 9999px;\n}\n.border {\n  border-width: 1px;\n}\n.border-transparent {\n  border-color: transparent;\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-indigo-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(99 102 241 / var(--tw-bg-opacity));\n}\n.bg-orange-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(234 88 12 / var(--tw-bg-opacity));\n}\n.bg-indigo-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(224 231 255 / var(--tw-bg-opacity));\n}\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n.bg-gray-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n.bg-gradient-to-b {\n  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));\n}\n.from-transparent {\n  --tw-gradient-from: transparent;\n  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(0 0 0 / 0));\n}\n.to-black {\n  --tw-gradient-to: #000;\n}\n.object-cover {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.object-center {\n  -o-object-position: center;\n     object-position: center;\n}\n.p-2 {\n  padding: 0.5rem;\n}\n.p-6 {\n  padding: 1.5rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n.px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n.py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n.py-16 {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}\n.py-24 {\n  padding-top: 6rem;\n  padding-bottom: 6rem;\n}\n.pt-6 {\n  padding-top: 1.5rem;\n}\n.pt-4 {\n  padding-top: 1rem;\n}\n.pt-2 {\n  padding-top: 0.5rem;\n}\n.pb-3 {\n  padding-bottom: 0.75rem;\n}\n.pb-8 {\n  padding-bottom: 2rem;\n}\n.pt-16 {\n  padding-top: 4rem;\n}\n.pb-20 {\n  padding-bottom: 5rem;\n}\n.text-center {\n  text-align: center;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n.text-4xl {\n  font-size: 2.25rem;\n  line-height: 2.5rem;\n}\n.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.font-medium {\n  font-weight: 500;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.font-extrabold {\n  font-weight: 800;\n}\n.uppercase {\n  text-transform: uppercase;\n}\n.leading-8 {\n  line-height: 2rem;\n}\n.leading-6 {\n  line-height: 1.5rem;\n}\n.tracking-wide {\n  letter-spacing: 0.025em;\n}\n.tracking-tight {\n  letter-spacing: -0.025em;\n}\n.text-gray-400 {\n  --tw-text-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-text-opacity));\n}\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n.text-gray-700 {\n  --tw-text-opacity: 1;\n  color: rgb(55 65 81 / var(--tw-text-opacity));\n}\n.text-indigo-600 {\n  --tw-text-opacity: 1;\n  color: rgb(79 70 229 / var(--tw-text-opacity));\n}\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n.text-orange-600 {\n  --tw-text-opacity: 1;\n  color: rgb(234 88 12 / var(--tw-text-opacity));\n}\n.text-indigo-700 {\n  --tw-text-opacity: 1;\n  color: rgb(67 56 202 / var(--tw-text-opacity));\n}\n.opacity-0 {\n  opacity: 0;\n}\n.opacity-100 {\n  opacity: 1;\n}\n.opacity-50 {\n  opacity: 0.5;\n}\n.shadow-md {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow {\n  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.ring-1 {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n.ring-black {\n  --tw-ring-opacity: 1;\n  --tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity));\n}\n.ring-opacity-5 {\n  --tw-ring-opacity: 0.05;\n}\n.transition {\n  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n.duration-150 {\n  transition-duration: 150ms;\n}\n.duration-100 {\n  transition-duration: 100ms;\n}\n.ease-out {\n  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n}\n.ease-in {\n  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n}\n.hover\\:bg-gray-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n.hover\\:bg-gray-50:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n.hover\\:bg-indigo-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(67 56 202 / var(--tw-bg-opacity));\n}\n.hover\\:bg-indigo-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(199 210 254 / var(--tw-bg-opacity));\n}\n.hover\\:text-gray-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n.hover\\:text-gray-900:hover {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\n.hover\\:text-indigo-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(99 102 241 / var(--tw-text-opacity));\n}\n.hover\\:underline:hover {\n  -webkit-text-decoration-line: underline;\n          text-decoration-line: underline;\n}\n.focus\\:outline-none:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n.focus\\:ring-2:focus {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n.focus\\:ring-inset:focus {\n  --tw-ring-inset: inset;\n}\n.focus\\:ring-indigo-500:focus {\n  --tw-ring-opacity: 1;\n  --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity));\n}\n.group:hover .group-hover\\:opacity-75 {\n  opacity: 0.75;\n}\n@media (min-width: 640px) {\n\n  .sm\\:aspect-w-2 {\n    position: relative;\n    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n    --tw-aspect-w: 2;\n  }\n\n  .sm\\:aspect-w-2 > * {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .sm\\:aspect-h-1 {\n    --tw-aspect-h: 1;\n  }\n\n  .sm\\:aspect-w-1 {\n    position: relative;\n    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n    --tw-aspect-w: 1;\n  }\n\n  .sm\\:aspect-w-1 > * {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .sm\\:aspect-none {\n    position: static;\n    padding-bottom: 0;\n  }\n\n  .sm\\:aspect-none > * {\n    position: static;\n    height: auto;\n    width: auto;\n    top: auto;\n    right: auto;\n    bottom: auto;\n    left: auto;\n  }\n\n  .sm\\:absolute {\n    position: absolute;\n  }\n\n  .sm\\:relative {\n    position: relative;\n  }\n\n  .sm\\:inset-0 {\n    top: 0px;\n    right: 0px;\n    bottom: 0px;\n    left: 0px;\n  }\n\n  .sm\\:row-span-2 {\n    grid-row: span 2 / span 2;\n  }\n\n  .sm\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .sm\\:mt-12 {\n    margin-top: 3rem;\n  }\n\n  .sm\\:mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .sm\\:mt-8 {\n    margin-top: 2rem;\n  }\n\n  .sm\\:mt-0 {\n    margin-top: 0px;\n  }\n\n  .sm\\:ml-3 {\n    margin-left: 0.75rem;\n  }\n\n  .sm\\:mt-4 {\n    margin-top: 1rem;\n  }\n\n  .sm\\:block {\n    display: block;\n  }\n\n  .sm\\:flex {\n    display: flex;\n  }\n\n  .sm\\:hidden {\n    display: none;\n  }\n\n  .sm\\:h-10 {\n    height: 2.5rem;\n  }\n\n  .sm\\:h-72 {\n    height: 18rem;\n  }\n\n  .sm\\:h-64 {\n    height: 16rem;\n  }\n\n  .sm\\:h-full {\n    height: 100%;\n  }\n\n  .sm\\:h-2\\/3 {\n    height: 66.666667%;\n  }\n\n  .sm\\:w-full {\n    width: 100%;\n  }\n\n  .sm\\:max-w-xl {\n    max-width: 36rem;\n  }\n\n  .sm\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .sm\\:grid-rows-2 {\n    grid-template-rows: repeat(2, minmax(0, 1fr));\n  }\n\n  .sm\\:items-baseline {\n    align-items: baseline;\n  }\n\n  .sm\\:justify-center {\n    justify-content: center;\n  }\n\n  .sm\\:justify-between {\n    justify-content: space-between;\n  }\n\n  .sm\\:gap-x-6 {\n    -moz-column-gap: 1.5rem;\n         column-gap: 1.5rem;\n  }\n\n  .sm\\:px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:py-24 {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n\n  .sm\\:py-32 {\n    padding-top: 8rem;\n    padding-bottom: 8rem;\n  }\n\n  .sm\\:pb-16 {\n    padding-bottom: 4rem;\n  }\n\n  .sm\\:text-center {\n    text-align: center;\n  }\n\n  .sm\\:text-4xl {\n    font-size: 2.25rem;\n    line-height: 2.5rem;\n  }\n\n  .sm\\:text-5xl {\n    font-size: 3rem;\n    line-height: 1;\n  }\n\n  .sm\\:text-lg {\n    font-size: 1.125rem;\n    line-height: 1.75rem;\n  }\n}\n@media (min-width: 768px) {\n\n  .md\\:ml-10 {\n    margin-left: 2.5rem;\n  }\n\n  .md\\:mt-16 {\n    margin-top: 4rem;\n  }\n\n  .md\\:mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .md\\:block {\n    display: block;\n  }\n\n  .md\\:grid {\n    display: grid;\n  }\n\n  .md\\:hidden {\n    display: none;\n  }\n\n  .md\\:h-96 {\n    height: 24rem;\n  }\n\n  .md\\:w-auto {\n    width: auto;\n  }\n\n  .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:gap-x-8 {\n    -moz-column-gap: 2rem;\n         column-gap: 2rem;\n  }\n\n  .md\\:gap-y-10 {\n    row-gap: 2.5rem;\n  }\n\n  .md\\:space-x-8 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-x-reverse: 0;\n    margin-right: calc(2rem * var(--tw-space-x-reverse));\n    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .md\\:py-4 {\n    padding-top: 1rem;\n    padding-bottom: 1rem;\n  }\n\n  .md\\:px-10 {\n    padding-left: 2.5rem;\n    padding-right: 2.5rem;\n  }\n\n  .md\\:pr-4 {\n    padding-right: 1rem;\n  }\n\n  .md\\:pb-20 {\n    padding-bottom: 5rem;\n  }\n\n  .md\\:text-6xl {\n    font-size: 3.75rem;\n    line-height: 1;\n  }\n\n  .md\\:text-xl {\n    font-size: 1.25rem;\n    line-height: 1.75rem;\n  }\n\n  .md\\:text-lg {\n    font-size: 1.125rem;\n    line-height: 1.75rem;\n  }\n}\n@media (min-width: 1024px) {\n\n  .lg\\:aspect-w-1 {\n    position: relative;\n    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n    --tw-aspect-w: 1;\n  }\n\n  .lg\\:aspect-w-1 > * {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .lg\\:aspect-h-1 {\n    --tw-aspect-h: 1;\n  }\n\n  .lg\\:absolute {\n    position: absolute;\n  }\n\n  .lg\\:inset-y-0 {\n    top: 0px;\n    bottom: 0px;\n  }\n\n  .lg\\:right-0 {\n    right: 0px;\n  }\n\n  .lg\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .lg\\:mx-0 {\n    margin-left: 0px;\n    margin-right: 0px;\n  }\n\n  .lg\\:mt-20 {\n    margin-top: 5rem;\n  }\n\n  .lg\\:block {\n    display: block;\n  }\n\n  .lg\\:grid {\n    display: grid;\n  }\n\n  .lg\\:h-full {\n    height: 100%;\n  }\n\n  .lg\\:w-full {\n    width: 100%;\n  }\n\n  .lg\\:w-1\\/2 {\n    width: 50%;\n  }\n\n  .lg\\:max-w-2xl {\n    max-width: 42rem;\n  }\n\n  .lg\\:max-w-none {\n    max-width: none;\n  }\n\n  .lg\\:flex-grow-0 {\n    flex-grow: 0;\n  }\n\n  .lg\\:grid-cols-3 {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n\n  .lg\\:justify-start {\n    justify-content: flex-start;\n  }\n\n  .lg\\:gap-8 {\n    gap: 2rem;\n  }\n\n  .lg\\:gap-x-6 {\n    -moz-column-gap: 1.5rem;\n         column-gap: 1.5rem;\n  }\n\n  .lg\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .lg\\:px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .lg\\:py-32 {\n    padding-top: 8rem;\n    padding-bottom: 8rem;\n  }\n\n  .lg\\:pb-28 {\n    padding-bottom: 7rem;\n  }\n\n  .lg\\:pt-24 {\n    padding-top: 6rem;\n  }\n\n  .lg\\:text-left {\n    text-align: left;\n  }\n\n  .lg\\:text-center {\n    text-align: center;\n  }\n}\n@media (min-width: 1280px) {\n\n  .xl\\:mt-28 {\n    margin-top: 7rem;\n  }\n\n  .xl\\:inline {\n    display: inline;\n  }\n\n  .xl\\:pb-32 {\n    padding-bottom: 8rem;\n  }\n}\n";
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs
+// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
@@ -1145,9 +1158,9 @@ __vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https:/
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // - /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs ($id_7b587af2)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs ($id_f92d0614)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs ($id_b6984760)
 // --------------------
-const $id_a4d8ac8d = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_4ab10521 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/plugins/preload.server.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs");
@@ -1158,7 +1171,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs");
 
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
@@ -1174,7 +1187,7 @@ __vite_ssr_import_1__.default,
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // --------------------
@@ -1197,7 +1210,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -1650,13 +1663,13 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/meta/runtime/components.mjs ($id_94744df3)
 // - /node_modules/nuxt3/dist/meta/runtime/composables.mjs ($id_ca9295be)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs ($id_4e81459e)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/meta.config.mjs ($id_ac2dc36f)
 // --------------------
 const $id_9fd5f35e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1667,7 +1680,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/meta.config.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) => {
   __vite_ssr_import_2__.useMeta(__vite_ssr_import_4__.default.globalMeta);
@@ -1933,17 +1946,17 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 // Dependencies: 
 
 // --------------------
-const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/@vue/shared/dist/shared.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/@vue/shared/dist/shared.cjs.js".') })
+const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@vue/shared/dist/shared.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@vue/shared/dist/shared.cjs.js".') })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs
+// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // Dependencies: 
 
 // --------------------
-const $id_4e81459e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ac2dc36f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[],"style":[],"script":[]},"mixinKey":"created"};
 }
 
@@ -1951,7 +1964,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -1959,7 +1972,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs ($id_f8d13406)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
 // --------------------
 const $id_a4d6cb5b = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1974,7 +1987,7 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_5__.defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component("NuxtNestedPage", __vite_ssr_import_2__.default);
@@ -2072,7 +2085,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/pages/runtime/nested-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/pages/runtime/nested-page.vue"]]);
 }
 
 
@@ -2081,14 +2094,27 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
+// - /components/TheHeader.vue ($id_d18d7003)
 // - /pages/features.vue ($id_cdc7ed81)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/javascript/ecommerce/index.vue ($id_7086506b)
+// - /pages/javascript/index.vue ($id_a186abff)
+// - /pages/javascript/media/index.vue ($id_cd58f00d)
+// - /pages/javascript/video/index.vue ($id_e5af6523)
+// - /pages/react/ecommerce/index.vue ($id_d7595657)
+// - /pages/react/index.vue ($id_8007d07e)
+// - /pages/react/media/index.vue ($id_aa8b42f0)
+// - /pages/react/video/index.vue ($id_b1916b54)
+// - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
+// - /pages/vuejs/index.vue ($id_593882d0)
+// - /pages/vuejs/media/index.vue ($id_b096f2b2)
+// - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // Dependencies: 
 
 // --------------------
-const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/server-renderer/index.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/vue/server-renderer/index.js".') })
+const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue/server-renderer/index.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue/server-renderer/index.js".') })
 
 
 // --------------------
@@ -2096,8 +2122,21 @@ const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
+// - /components/TheHeader.vue ($id_d18d7003)
 // - /pages/features.vue ($id_cdc7ed81)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/javascript/ecommerce/index.vue ($id_7086506b)
+// - /pages/javascript/index.vue ($id_a186abff)
+// - /pages/javascript/media/index.vue ($id_cd58f00d)
+// - /pages/javascript/video/index.vue ($id_e5af6523)
+// - /pages/react/ecommerce/index.vue ($id_d7595657)
+// - /pages/react/index.vue ($id_8007d07e)
+// - /pages/react/media/index.vue ($id_aa8b42f0)
+// - /pages/react/video/index.vue ($id_b1916b54)
+// - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
+// - /pages/vuejs/index.vue ($id_593882d0)
+// - /pages/vuejs/media/index.vue ($id_b096f2b2)
+// - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // Dependencies: 
@@ -2281,7 +2320,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/pages/runtime/page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/pages/runtime/page.vue"]]);
 }
 
 
@@ -2292,12 +2331,12 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs ($id_15c066b2)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs ($id_1ed87b12)
 // --------------------
 const $id_9b68c93f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
   props: {
@@ -2324,13 +2363,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs
+// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // --------------------
-const $id_15c066b2 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_1ed87b12 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 __vite_ssr_exports__.default = {};
@@ -2338,28 +2377,124 @@ __vite_ssr_exports__.default = {};
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs
+// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
 // - /pages/features.vue ($id_cdc7ed81)
 // - /pages/index.vue ($id_cca58e97)
+// - /pages/javascript/ecommerce/index.vue ($id_7086506b)
+// - /pages/javascript/index.vue ($id_a186abff)
+// - /pages/javascript/media/index.vue ($id_cd58f00d)
+// - /pages/javascript/video/index.vue ($id_e5af6523)
+// - /pages/react/ecommerce/index.vue ($id_d7595657)
+// - /pages/react/index.vue ($id_8007d07e)
+// - /pages/react/media/index.vue ($id_aa8b42f0)
+// - /pages/react/video/index.vue ($id_b1916b54)
+// - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
+// - /pages/vuejs/index.vue ($id_593882d0)
+// - /pages/vuejs/media/index.vue ($id_b096f2b2)
+// - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
 // --------------------
-const $id_f8d13406 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_bc836456 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = [
   {
     "name": "features",
     "path": "/features",
-    "file": "/Users/vega/dev/nuxt/hello-tailwind-3/pages/features.vue",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/features.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/features.vue')
   },
   {
     "name": "index",
     "path": "/",
-    "file": "/Users/vega/dev/nuxt/hello-tailwind-3/pages/index.vue",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/index.vue')
+  },
+  {
+    "name": "javascript-ecommerce",
+    "path": "/javascript/ecommerce",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/ecommerce/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/javascript/ecommerce/index.vue')
+  },
+  {
+    "name": "javascript",
+    "path": "/javascript",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/javascript/index.vue')
+  },
+  {
+    "name": "javascript-media",
+    "path": "/javascript/media",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/media/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/javascript/media/index.vue')
+  },
+  {
+    "name": "javascript-video",
+    "path": "/javascript/video",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/video/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/javascript/video/index.vue')
+  },
+  {
+    "name": "react-ecommerce",
+    "path": "/react/ecommerce",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/ecommerce/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/react/ecommerce/index.vue')
+  },
+  {
+    "name": "react",
+    "path": "/react",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/react/index.vue')
+  },
+  {
+    "name": "react-media",
+    "path": "/react/media",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/media/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/react/media/index.vue')
+  },
+  {
+    "name": "react-video",
+    "path": "/react/video",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/video/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/react/video/index.vue')
+  },
+  {
+    "name": "vuejs-ecommerce",
+    "path": "/vuejs/ecommerce",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/ecommerce/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/vuejs/ecommerce/index.vue')
+  },
+  {
+    "name": "vuejs",
+    "path": "/vuejs",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/vuejs/index.vue')
+  },
+  {
+    "name": "vuejs-media",
+    "path": "/vuejs/media",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/media/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/vuejs/media/index.vue')
+  },
+  {
+    "name": "vuejs-video",
+    "path": "/vuejs/video",
+    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/video/index.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/vuejs/video/index.vue')
   }
 ];
 }
@@ -2368,17 +2503,19 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/features.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs ($id_f8d13406)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
 // Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_cdc7ed81 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
 
 
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
 
 
 const features = [
@@ -2386,25 +2523,25 @@ const features = [
     name: 'Competitive exchange rates',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: __vite_ssr_import_0__.GlobeAltIcon,
+    icon: __vite_ssr_import_1__.GlobeAltIcon,
   },
   {
     name: 'No hidden fees',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: __vite_ssr_import_0__.ScaleIcon,
+    icon: __vite_ssr_import_1__.ScaleIcon,
   },
   {
     name: 'Transfers are instant',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: __vite_ssr_import_0__.LightningBoltIcon,
+    icon: __vite_ssr_import_1__.LightningBoltIcon,
   },
   {
     name: 'Mobile notifications',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: __vite_ssr_import_0__.AnnotationIcon,
+    icon: __vite_ssr_import_1__.AnnotationIcon,
   },
 ]
 
@@ -2416,47 +2553,545 @@ const _sfc_main = {
   },
 }
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "py-12 bg-white" }, _attrs))}><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="lg:text-center"><h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2><p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"> A better way to send money </p><p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto"> Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam. </p></div><div class="mt-10"><dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10"><!--[-->`)
-  __vite_ssr_import_2__.ssrRenderList($setup.features, (feature) => {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[-->`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<div class="py-12 bg-white"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="lg:text-center"><h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2><p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"> A better way to send money </p><p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto"> Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam. </p></div><div class="mt-10"><dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10"><!--[-->`)
+  __vite_ssr_import_3__.ssrRenderList($setup.features, (feature) => {
     _push(`<div class="relative"><dt><div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">`)
-    __vite_ssr_import_2__.ssrRenderVNode(_push, __vite_ssr_import_1__.createVNode(__vite_ssr_import_1__.resolveDynamicComponent(feature.icon), {
+    __vite_ssr_import_3__.ssrRenderVNode(_push, __vite_ssr_import_2__.createVNode(__vite_ssr_import_2__.resolveDynamicComponent(feature.icon), {
       class: "h-6 w-6",
       "aria-hidden": "true"
     }, null), _parent)
     _push(`</div><p class="ml-16 text-lg leading-6 font-medium text-gray-900">${
-      __vite_ssr_import_2__.ssrInterpolate(feature.name)
+      __vite_ssr_import_3__.ssrInterpolate(feature.name)
     }</p></dt><dd class="mt-2 ml-16 text-base text-gray-500">${
-      __vite_ssr_import_2__.ssrInterpolate(feature.description)
+      __vite_ssr_import_3__.ssrInterpolate(feature.description)
     }</dd></div>`)
   })
-  _push(`<!--]--></dl></div></div></div>`)
+  _push(`<!--]--></dl></div></div></div><!--]-->`)
 }
 
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/features.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/pages/features.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/features.vue"]]);
 }
+
+
+// --------------------
+// Request: /components/TheHeader.vue
+// Parents: 
+// - /pages/features.vue ($id_cdc7ed81)
+// - /pages/index.vue ($id_cca58e97)
+// - /pages/javascript/ecommerce/index.vue ($id_7086506b)
+// - /pages/javascript/index.vue ($id_a186abff)
+// - /pages/javascript/media/index.vue ($id_cd58f00d)
+// - /pages/javascript/video/index.vue ($id_e5af6523)
+// - /pages/react/ecommerce/index.vue ($id_d7595657)
+// - /pages/react/index.vue ($id_8007d07e)
+// - /pages/react/media/index.vue ($id_aa8b42f0)
+// - /pages/react/video/index.vue ($id_b1916b54)
+// - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
+// - /pages/vuejs/index.vue ($id_593882d0)
+// - /pages/vuejs/media/index.vue ($id_b096f2b2)
+// - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs ($id_b6984760)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d18d7003 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+      const navigation = [
+  { name: 'Javascript', href: '/javascript' },
+  { name: 'React', href: '/react' },
+  { name: 'VueJS', href: '/vuejs' },
+  { name: 'Company', href: '#' },
+]
+
+const __returned__ = { navigation, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(__vite_ssr_import_4__.ssrRenderComponent($setup["Popover"], _attrs, {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="relative pt-6 px-4 sm:px-6 lg:px-8"${
+          _scopeId
+        }><nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global"${
+          _scopeId
+        }><div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"${
+          _scopeId
+        }><div class="flex items-center justify-between w-full md:w-auto"${
+          _scopeId
+        }><a href="/"${
+          _scopeId
+        }><span class="sr-only"${
+          _scopeId
+        }>Workflow</span><img alt="Workflow" class="h-8 w-auto sm:h-10" src="https://tom.imgix.net/imgix-presskit.pdf?page=3&amp;auto=format&amp;w=100"${
+          _scopeId
+        }></a><div class="-mr-2 flex items-center md:hidden"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_4__.ssrRenderComponent($setup["PopoverButton"], { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+          default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`<span class="sr-only"${_scopeId}>Open main menu</span>`)
+              _push(__vite_ssr_import_4__.ssrRenderComponent($setup["MenuIcon"], {
+                class: "h-6 w-6",
+                "aria-hidden": "true"
+              }, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Open main menu"),
+                __vite_ssr_import_3__.createVNode($setup["MenuIcon"], {
+                  class: "h-6 w-6",
+                  "aria-hidden": "true"
+                })
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`</div></div></div><div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8"${_scopeId}><!--[-->`)
+        __vite_ssr_import_4__.ssrRenderList($setup.navigation, (item) => {
+          _push(`<a${
+            __vite_ssr_import_4__.ssrRenderAttr("href", item.href)
+          } class="font-medium text-gray-500 hover:text-gray-900"${
+            _scopeId
+          }>${
+            __vite_ssr_import_4__.ssrInterpolate(item.name)
+          }</a>`)
+        })
+        _push(`<!--]--></div></nav></div>`)
+        _push(__vite_ssr_import_4__.ssrRenderComponent($setup["PopoverPanel"], __vite_ssr_import_3__.mergeProps({
+          focus: "",
+          class: "absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+        }, _attrs), {
+          default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`<div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"${
+                _scopeId
+              }><div class="px-5 pt-4 flex items-center justify-between"${
+                _scopeId
+              }><div${
+                _scopeId
+              }><img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt=""${
+                _scopeId
+              }></div><div class="-mr-2"${
+                _scopeId
+              }>`)
+              _push(__vite_ssr_import_4__.ssrRenderComponent($setup["PopoverButton"], { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+                default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+                  if (_push) {
+                    _push(`<span class="sr-only"${_scopeId}>Close main menu</span>`)
+                    _push(__vite_ssr_import_4__.ssrRenderComponent($setup["XIcon"], {
+                      class: "h-6 w-6",
+                      "aria-hidden": "true"
+                    }, null, _parent, _scopeId))
+                  } else {
+                    return [
+                      __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Close main menu"),
+                      __vite_ssr_import_3__.createVNode($setup["XIcon"], {
+                        class: "h-6 w-6",
+                        "aria-hidden": "true"
+                      })
+                    ]
+                  }
+                }),
+                _: 1 /* STABLE */
+              }, _parent, _scopeId))
+              _push(`</div></div><div class="px-2 pt-2 pb-3 space-y-1"${_scopeId}><!--[-->`)
+              __vite_ssr_import_4__.ssrRenderList($setup.navigation, (item) => {
+                _push(`<a${
+                  __vite_ssr_import_4__.ssrRenderAttr("href", item.href)
+                } class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"${
+                  _scopeId
+                }>${
+                  __vite_ssr_import_4__.ssrInterpolate(item.name)
+                }</a>`)
+              })
+              _push(`<!--]--></div></div>`)
+            } else {
+              return [
+                __vite_ssr_import_3__.createVNode("div", { class: "rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden" }, [
+                  __vite_ssr_import_3__.createVNode("div", { class: "px-5 pt-4 flex items-center justify-between" }, [
+                    __vite_ssr_import_3__.createVNode("div", null, [
+                      __vite_ssr_import_3__.createVNode("img", {
+                        class: "h-8 w-auto",
+                        src: "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
+                        alt: ""
+                      })
+                    ]),
+                    __vite_ssr_import_3__.createVNode("div", { class: "-mr-2" }, [
+                      __vite_ssr_import_3__.createVNode($setup["PopoverButton"], { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+                        default: __vite_ssr_import_3__.withCtx(() => [
+                          __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Close main menu"),
+                          __vite_ssr_import_3__.createVNode($setup["XIcon"], {
+                            class: "h-6 w-6",
+                            "aria-hidden": "true"
+                          })
+                        ]),
+                        _: 1 /* STABLE */
+                      })
+                    ])
+                  ]),
+                  __vite_ssr_import_3__.createVNode("div", { class: "px-2 pt-2 pb-3 space-y-1" }, [
+                    (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock(__vite_ssr_import_3__.Fragment, null, __vite_ssr_import_3__.renderList($setup.navigation, (item) => {
+                      return __vite_ssr_import_3__.createVNode("a", {
+                        key: item.name,
+                        href: item.href,
+                        class: "block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                      }, __vite_ssr_import_3__.toDisplayString(item.name), 9 /* TEXT, PROPS */, ["href"])
+                    }), 64 /* STABLE_FRAGMENT */))
+                  ])
+                ])
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+      } else {
+        return [
+          __vite_ssr_import_3__.createVNode("div", { class: "relative pt-6 px-4 sm:px-6 lg:px-8" }, [
+            __vite_ssr_import_3__.createVNode("nav", {
+              class: "relative flex items-center justify-between sm:h-10 lg:justify-start",
+              "aria-label": "Global"
+            }, [
+              __vite_ssr_import_3__.createVNode("div", { class: "flex items-center flex-grow flex-shrink-0 lg:flex-grow-0" }, [
+                __vite_ssr_import_3__.createVNode("div", { class: "flex items-center justify-between w-full md:w-auto" }, [
+                  __vite_ssr_import_3__.createVNode("a", { href: "/" }, [
+                    __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Workflow"),
+                    __vite_ssr_import_3__.createVNode("img", {
+                      alt: "Workflow",
+                      class: "h-8 w-auto sm:h-10",
+                      src: "https://tom.imgix.net/imgix-presskit.pdf?page=3&auto=format&w=100"
+                    })
+                  ]),
+                  __vite_ssr_import_3__.createVNode("div", { class: "-mr-2 flex items-center md:hidden" }, [
+                    __vite_ssr_import_3__.createVNode($setup["PopoverButton"], { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+                      default: __vite_ssr_import_3__.withCtx(() => [
+                        __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Open main menu"),
+                        __vite_ssr_import_3__.createVNode($setup["MenuIcon"], {
+                          class: "h-6 w-6",
+                          "aria-hidden": "true"
+                        })
+                      ]),
+                      _: 1 /* STABLE */
+                    })
+                  ])
+                ])
+              ]),
+              __vite_ssr_import_3__.createVNode("div", { class: "hidden md:block md:ml-10 md:pr-4 md:space-x-8" }, [
+                (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock(__vite_ssr_import_3__.Fragment, null, __vite_ssr_import_3__.renderList($setup.navigation, (item) => {
+                  return __vite_ssr_import_3__.createVNode("a", {
+                    key: item.name,
+                    href: item.href,
+                    class: "font-medium text-gray-500 hover:text-gray-900"
+                  }, __vite_ssr_import_3__.toDisplayString(item.name), 9 /* TEXT, PROPS */, ["href"])
+                }), 64 /* STABLE_FRAGMENT */))
+              ])
+            ])
+          ]),
+          __vite_ssr_import_3__.createVNode(__vite_ssr_import_3__.Transition, {
+            "enter-active-class": "duration-150 ease-out",
+            "enter-from-class": "opacity-0 scale-95",
+            "enter-to-class": "opacity-100 scale-100",
+            "leave-active-class": "duration-100 ease-in",
+            "leave-from-class": "opacity-100 scale-100",
+            "leave-to-class": "opacity-0 scale-95"
+          }, {
+            default: __vite_ssr_import_3__.withCtx(() => [
+              __vite_ssr_import_3__.createVNode($setup["PopoverPanel"], {
+                focus: "",
+                class: "absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+              }, {
+                default: __vite_ssr_import_3__.withCtx(() => [
+                  __vite_ssr_import_3__.createVNode("div", { class: "rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden" }, [
+                    __vite_ssr_import_3__.createVNode("div", { class: "px-5 pt-4 flex items-center justify-between" }, [
+                      __vite_ssr_import_3__.createVNode("div", null, [
+                        __vite_ssr_import_3__.createVNode("img", {
+                          class: "h-8 w-auto",
+                          src: "https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg",
+                          alt: ""
+                        })
+                      ]),
+                      __vite_ssr_import_3__.createVNode("div", { class: "-mr-2" }, [
+                        __vite_ssr_import_3__.createVNode($setup["PopoverButton"], { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+                          default: __vite_ssr_import_3__.withCtx(() => [
+                            __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Close main menu"),
+                            __vite_ssr_import_3__.createVNode($setup["XIcon"], {
+                              class: "h-6 w-6",
+                              "aria-hidden": "true"
+                            })
+                          ]),
+                          _: 1 /* STABLE */
+                        })
+                      ])
+                    ]),
+                    __vite_ssr_import_3__.createVNode("div", { class: "px-2 pt-2 pb-3 space-y-1" }, [
+                      (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock(__vite_ssr_import_3__.Fragment, null, __vite_ssr_import_3__.renderList($setup.navigation, (item) => {
+                        return __vite_ssr_import_3__.createVNode("a", {
+                          key: item.name,
+                          href: item.href,
+                          class: "block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                        }, __vite_ssr_import_3__.toDisplayString(item.name), 9 /* TEXT, PROPS */, ["href"])
+                      }), 64 /* STABLE_FRAGMENT */))
+                    ])
+                  ])
+                ]),
+                _: 1 /* STABLE */
+              })
+            ]),
+            _: 1 /* STABLE */
+          })
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/TheHeader.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/components/TheHeader.vue"]]);
+}
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/headlessui.esm.js
+// Parents: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /pages/index.vue ($id_cca58e97)
+// - /pages/javascript/ecommerce/index.vue ($id_7086506b)
+// - /pages/javascript/index.vue ($id_a186abff)
+// - /pages/javascript/media/index.vue ($id_cd58f00d)
+// - /pages/javascript/video/index.vue ($id_e5af6523)
+// - /pages/react/ecommerce/index.vue ($id_d7595657)
+// - /pages/react/index.vue ($id_8007d07e)
+// - /pages/react/media/index.vue ($id_aa8b42f0)
+// - /pages/react/video/index.vue ($id_b1916b54)
+// - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
+// - /pages/vuejs/index.vue ($id_593882d0)
+// - /pages/vuejs/media/index.vue ($id_b096f2b2)
+// - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
+// Dependencies: 
+// - /node_modules/@headlessui/vue/dist/components/combobox/combobox.js ($id_92aab129)
+// - /node_modules/@headlessui/vue/dist/components/dialog/dialog.js ($id_b07f1154)
+// - /node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js ($id_90ea7d3e)
+// - /node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js ($id_58899675)
+// - /node_modules/@headlessui/vue/dist/components/listbox/listbox.js ($id_2feddcbf)
+// - /node_modules/@headlessui/vue/dist/components/menu/menu.js ($id_b1042eef)
+// - /node_modules/@headlessui/vue/dist/components/popover/popover.js ($id_f86ffab2)
+// - /node_modules/@headlessui/vue/dist/components/portal/portal.js ($id_1d43fca2)
+// - /node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js ($id_0e8af24b)
+// - /node_modules/@headlessui/vue/dist/components/switch/switch.js ($id_44a1a907)
+// - /node_modules/@headlessui/vue/dist/components/tabs/tabs.js ($id_6cd55209)
+// - /node_modules/@headlessui/vue/dist/components/transitions/transition.js ($id_99377655)
+// --------------------
+const $id_2c13895f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/combobox/combobox.js");
+__vite_ssr_exportAll__(__vite_ssr_import_0__);const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/dialog/dialog.js");
+__vite_ssr_exportAll__(__vite_ssr_import_1__);const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js");
+__vite_ssr_exportAll__(__vite_ssr_import_2__);const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js");
+__vite_ssr_exportAll__(__vite_ssr_import_3__);const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/listbox/listbox.js");
+__vite_ssr_exportAll__(__vite_ssr_import_4__);const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/menu/menu.js");
+__vite_ssr_exportAll__(__vite_ssr_import_5__);const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/popover/popover.js");
+__vite_ssr_exportAll__(__vite_ssr_import_6__);const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/portal/portal.js");
+__vite_ssr_exportAll__(__vite_ssr_import_7__);const __vite_ssr_import_8__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js");
+__vite_ssr_exportAll__(__vite_ssr_import_8__);const __vite_ssr_import_9__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/switch/switch.js");
+__vite_ssr_exportAll__(__vite_ssr_import_9__);const __vite_ssr_import_10__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/tabs/tabs.js");
+__vite_ssr_exportAll__(__vite_ssr_import_10__);const __vite_ssr_import_11__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/transitions/transition.js");
+__vite_ssr_exportAll__(__vite_ssr_import_11__);
+;
+}
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/combobox/combobox.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_92aab129 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/combobox/combobox.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/combobox/combobox.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/dialog/dialog.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_b07f1154 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/dialog/dialog.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/dialog/dialog.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_90ea7d3e = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_58899675 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/listbox/listbox.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_2feddcbf = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/listbox/listbox.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/listbox/listbox.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/menu/menu.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_b1042eef = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/menu/menu.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/menu/menu.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/popover/popover.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_f86ffab2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/popover/popover.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/popover/popover.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/portal/portal.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_1d43fca2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/portal/portal.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/portal/portal.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_0e8af24b = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/switch/switch.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_44a1a907 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/switch/switch.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/switch/switch.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/tabs/tabs.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_6cd55209 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/tabs/tabs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/tabs/tabs.js".') })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/transitions/transition.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_99377655 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/transitions/transition.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/transitions/transition.js".') })
 
 
 // --------------------
 // Request: /node_modules/@heroicons/vue/outline/esm/index.js
 // Parents: 
+// - /components/TheHeader.vue ($id_d18d7003)
 // - /pages/features.vue ($id_cdc7ed81)
+// - /pages/index.vue ($id_cca58e97)
+// - /pages/javascript/ecommerce/index.vue ($id_7086506b)
+// - /pages/javascript/index.vue ($id_a186abff)
+// - /pages/javascript/media/index.vue ($id_cd58f00d)
+// - /pages/javascript/video/index.vue ($id_e5af6523)
+// - /pages/react/ecommerce/index.vue ($id_d7595657)
+// - /pages/react/index.vue ($id_8007d07e)
+// - /pages/react/media/index.vue ($id_aa8b42f0)
+// - /pages/react/video/index.vue ($id_b1916b54)
+// - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
+// - /pages/vuejs/index.vue ($id_593882d0)
+// - /pages/vuejs/media/index.vue ($id_b096f2b2)
+// - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
 // Dependencies: 
 // - /node_modules/@heroicons/vue/outline/esm/AcademicCapIcon.js ($id_8e47f017)
 // - /node_modules/@heroicons/vue/outline/esm/AdjustmentsIcon.js ($id_58abcb04)
@@ -10574,43 +11209,1963 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, value
 // --------------------
 // Request: /pages/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs ($id_f8d13406)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
 // Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_cca58e97 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
 
-const _sfc_main = {}
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
 
 
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "container mx-auto bg-gray-300 p-8" }, _attrs))}><h1 class="font-bold text-gray-600 text-lg">Hello, Tailwind 3!</h1></div>`)
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Javascript',
+    description: 'See demos built using vanilla Javascript',
+    imageSrc: 'https://learnbatta.com/assets/images/javascript/javascript-logo.png',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/javascript',
+  },
+  {
+    name: 'React',
+    description: 'See demos built using React, Gatsby, and Next.js',
+    imageSrc: 'https://patterns.dev/img/reactjs/react-logo@3x.svg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/react',
+  },
+  {
+    name: 'Vue.js',
+    description: 'See demos built using Vue.js and Nuxt.js',
+    imageSrc: 'https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/vuejs',
+  },
+]
+
+
+
+const __returned__ = { languages, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">All Your imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Three Powerful Languages</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> See Demos </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">Languages</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
 }
 
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/javascript/ecommerce/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_7086506b = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/javascript/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/javascript/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/javascript/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Boost your conversion rate',
+    href: '#',
+    category: { name: 'Article', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">eComm Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">eComm Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some eCommerce demos we have made using imgix in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="h-10 w-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
+  })
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/javascript/ecommerce/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/ecommerce/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/javascript/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_a186abff = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  
+const __returned__ = { Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://www.springboard.com/blog/wp-content/uploads/2019/08/sb-blog-java.png" alt=""></div></div><!-- Sections --><section aria-labelledby="category-heading" class="bg-gray-50"><div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2><a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> →</span></a></div><div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women&#39;s black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div><div class="p-6 flex items-end"><div><h3 class="font-semibold text-white"><a href="/javascript/ecommerce"><span class="absolute inset-0"></span> eCommerce </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/javascript/media"><span class="absolute inset-0"></span> Media </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/javascript/video"><span class="absolute inset-0"></span> Video </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> →</span></a></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/javascript/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/javascript/media/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_cd58f00d = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/javascript/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/javascript/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/javascript/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Boost your conversion rate',
+    href: '#',
+    category: { name: 'Article', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="h-10 w-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
+  })
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/javascript/media/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/media/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/javascript/video/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_e5af6523 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/javascript/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/javascript/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/javascript/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Boost your conversion rate',
+    href: '#',
+    category: { name: 'Article', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Video Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="h-10 w-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
+  })
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/javascript/video/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/video/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/react/ecommerce/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d7595657 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and React',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/react/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and React',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/react/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and React',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/react/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Boost your conversion rate',
+    href: '#',
+    category: { name: 'Article', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">eComm Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">eComm Demos in React</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some eCommerce demos we have made using imgix in React.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="h-10 w-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
+  })
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in React?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/react/ecommerce/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/ecommerce/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/react/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_8007d07e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  
+const __returned__ = { Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><section aria-labelledby="category-heading" class="bg-gray-50"><div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2><a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> →</span></a></div><div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women&#39;s black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div><div class="p-6 flex items-end"><div><h3 class="font-semibold text-white"><a href="/react/ecommerce"><span class="absolute inset-0"></span> eCommerce </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/react/media"><span class="absolute inset-0"></span> Media </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/react/video"><span class="absolute inset-0"></span> Video </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> →</span></a></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/react/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/react/media/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_aa8b42f0 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and React',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/react/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and React',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/react/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and React',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/react/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Boost your conversion rate',
+    href: '#',
+    category: { name: 'Article', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in React</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in React.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="h-10 w-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
+  })
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in React?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/react/media/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/media/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/react/video/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_b1916b54 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and React',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/react/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and React',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/react/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and React',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/react/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Boost your conversion rate',
+    href: '#',
+    category: { name: 'Article', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Video Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in React</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in React.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="h-10 w-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
+  })
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in React?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/react/video/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/video/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/vuejs/ecommerce/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_36c3d2e5 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and Vue.js',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/vuejs/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and Vue.js',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/vuejs/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and Vue.js',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/vuejs/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Boost your conversion rate',
+    href: '#',
+    category: { name: 'Article', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">eComm Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">eComm Demos in Vue.js</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some eCommerce demos we have made using imgix in Vue.js.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="h-10 w-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
+  })
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Vue.js?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/vuejs/ecommerce/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/ecommerce/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/vuejs/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_593882d0 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  
+const __returned__ = { Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><section aria-labelledby="category-heading" class="bg-gray-50"><div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"><div class="sm:flex sm:items-baseline sm:justify-between"><h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2><a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> →</span></a></div><div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8"><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women&#39;s black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div><div class="p-6 flex items-end"><div><h3 class="font-semibold text-white"><a href="/vuejs/ecommerce"><span class="absolute inset-0"></span> eCommerce </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/vuejs/media"><span class="absolute inset-0"></span> Media </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div><div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full"><img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full"><div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div><div class="p-6 flex items-end sm:absolute sm:inset-0"><div><h3 class="font-semibold text-white"><a href="/vuejs/video"><span class="absolute inset-0"></span> Video </a></h3><p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p></div></div></div></div><div class="mt-6 sm:hidden"><a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> →</span></a></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/vuejs/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/vuejs/media/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_b096f2b2 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and Vue.js',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/vuejs/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and Vue.js',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/vuejs/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and Vue.js',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/vuejs/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Boost your conversion rate',
+    href: '#',
+    category: { name: 'Article', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in Vue.js</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in Vue.js.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="h-10 w-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
+  })
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Vue.js?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/vuejs/media/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/media/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/vuejs/video/index.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_c9b1f2bb = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+  
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and Vue.js',
+    imageSrc: 'https://source.unsplash.com/random/700x700/?news',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/vuejs/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and Vue.js',
+    imageSrc: 'https://source.unsplash.com/random/700x700/?product',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/vuejs/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and Vue.js',
+    imageSrc: 'https://source.unsplash.com/random/700x700/?video',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/vuejs/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Boost your conversion rate',
+    href: '#',
+    category: { name: 'Article', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+
+  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Video Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Vue.js</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Vue.js.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="h-10 w-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
+  })
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Vue.js?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_4__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section><!--]-->`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/vuejs/video/index.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/video/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
 // Dependencies: 
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
 // --------------------
@@ -10634,22 +13189,23 @@ __vite_ssr_exports__.default = () => {}
 // Dependencies: 
 
 // --------------------
-const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/vega/dev/nuxt/hello-tailwind-3/node_modules/ohmyfetch/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/ohmyfetch/dist/index.mjs".') })
+const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/ohmyfetch/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/ohmyfetch/dist/index.mjs".') })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs
+// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs ($id_a4d8ac8d)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /components/TheHeader.vue ($id_d18d7003)
 // --------------------
-const $id_f92d0614 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_b6984760 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
 const components = {
-
+  'TheHeader': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/TheHeader.vue').then(c => c.default || c))
 }
 
 __vite_ssr_exports__.default = function (nuxtApp) {
@@ -10663,13 +13219,13 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs
+// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // --------------------
-const $id_c59bdb44 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_c234ba8a = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -10679,7 +13235,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs ($id_c59bdb44)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs ($id_c234ba8a)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -10730,18 +13286,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs
+// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // --------------------
-const $id_3ee0f2b0 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_b1ed07fc = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -10751,7 +13307,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/app.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs ($id_3ee0f2b0)
+// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs ($id_b1ed07fc)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -10782,12 +13338,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
 }
 
 
 const __modules__ = {
- '/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry': $id_1cacbff3,
+ '/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/entry': $id_40a73310,
  '/node_modules/nuxt3/dist/app/bootstrap.mjs': $id_fef466a9,
  '/node_modules/vue/dist/vue.cjs.js': $id_60f0615f,
  '/node_modules/nuxt3/dist/app/index.mjs': $id_d8c2af0f,
@@ -10808,9 +13364,9 @@ const __modules__ = {
  '/node_modules/h3/dist/index.mjs': $id_57d7ded6,
  '/node_modules/destr/dist/index.mjs': $id_03d15ecd,
  '/node_modules/nuxt3/dist/app/composables/ssr.mjs': $id_4d0dc923,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/css.mjs': $id_e56fd3d4,
+ '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs': $id_4a1f2191,
  '/assets/css/tailwind.css': $id_f75548e1,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/plugins/server.mjs': $id_a4d8ac8d,
+ '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs': $id_4ab10521,
  '/node_modules/nuxt3/dist/app/plugins/preload.server.mjs': $id_b9f3c557,
  '/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs': $id_cbe5172d,
  '/node_modules/@vueuse/head/dist/index.mjs': $id_c032264e,
@@ -10818,16 +13374,30 @@ const __modules__ = {
  '/node_modules/nuxt3/dist/meta/runtime/components.mjs': $id_94744df3,
  '/node_modules/nuxt3/dist/meta/runtime/composables.mjs': $id_ca9295be,
  '/node_modules/@vue/shared/dist/shared.cjs.js': $id_852b06a2,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/meta.config.mjs': $id_4e81459e,
+ '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/meta.config.mjs': $id_ac2dc36f,
  '/node_modules/nuxt3/dist/pages/runtime/router.mjs': $id_a4d6cb5b,
  '/node_modules/nuxt3/dist/pages/runtime/nested-page.vue': $id_c268603a,
  '/node_modules/vue/server-renderer/index.js': $id_b215fa1c,
  '/@id/plugin-vue:export-helper': $id_bbb863c1,
  '/node_modules/nuxt3/dist/pages/runtime/page.vue': $id_10628d40,
  '/node_modules/nuxt3/dist/pages/runtime/layout.mjs': $id_9b68c93f,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/layouts.mjs': $id_15c066b2,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/routes.mjs': $id_f8d13406,
+ '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs': $id_1ed87b12,
+ '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs': $id_bc836456,
  '/pages/features.vue': $id_cdc7ed81,
+ '/components/TheHeader.vue': $id_d18d7003,
+ '/node_modules/@headlessui/vue/dist/headlessui.esm.js': $id_2c13895f,
+ '/node_modules/@headlessui/vue/dist/components/combobox/combobox.js': $id_92aab129,
+ '/node_modules/@headlessui/vue/dist/components/dialog/dialog.js': $id_b07f1154,
+ '/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js': $id_90ea7d3e,
+ '/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js': $id_58899675,
+ '/node_modules/@headlessui/vue/dist/components/listbox/listbox.js': $id_2feddcbf,
+ '/node_modules/@headlessui/vue/dist/components/menu/menu.js': $id_b1042eef,
+ '/node_modules/@headlessui/vue/dist/components/popover/popover.js': $id_f86ffab2,
+ '/node_modules/@headlessui/vue/dist/components/portal/portal.js': $id_1d43fca2,
+ '/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js': $id_0e8af24b,
+ '/node_modules/@headlessui/vue/dist/components/switch/switch.js': $id_44a1a907,
+ '/node_modules/@headlessui/vue/dist/components/tabs/tabs.js': $id_6cd55209,
+ '/node_modules/@headlessui/vue/dist/components/transitions/transition.js': $id_99377655,
  '/node_modules/@heroicons/vue/outline/esm/index.js': $id_d0ea4942,
  '/node_modules/@heroicons/vue/outline/esm/AcademicCapIcon.js': $id_8e47f017,
  '/node_modules/@heroicons/vue/outline/esm/AdjustmentsIcon.js': $id_58abcb04,
@@ -11060,12 +13630,24 @@ const __modules__ = {
  '/node_modules/@heroicons/vue/outline/esm/ZoomInIcon.js': $id_d44846b1,
  '/node_modules/@heroicons/vue/outline/esm/ZoomOutIcon.js': $id_59b10e81,
  '/pages/index.vue': $id_cca58e97,
+ '/pages/javascript/ecommerce/index.vue': $id_7086506b,
+ '/pages/javascript/index.vue': $id_a186abff,
+ '/pages/javascript/media/index.vue': $id_cd58f00d,
+ '/pages/javascript/video/index.vue': $id_e5af6523,
+ '/pages/react/ecommerce/index.vue': $id_d7595657,
+ '/pages/react/index.vue': $id_8007d07e,
+ '/pages/react/media/index.vue': $id_aa8b42f0,
+ '/pages/react/video/index.vue': $id_b1916b54,
+ '/pages/vuejs/ecommerce/index.vue': $id_36c3d2e5,
+ '/pages/vuejs/index.vue': $id_593882d0,
+ '/pages/vuejs/media/index.vue': $id_b096f2b2,
+ '/pages/vuejs/video/index.vue': $id_c9b1f2bb,
  '/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs': $id_7b587af2,
  '/node_modules/ohmyfetch/dist/index.mjs': $id_780217c4,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/components.mjs': $id_f92d0614,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/root-component.mjs': $id_c59bdb44,
+ '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs': $id_b6984760,
+ '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs': $id_c234ba8a,
  '/node_modules/nuxt3/dist/app/components/nuxt-root.vue': $id_f8564e04,
- '/@id/__x00__virtual:/Users/vega/dev/nuxt/hello-tailwind-3/.nuxt/app-component.mjs': $id_3ee0f2b0,
+ '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs': $id_b1ed07fc,
  '/node_modules/nuxt3/dist/pages/runtime/app.vue': $id_0851ff57
 }
 
@@ -11143,4 +13725,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__('/Users/vega/dev/nuxt/hello-tailwind-3/node_modules/nuxt3/dist/app/entry')
+export default await __ssrLoadModule__('/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/entry')
