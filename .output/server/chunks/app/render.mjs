@@ -527,7 +527,7 @@ const htmlTemplate = (params) => `<!DOCTYPE html>
 </html>
 `;
 
-const STATIC_ASSETS_BASE = "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/dist" + "/" + "1655924806";
+const STATIC_ASSETS_BASE = "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/dist" + "/" + "1655925286";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('./client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('./server.mjs'));

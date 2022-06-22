@@ -1,5 +1,4 @@
 import { v as vue_cjs_prod, s as serverRenderer, r as require$$0 } from '../index.mjs';
-import { MenuIcon, XIcon, GlobeAltIcon, ScaleIcon, LightningBoltIcon, AnnotationIcon } from '@heroicons/vue/outline';
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
 import 'unenv/runtime/mock/proxy';
 import 'stream';
@@ -3791,6 +3790,102 @@ const bootstrap$1 = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": bootstrap
 });
+function render$5(_ctx, _cache) {
+  return vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    stroke: "currentColor",
+    "aria-hidden": "true"
+  }, [
+    vue_cjs_prod.createVNode("path", {
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "2",
+      d: "M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+    })
+  ]);
+}
+function render$4(_ctx, _cache) {
+  return vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    stroke: "currentColor",
+    "aria-hidden": "true"
+  }, [
+    vue_cjs_prod.createVNode("path", {
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "2",
+      d: "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+    })
+  ]);
+}
+function render$3(_ctx, _cache) {
+  return vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    stroke: "currentColor",
+    "aria-hidden": "true"
+  }, [
+    vue_cjs_prod.createVNode("path", {
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "2",
+      d: "M13 10V3L4 14h7v7l9-11h-7z"
+    })
+  ]);
+}
+function render$2(_ctx, _cache) {
+  return vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    stroke: "currentColor",
+    "aria-hidden": "true"
+  }, [
+    vue_cjs_prod.createVNode("path", {
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "2",
+      d: "M4 6h16M4 12h16M4 18h16"
+    })
+  ]);
+}
+function render$1(_ctx, _cache) {
+  return vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    stroke: "currentColor",
+    "aria-hidden": "true"
+  }, [
+    vue_cjs_prod.createVNode("path", {
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "2",
+      d: "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+    })
+  ]);
+}
+function render(_ctx, _cache) {
+  return vue_cjs_prod.openBlock(), vue_cjs_prod.createBlock("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    stroke: "currentColor",
+    "aria-hidden": "true"
+  }, [
+    vue_cjs_prod.createVNode("path", {
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+      "stroke-width": "2",
+      d: "M6 18L18 6M6 6l12 12"
+    })
+  ]);
+}
 const _sfc_main$e = {
   __ssrInlineRender: true,
   setup(__props) {
@@ -3809,14 +3904,14 @@ const _sfc_main$e = {
               default: vue_cjs_prod.withCtx((_2, _push3, _parent3, _scopeId2) => {
                 if (_push3) {
                   _push3(`<span class="sr-only"${_scopeId2}>Open main menu</span>`);
-                  _push3(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(MenuIcon), {
+                  _push3(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(render$2), {
                     class: "h-6 w-6",
                     "aria-hidden": "true"
                   }, null, _parent3, _scopeId2));
                 } else {
                   return [
                     vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Open main menu"),
-                    vue_cjs_prod.createVNode(vue_cjs_prod.unref(MenuIcon), {
+                    vue_cjs_prod.createVNode(vue_cjs_prod.unref(render$2), {
                       class: "h-6 w-6",
                       "aria-hidden": "true"
                     })
@@ -3841,14 +3936,14 @@ const _sfc_main$e = {
                     default: vue_cjs_prod.withCtx((_3, _push4, _parent4, _scopeId3) => {
                       if (_push4) {
                         _push4(`<span class="sr-only"${_scopeId3}>Close main menu</span>`);
-                        _push4(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(XIcon), {
+                        _push4(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(render), {
                           class: "h-6 w-6",
                           "aria-hidden": "true"
                         }, null, _parent4, _scopeId3));
                       } else {
                         return [
                           vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Close main menu"),
-                          vue_cjs_prod.createVNode(vue_cjs_prod.unref(XIcon), {
+                          vue_cjs_prod.createVNode(vue_cjs_prod.unref(render), {
                             class: "h-6 w-6",
                             "aria-hidden": "true"
                           })
@@ -3877,7 +3972,7 @@ const _sfc_main$e = {
                           vue_cjs_prod.createVNode(vue_cjs_prod.unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
                             default: vue_cjs_prod.withCtx(() => [
                               vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Close main menu"),
-                              vue_cjs_prod.createVNode(vue_cjs_prod.unref(XIcon), {
+                              vue_cjs_prod.createVNode(vue_cjs_prod.unref(render), {
                                 class: "h-6 w-6",
                                 "aria-hidden": "true"
                               })
@@ -3922,7 +4017,7 @@ const _sfc_main$e = {
                         vue_cjs_prod.createVNode(vue_cjs_prod.unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
                           default: vue_cjs_prod.withCtx(() => [
                             vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Open main menu"),
-                            vue_cjs_prod.createVNode(vue_cjs_prod.unref(MenuIcon), {
+                            vue_cjs_prod.createVNode(vue_cjs_prod.unref(render$2), {
                               class: "h-6 w-6",
                               "aria-hidden": "true"
                             })
@@ -3970,7 +4065,7 @@ const _sfc_main$e = {
                             vue_cjs_prod.createVNode(vue_cjs_prod.unref(PopoverButton), { class: "bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
                               default: vue_cjs_prod.withCtx(() => [
                                 vue_cjs_prod.createVNode("span", { class: "sr-only" }, "Close main menu"),
-                                vue_cjs_prod.createVNode(vue_cjs_prod.unref(XIcon), {
+                                vue_cjs_prod.createVNode(vue_cjs_prod.unref(render), {
                                   class: "h-6 w-6",
                                   "aria-hidden": "true"
                                 })
@@ -4018,22 +4113,22 @@ const features = [
   {
     name: "Competitive exchange rates",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon
+    icon: render$4
   },
   {
     name: "No hidden fees",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon
+    icon: render$1
   },
   {
     name: "Transfers are instant",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon
+    icon: render$3
   },
   {
     name: "Mobile notifications",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: AnnotationIcon
+    icon: render$5
   }
 ];
 const _sfc_main$d = {
