@@ -35,65 +35,14 @@
     </div>
   </div>
   <!-- Sections -->
-      
-      <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-    <div class="absolute inset-0">
-      <div class="bg-white h-1/3 sm:h-2/3" />
-    </div>
-    <div class="relative max-w-7xl mx-auto">
-      <div class="text-center">
-        <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Media Demos in React</h2>
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some Media demos we have made using imgix in React.</p>
-      </div>
-      <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-        <div v-for="post in posts" :key="post.title" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-          <div class="flex-shrink-0">
-            <img class="h-48 w-full object-cover" :src="post.imageUrl" alt="" />
-          </div>
-          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-            <div class="flex-1">
-              <p class="text-sm font-medium text-indigo-600">
-                <a :href="post.category.href" class="hover:underline">
-                  {{ post.category.name }}
-                </a>
-              </p>
-              <a :href="post.href" class="block mt-2">
-                <p class="text-xl font-semibold text-gray-900">
-                  {{ post.title }}
-                </p>
-                <p class="mt-3 text-base text-gray-500">
-                  {{ post.description }}
-                </p>
-              </a>
-            </div>
-            <div class="mt-6 flex items-center">
-              <div class="flex-shrink-0">
-                <a :href="post.author.href">
-                  <span class="sr-only">{{ post.author.name }}</span>
-                  <img class="h-10 w-10 rounded-full" :src="post.author.imageUrl" alt="" />
-                </a>
-              </div>
-              <div class="ml-3">
-                <p class="text-sm font-medium text-gray-900">
-                  <a :href="post.author.href" class="hover:underline">
-                    {{ post.author.name }}
-                  </a>
-                </p>
-                <div class="flex space-x-1 text-sm text-gray-500">
-                  <time :datetime="post.datetime">
-                    {{ post.date }}
-                  </time>
-                  <span aria-hidden="true"> &middot; </span>
-                  <span> {{ post.readingTime }} read </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section aria-labelledby="collections-heading" class="bg-gray-100">
+      <iframe src="https://codesandbox.io/embed/srcset-example-with-imgix-react-vxorss?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:1000px; border:0; border-radius: 4px; overflow:hidden;"
+     title="srcset example with imgix react"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+     <section aria-labelledby="collections-heading" class="bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
             <h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in React?</h2>
@@ -116,8 +65,11 @@
         </div>
         
         
-      </section>
+      </section>   
+        
+  
 </template>
+
 <script setup>
   import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
   import { MenuIcon, XIcon } from '@heroicons/vue/outline'
@@ -203,3 +155,6 @@ const posts = [
   },
 ]
 </script>
+
+
+
