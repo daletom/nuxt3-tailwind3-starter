@@ -35,74 +35,171 @@
     </div>
   </div>
   <!-- Sections -->
-        
-        <section aria-labelledby="category-heading" class="bg-gray-50">
-        <div class="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <div class="sm:flex sm:items-baseline sm:justify-between">
-            <h2 id="category-heading" class="text-2xl font-extrabold tracking-tight text-gray-900">Shop by Category</h2>
-            <a href="#" class="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">Browse all categories<span aria-hidden="true"> &rarr;</span></a>
+      
+      <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+    <div class="absolute inset-0">
+      <div class="bg-white h-1/3 sm:h-2/3" />
+    </div>
+    <div class="relative max-w-7xl mx-auto">
+      <div class="text-center">
+        <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Javascript</h2>
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p>
+      </div>
+      <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+        <div v-for="post in posts" :key="post.title" class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+          <div class="flex-shrink-0">
+            <img class="h-48 w-full object-cover" :src="post.imageUrl" alt="" />
           </div>
-
-          <div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
-            <div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
-              <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg" alt="Two models wearing women's black cotton crewneck tee and off-white cotton crewneck tee." class="object-center object-cover group-hover:opacity-75" />
-              <div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50" />
-              <div class="p-6 flex items-end">
-                <div>
-                  <h3 class="font-semibold text-white">
-                    <a href="/react/ecommerce">
-                      <span class="absolute inset-0" />
-                      eCommerce
-                    </a>
-                  </h3>
-                  <p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <p class="text-sm font-medium text-indigo-600">
+                <a :href="post.category.href" class="hover:underline">
+                  {{ post.category.name }}
+                </a>
+              </p>
+              <a :href="post.href" class="block mt-2">
+                <p class="text-xl font-semibold text-gray-900">
+                  {{ post.title }}
+                </p>
+                <p class="mt-3 text-base text-gray-500">
+                  {{ post.description }}
+                </p>
+              </a>
+            </div>
+            <div class="mt-6 flex items-center">
+              <div class="flex-shrink-0">
+                <a :href="post.author.href">
+                  <span class="sr-only">{{ post.author.name }}</span>
+                  <img class="h-10 w-10 rounded-full" :src="post.author.imageUrl" alt="" />
+                </a>
+              </div>
+              <div class="ml-3">
+                <p class="text-sm font-medium text-gray-900">
+                  <a :href="post.author.href" class="hover:underline">
+                    {{ post.author.name }}
+                  </a>
+                </p>
+                <div class="flex space-x-1 text-sm text-gray-500">
+                  <time :datetime="post.datetime">
+                    {{ post.date }}
+                  </time>
+                  <span aria-hidden="true"> &middot; </span>
+                  <span> {{ post.readingTime }} read </span>
                 </div>
               </div>
             </div>
-            <div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full">
-              <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full" />
-              <div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0" />
-              <div class="p-6 flex items-end sm:absolute sm:inset-0">
-                <div>
-                  <h3 class="font-semibold text-white">
-                    <a href="/react/media">
-                      <span class="absolute inset-0" />
-                      Media
-                    </a>
-                  </h3>
-                  <p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p>
-                </div>
-              </div>
-            </div>
-            <div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:relative sm:aspect-none sm:h-full">
-              <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk." class="object-center object-cover group-hover:opacity-75 sm:absolute sm:inset-0 sm:w-full sm:h-full" />
-              <div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0" />
-              <div class="p-6 flex items-end sm:absolute sm:inset-0">
-                <div>
-                  <h3 class="font-semibold text-white">
-                    <a href="/react/video">
-                      <span class="absolute inset-0" />
-                      Video
-                    </a>
-                  </h3>
-                  <p aria-hidden="true" class="mt-1 text-sm text-white">See Demos Now</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="mt-6 sm:hidden">
-            <a href="#" class="block text-sm font-semibold text-indigo-600 hover:text-indigo-500">Browse all categories<span aria-hidden="true"> &rarr;</span></a>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+  <section aria-labelledby="collections-heading" class="bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
+            <h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2>
+
+            <div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+              <div v-for="language in languages" :key="language.name" class="group relative">
+                <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                  <img :src="language.imageSrc" :alt="language.imageAlt" class="w-full h-full object-center object-cover" />
+                </div>
+                <h3 class="mt-6 text-sm text-gray-500">
+                  <a :href="language.href">
+                    <span class="absolute inset-0" />
+                    {{ language.name }}
+                  </a>
+                </h3>
+                <p class="text-base font-semibold text-gray-900">{{ language.description }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
         
-   
-      
+        
+      </section>
 </template>
 <script setup>
   import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
   import { MenuIcon, XIcon } from '@heroicons/vue/outline'
 
-  
+  const languages = [
+  {
+    name: 'Media',
+    description: 'See media demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/javascript/media',
+  },
+  {
+    name: 'eCommerce',
+    description: 'See eCommerce demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/javascript/ecommerce',
+  },
+  {
+    name: 'Video',
+    description: 'See Video demos built using imgix and Javascript',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/javascript/video',
+  },
+]
+
+const posts = [
+  {
+    title: 'Video Demo: HLS vs MP4',
+    href: 'https://gracious-gates-e1571d.netlify.app/',
+    category: { name: 'Article', href: '#' },
+    description:
+      'This app is used to showcase the user experience of playing an mp4 vs an HLS video with imgix. To test this, right-click on the browser and select "inspect", click the Network tab, change the speed to Fast 3G, and make sure the "disable cache" button next to it is selected.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use Srcset values with IX React',
+    href: '/react/srcset',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
 </script>
