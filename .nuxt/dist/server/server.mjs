@@ -1,12 +1,12 @@
 
 // --------------------
-// Request: /Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/entry
+// Request: /Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // --------------------
-const $id_40a73310 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_00d58239 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const entry = true ? (ctx) => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default(ctx)) : () => __vite_ssr_dynamic_import__('/node_modules/nuxt3/dist/app/bootstrap.mjs').then((m) => m.default);
 if (false) {
   entry();
@@ -19,27 +19,27 @@ __vite_ssr_exports__.default = entry;
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/bootstrap.mjs
 // Parents: 
-// - /Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/entry ($id_40a73310)
+// - /Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/entry ($id_00d58239)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs ($id_4a1f2191)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs ($id_c234ba8a)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs ($id_b1ed07fc)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/css.mjs ($id_07a57df6)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_71b9ba94)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/root-component.mjs ($id_eb236cde)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/app-component.mjs ($id_82010d1a)
 // --------------------
 const $id_fef466a9 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/css.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/app-component.mjs");
 
 let entry;
 const plugins = __vite_ssr_import_1__.normalizePlugins(__vite_ssr_import_3__.default);
@@ -99,7 +99,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt3/dist/pages/runtime/nested-page.vue ($id_c268603a)
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs ($id_1ed87b12)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/layouts.mjs ($id_16384997)
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@heroicons/vue/outline/esm/AcademicCapIcon.js ($id_8e47f017)
 // - /node_modules/@heroicons/vue/outline/esm/AdjustmentsIcon.js ($id_58abcb04)
@@ -347,13 +347,13 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/vuejs/index.vue ($id_593882d0)
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
 // - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs ($id_b6984760)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_2a0a23af)
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // Dependencies: 
 
 // --------------------
-const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue/dist/vue.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue/dist/vue.cjs.js".') })
+const $id_60f0615f = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/vue/dist/vue.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/vue/dist/vue.cjs.js".') })
 
 
 // --------------------
@@ -538,7 +538,7 @@ function defineGetter(obj, key, val) {
 // Dependencies: 
 
 // --------------------
-const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/hookable/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/hookable/dist/index.mjs".') })
+const $id_a2c811c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/hookable/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/hookable/dist/index.mjs".') })
 
 
 // --------------------
@@ -663,7 +663,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 // Dependencies: 
 
 // --------------------
-const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/unenv/runtime/mock/proxy.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/unenv/runtime/mock/proxy.mjs".') })
+const $id_39e12da7 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/unenv/runtime/mock/proxy.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/unenv/runtime/mock/proxy.mjs".') })
 
 
 // --------------------
@@ -775,7 +775,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 // Dependencies: 
 
 // --------------------
-const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue-router/dist/vue-router.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue-router/dist/vue-router.cjs.js".') })
+const $id_f9a4a698 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/vue-router/dist/vue-router.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/vue-router/dist/vue-router.cjs.js".') })
 
 
 // --------------------
@@ -988,7 +988,7 @@ function generateKey(keys) {
 // Dependencies: 
 
 // --------------------
-const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/murmurhash-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/murmurhash-es/dist/index.mjs".') })
+const $id_fbf6dac3 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/murmurhash-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/murmurhash-es/dist/index.mjs".') })
 
 
 // --------------------
@@ -1077,7 +1077,7 @@ function writeServerCookie(res, name, value, opts = {}) {
 // Dependencies: 
 
 // --------------------
-const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/cookie-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/cookie-es/dist/index.mjs".') })
+const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/cookie-es/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/cookie-es/dist/index.mjs".') })
 
 
 // --------------------
@@ -1087,7 +1087,7 @@ const $id_f4975261 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/h3/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/h3/dist/index.mjs".') })
+const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/h3/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/h3/dist/index.mjs".') })
 
 
 // --------------------
@@ -1097,7 +1097,7 @@ const $id_57d7ded6 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/destr/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/destr/dist/index.mjs".') })
+const $id_03d15ecd = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/destr/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/destr/dist/index.mjs".') })
 
 
 // --------------------
@@ -1126,13 +1126,13 @@ Object.defineProperty(__vite_ssr_exports__, "useRequestHeaders", { enumerable: t
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs
+// Request: /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/css.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /assets/css/tailwind.css ($id_f75548e1)
 // --------------------
-const $id_4a1f2191 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_07a57df6 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.css");
 ;
 }
@@ -1141,17 +1141,17 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 // --------------------
 // Request: /assets/css/tailwind.css
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs ($id_4a1f2191)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/css.mjs ($id_07a57df6)
 // Dependencies: 
 
 // --------------------
 const $id_f75548e1 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\n\n[type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  border-radius: 0px;\n  padding-top: 0.5rem;\n  padding-right: 0.75rem;\n  padding-bottom: 0.5rem;\n  padding-left: 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n  border-color: #2563eb;\n}\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput::placeholder,textarea::placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\n::-webkit-datetime-edit-fields-wrapper {\n  padding: 0;\n}\n\n::-webkit-date-and-time-value {\n  min-height: 1.5em;\n}\n\n::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\nselect {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e\");\n  background-position: right 0.5rem center;\n  background-repeat: no-repeat;\n  background-size: 1.5em 1.5em;\n  padding-right: 2.5rem;\n  print-color-adjust: exact;\n}\n\n[multiple] {\n  background-image: initial;\n  background-position: initial;\n  background-repeat: unset;\n  background-size: initial;\n  padding-right: 0.75rem;\n  print-color-adjust: unset;\n}\n\n[type='checkbox'],[type='radio'] {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n  padding: 0;\n  print-color-adjust: exact;\n  display: inline-block;\n  vertical-align: middle;\n  background-origin: border-box;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  flex-shrink: 0;\n  height: 1rem;\n  width: 1rem;\n  color: #2563eb;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='checkbox'] {\n  border-radius: 0px;\n}\n\n[type='radio'] {\n  border-radius: 100%;\n}\n\n[type='checkbox']:focus,[type='radio']:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 2px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n}\n\n[type='checkbox']:checked,[type='radio']:checked {\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e\");\n}\n\n[type='radio']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e\");\n}\n\n[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='checkbox']:indeterminate {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e\");\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='file'] {\n  background: unset;\n  border-color: inherit;\n  border-width: 0;\n  border-radius: 0;\n  padding: 0;\n  font-size: unset;\n  line-height: inherit;\n}\n\n[type='file']:focus {\n  outline: 1px auto -webkit-focus-ring-color;\n}\n*, ::before, ::after {\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n}\n.aspect-w-2 {\n  position: relative;\n  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n  --tw-aspect-w: 2;\n}\n.aspect-w-2 > * {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.aspect-h-1 {\n  --tw-aspect-h: 1;\n}\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n.absolute {\n  position: absolute;\n}\n.relative {\n  position: relative;\n}\n.inset-0 {\n  top: 0px;\n  right: 0px;\n  bottom: 0px;\n  left: 0px;\n}\n.inset-x-0 {\n  left: 0px;\n  right: 0px;\n}\n.inset-y-0 {\n  top: 0px;\n  bottom: 0px;\n}\n.top-0 {\n  top: 0px;\n}\n.right-0 {\n  right: 0px;\n}\n.z-10 {\n  z-index: 10;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.-mr-2 {\n  margin-right: -0.5rem;\n}\n.mt-2 {\n  margin-top: 0.5rem;\n}\n.mt-4 {\n  margin-top: 1rem;\n}\n.mt-10 {\n  margin-top: 2.5rem;\n}\n.ml-16 {\n  margin-left: 4rem;\n}\n.mt-3 {\n  margin-top: 0.75rem;\n}\n.mt-5 {\n  margin-top: 1.25rem;\n}\n.mt-6 {\n  margin-top: 1.5rem;\n}\n.mt-1 {\n  margin-top: 0.25rem;\n}\n.mt-12 {\n  margin-top: 3rem;\n}\n.ml-3 {\n  margin-left: 0.75rem;\n}\n.block {\n  display: block;\n}\n.flex {\n  display: flex;\n}\n.inline-flex {\n  display: inline-flex;\n}\n.table {\n  display: table;\n}\n.grid {\n  display: grid;\n}\n.hidden {\n  display: none;\n}\n.h-8 {\n  height: 2rem;\n}\n.h-6 {\n  height: 1.5rem;\n}\n.h-12 {\n  height: 3rem;\n}\n.h-full {\n  height: 100%;\n}\n.h-56 {\n  height: 14rem;\n}\n.h-80 {\n  height: 20rem;\n}\n.h-1\\/3 {\n  height: 33.333333%;\n}\n.h-48 {\n  height: 12rem;\n}\n.h-10 {\n  height: 2.5rem;\n}\n.w-full {\n  width: 100%;\n}\n.w-auto {\n  width: auto;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.w-12 {\n  width: 3rem;\n}\n.w-48 {\n  width: 12rem;\n}\n.w-10 {\n  width: 2.5rem;\n}\n.max-w-7xl {\n  max-width: 80rem;\n}\n.max-w-2xl {\n  max-width: 42rem;\n}\n.max-w-lg {\n  max-width: 32rem;\n}\n.flex-1 {\n  flex: 1 1 0%;\n}\n.flex-shrink-0 {\n  flex-shrink: 0;\n}\n.flex-grow {\n  flex-grow: 1;\n}\n.origin-top-right {\n  transform-origin: top right;\n}\n.translate-x-1\\/2 {\n  --tw-translate-x: 50%;\n  transform: var(--tw-transform);\n}\n.scale-95 {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  transform: var(--tw-transform);\n}\n.scale-100 {\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  transform: var(--tw-transform);\n}\n.transform {\n  transform: var(--tw-transform);\n}\n.grid-cols-1 {\n  grid-template-columns: repeat(1, minmax(0, 1fr));\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-end {\n  align-items: flex-end;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.justify-between {\n  justify-content: space-between;\n}\n.gap-5 {\n  gap: 1.25rem;\n}\n.gap-y-6 {\n  row-gap: 1.5rem;\n}\n.space-y-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n.space-y-10 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));\n}\n.space-y-12 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(3rem * var(--tw-space-y-reverse));\n}\n.space-x-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n.overflow-hidden {\n  overflow: hidden;\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n.rounded-full {\n  border-radius: 9999px;\n}\n.border {\n  border-width: 1px;\n}\n.border-transparent {\n  border-color: transparent;\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-indigo-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(99 102 241 / var(--tw-bg-opacity));\n}\n.bg-orange-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(234 88 12 / var(--tw-bg-opacity));\n}\n.bg-indigo-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(224 231 255 / var(--tw-bg-opacity));\n}\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n.bg-gray-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n.bg-gradient-to-b {\n  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));\n}\n.from-transparent {\n  --tw-gradient-from: transparent;\n  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(0 0 0 / 0));\n}\n.to-black {\n  --tw-gradient-to: #000;\n}\n.object-cover {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.object-center {\n  -o-object-position: center;\n     object-position: center;\n}\n.p-2 {\n  padding: 0.5rem;\n}\n.p-6 {\n  padding: 1.5rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n.px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n.py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n.py-16 {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}\n.py-24 {\n  padding-top: 6rem;\n  padding-bottom: 6rem;\n}\n.pt-6 {\n  padding-top: 1.5rem;\n}\n.pt-4 {\n  padding-top: 1rem;\n}\n.pt-2 {\n  padding-top: 0.5rem;\n}\n.pb-3 {\n  padding-bottom: 0.75rem;\n}\n.pb-8 {\n  padding-bottom: 2rem;\n}\n.pt-16 {\n  padding-top: 4rem;\n}\n.pb-20 {\n  padding-bottom: 5rem;\n}\n.text-center {\n  text-align: center;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n.text-4xl {\n  font-size: 2.25rem;\n  line-height: 2.5rem;\n}\n.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.font-medium {\n  font-weight: 500;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.font-extrabold {\n  font-weight: 800;\n}\n.uppercase {\n  text-transform: uppercase;\n}\n.leading-8 {\n  line-height: 2rem;\n}\n.leading-6 {\n  line-height: 1.5rem;\n}\n.tracking-wide {\n  letter-spacing: 0.025em;\n}\n.tracking-tight {\n  letter-spacing: -0.025em;\n}\n.text-gray-400 {\n  --tw-text-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-text-opacity));\n}\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n.text-gray-700 {\n  --tw-text-opacity: 1;\n  color: rgb(55 65 81 / var(--tw-text-opacity));\n}\n.text-indigo-600 {\n  --tw-text-opacity: 1;\n  color: rgb(79 70 229 / var(--tw-text-opacity));\n}\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n.text-orange-600 {\n  --tw-text-opacity: 1;\n  color: rgb(234 88 12 / var(--tw-text-opacity));\n}\n.text-indigo-700 {\n  --tw-text-opacity: 1;\n  color: rgb(67 56 202 / var(--tw-text-opacity));\n}\n.opacity-0 {\n  opacity: 0;\n}\n.opacity-100 {\n  opacity: 1;\n}\n.opacity-50 {\n  opacity: 0.5;\n}\n.shadow-md {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow {\n  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.ring-1 {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n.ring-black {\n  --tw-ring-opacity: 1;\n  --tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity));\n}\n.ring-opacity-5 {\n  --tw-ring-opacity: 0.05;\n}\n.transition {\n  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n.duration-150 {\n  transition-duration: 150ms;\n}\n.duration-100 {\n  transition-duration: 100ms;\n}\n.ease-out {\n  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n}\n.ease-in {\n  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n}\n.hover\\:bg-gray-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n.hover\\:bg-gray-50:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n.hover\\:bg-indigo-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(67 56 202 / var(--tw-bg-opacity));\n}\n.hover\\:bg-indigo-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(199 210 254 / var(--tw-bg-opacity));\n}\n.hover\\:text-gray-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n.hover\\:text-gray-900:hover {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\n.hover\\:text-indigo-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(99 102 241 / var(--tw-text-opacity));\n}\n.hover\\:underline:hover {\n  -webkit-text-decoration-line: underline;\n          text-decoration-line: underline;\n}\n.focus\\:outline-none:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n.focus\\:ring-2:focus {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n.focus\\:ring-inset:focus {\n  --tw-ring-inset: inset;\n}\n.focus\\:ring-indigo-500:focus {\n  --tw-ring-opacity: 1;\n  --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity));\n}\n.group:hover .group-hover\\:opacity-75 {\n  opacity: 0.75;\n}\n@media (min-width: 640px) {\n\n  .sm\\:aspect-w-2 {\n    position: relative;\n    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n    --tw-aspect-w: 2;\n  }\n\n  .sm\\:aspect-w-2 > * {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .sm\\:aspect-h-1 {\n    --tw-aspect-h: 1;\n  }\n\n  .sm\\:aspect-w-1 {\n    position: relative;\n    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n    --tw-aspect-w: 1;\n  }\n\n  .sm\\:aspect-w-1 > * {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .sm\\:aspect-none {\n    position: static;\n    padding-bottom: 0;\n  }\n\n  .sm\\:aspect-none > * {\n    position: static;\n    height: auto;\n    width: auto;\n    top: auto;\n    right: auto;\n    bottom: auto;\n    left: auto;\n  }\n\n  .sm\\:absolute {\n    position: absolute;\n  }\n\n  .sm\\:relative {\n    position: relative;\n  }\n\n  .sm\\:inset-0 {\n    top: 0px;\n    right: 0px;\n    bottom: 0px;\n    left: 0px;\n  }\n\n  .sm\\:row-span-2 {\n    grid-row: span 2 / span 2;\n  }\n\n  .sm\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .sm\\:mt-12 {\n    margin-top: 3rem;\n  }\n\n  .sm\\:mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .sm\\:mt-8 {\n    margin-top: 2rem;\n  }\n\n  .sm\\:mt-0 {\n    margin-top: 0px;\n  }\n\n  .sm\\:ml-3 {\n    margin-left: 0.75rem;\n  }\n\n  .sm\\:mt-4 {\n    margin-top: 1rem;\n  }\n\n  .sm\\:block {\n    display: block;\n  }\n\n  .sm\\:flex {\n    display: flex;\n  }\n\n  .sm\\:hidden {\n    display: none;\n  }\n\n  .sm\\:h-10 {\n    height: 2.5rem;\n  }\n\n  .sm\\:h-72 {\n    height: 18rem;\n  }\n\n  .sm\\:h-64 {\n    height: 16rem;\n  }\n\n  .sm\\:h-full {\n    height: 100%;\n  }\n\n  .sm\\:h-2\\/3 {\n    height: 66.666667%;\n  }\n\n  .sm\\:w-full {\n    width: 100%;\n  }\n\n  .sm\\:max-w-xl {\n    max-width: 36rem;\n  }\n\n  .sm\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .sm\\:grid-rows-2 {\n    grid-template-rows: repeat(2, minmax(0, 1fr));\n  }\n\n  .sm\\:items-baseline {\n    align-items: baseline;\n  }\n\n  .sm\\:justify-center {\n    justify-content: center;\n  }\n\n  .sm\\:justify-between {\n    justify-content: space-between;\n  }\n\n  .sm\\:gap-x-6 {\n    -moz-column-gap: 1.5rem;\n         column-gap: 1.5rem;\n  }\n\n  .sm\\:px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:py-24 {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n\n  .sm\\:py-32 {\n    padding-top: 8rem;\n    padding-bottom: 8rem;\n  }\n\n  .sm\\:pb-16 {\n    padding-bottom: 4rem;\n  }\n\n  .sm\\:text-center {\n    text-align: center;\n  }\n\n  .sm\\:text-4xl {\n    font-size: 2.25rem;\n    line-height: 2.5rem;\n  }\n\n  .sm\\:text-5xl {\n    font-size: 3rem;\n    line-height: 1;\n  }\n\n  .sm\\:text-lg {\n    font-size: 1.125rem;\n    line-height: 1.75rem;\n  }\n}\n@media (min-width: 768px) {\n\n  .md\\:ml-10 {\n    margin-left: 2.5rem;\n  }\n\n  .md\\:mt-16 {\n    margin-top: 4rem;\n  }\n\n  .md\\:mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .md\\:block {\n    display: block;\n  }\n\n  .md\\:grid {\n    display: grid;\n  }\n\n  .md\\:hidden {\n    display: none;\n  }\n\n  .md\\:h-96 {\n    height: 24rem;\n  }\n\n  .md\\:w-auto {\n    width: auto;\n  }\n\n  .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:gap-x-8 {\n    -moz-column-gap: 2rem;\n         column-gap: 2rem;\n  }\n\n  .md\\:gap-y-10 {\n    row-gap: 2.5rem;\n  }\n\n  .md\\:space-x-8 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-x-reverse: 0;\n    margin-right: calc(2rem * var(--tw-space-x-reverse));\n    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .md\\:py-4 {\n    padding-top: 1rem;\n    padding-bottom: 1rem;\n  }\n\n  .md\\:px-10 {\n    padding-left: 2.5rem;\n    padding-right: 2.5rem;\n  }\n\n  .md\\:pr-4 {\n    padding-right: 1rem;\n  }\n\n  .md\\:pb-20 {\n    padding-bottom: 5rem;\n  }\n\n  .md\\:text-6xl {\n    font-size: 3.75rem;\n    line-height: 1;\n  }\n\n  .md\\:text-xl {\n    font-size: 1.25rem;\n    line-height: 1.75rem;\n  }\n\n  .md\\:text-lg {\n    font-size: 1.125rem;\n    line-height: 1.75rem;\n  }\n}\n@media (min-width: 1024px) {\n\n  .lg\\:aspect-w-1 {\n    position: relative;\n    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n    --tw-aspect-w: 1;\n  }\n\n  .lg\\:aspect-w-1 > * {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .lg\\:aspect-h-1 {\n    --tw-aspect-h: 1;\n  }\n\n  .lg\\:absolute {\n    position: absolute;\n  }\n\n  .lg\\:inset-y-0 {\n    top: 0px;\n    bottom: 0px;\n  }\n\n  .lg\\:right-0 {\n    right: 0px;\n  }\n\n  .lg\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .lg\\:mx-0 {\n    margin-left: 0px;\n    margin-right: 0px;\n  }\n\n  .lg\\:mt-20 {\n    margin-top: 5rem;\n  }\n\n  .lg\\:block {\n    display: block;\n  }\n\n  .lg\\:grid {\n    display: grid;\n  }\n\n  .lg\\:h-full {\n    height: 100%;\n  }\n\n  .lg\\:w-full {\n    width: 100%;\n  }\n\n  .lg\\:w-1\\/2 {\n    width: 50%;\n  }\n\n  .lg\\:max-w-2xl {\n    max-width: 42rem;\n  }\n\n  .lg\\:max-w-none {\n    max-width: none;\n  }\n\n  .lg\\:flex-grow-0 {\n    flex-grow: 0;\n  }\n\n  .lg\\:grid-cols-3 {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n\n  .lg\\:justify-start {\n    justify-content: flex-start;\n  }\n\n  .lg\\:gap-8 {\n    gap: 2rem;\n  }\n\n  .lg\\:gap-x-6 {\n    -moz-column-gap: 1.5rem;\n         column-gap: 1.5rem;\n  }\n\n  .lg\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .lg\\:px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .lg\\:py-32 {\n    padding-top: 8rem;\n    padding-bottom: 8rem;\n  }\n\n  .lg\\:pb-28 {\n    padding-bottom: 7rem;\n  }\n\n  .lg\\:pt-24 {\n    padding-top: 6rem;\n  }\n\n  .lg\\:text-left {\n    text-align: left;\n  }\n\n  .lg\\:text-center {\n    text-align: center;\n  }\n}\n@media (min-width: 1280px) {\n\n  .xl\\:mt-28 {\n    margin-top: 7rem;\n  }\n\n  .xl\\:inline {\n    display: inline;\n  }\n\n  .xl\\:pb-32 {\n    padding-bottom: 8rem;\n  }\n}\n";
+__vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: currentColor; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/*\nEnsure the default browser behavior of the `hidden` attribute.\n*/\n\n[hidden] {\n  display: none;\n}\n\n[type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  border-radius: 0px;\n  padding-top: 0.5rem;\n  padding-right: 0.75rem;\n  padding-bottom: 0.5rem;\n  padding-left: 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5rem;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n  border-color: #2563eb;\n}\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput:-ms-input-placeholder, textarea:-ms-input-placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\ninput::placeholder,textarea::placeholder {\n  color: #6b7280;\n  opacity: 1;\n}\n\n::-webkit-datetime-edit-fields-wrapper {\n  padding: 0;\n}\n\n::-webkit-date-and-time-value {\n  min-height: 1.5em;\n}\n\n::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\nselect {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e\");\n  background-position: right 0.5rem center;\n  background-repeat: no-repeat;\n  background-size: 1.5em 1.5em;\n  padding-right: 2.5rem;\n  print-color-adjust: exact;\n}\n\n[multiple] {\n  background-image: initial;\n  background-position: initial;\n  background-repeat: unset;\n  background-size: initial;\n  padding-right: 0.75rem;\n  print-color-adjust: unset;\n}\n\n[type='checkbox'],[type='radio'] {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n  padding: 0;\n  print-color-adjust: exact;\n  display: inline-block;\n  vertical-align: middle;\n  background-origin: border-box;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  flex-shrink: 0;\n  height: 1rem;\n  width: 1rem;\n  color: #2563eb;\n  background-color: #fff;\n  border-color: #6b7280;\n  border-width: 1px;\n  --tw-shadow: 0 0 #0000;\n}\n\n[type='checkbox'] {\n  border-radius: 0px;\n}\n\n[type='radio'] {\n  border-radius: 100%;\n}\n\n[type='checkbox']:focus,[type='radio']:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 2px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: #2563eb;\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);\n}\n\n[type='checkbox']:checked,[type='radio']:checked {\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e\");\n}\n\n[type='radio']:checked {\n  background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e\");\n}\n\n[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='checkbox']:indeterminate {\n  background-image: url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e\");\n  border-color: transparent;\n  background-color: currentColor;\n  background-size: 100% 100%;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n\n[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus {\n  border-color: transparent;\n  background-color: currentColor;\n}\n\n[type='file'] {\n  background: unset;\n  border-color: inherit;\n  border-width: 0;\n  border-radius: 0;\n  padding: 0;\n  font-size: unset;\n  line-height: inherit;\n}\n\n[type='file']:focus {\n  outline: 1px auto -webkit-focus-ring-color;\n}\n*, ::before, ::after {\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));\n  --tw-border-opacity: 1;\n  border-color: rgb(229 231 235 / var(--tw-border-opacity));\n  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n}\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border-width: 0;\n}\n.absolute {\n  position: absolute;\n}\n.relative {\n  position: relative;\n}\n.inset-0 {\n  top: 0px;\n  right: 0px;\n  bottom: 0px;\n  left: 0px;\n}\n.inset-x-0 {\n  left: 0px;\n  right: 0px;\n}\n.inset-y-0 {\n  top: 0px;\n  bottom: 0px;\n}\n.top-0 {\n  top: 0px;\n}\n.right-0 {\n  right: 0px;\n}\n.z-10 {\n  z-index: 10;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.mt-6 {\n  margin-top: 1.5rem;\n}\n.-mr-2 {\n  margin-right: -0.5rem;\n}\n.mt-2 {\n  margin-top: 0.5rem;\n}\n.mt-4 {\n  margin-top: 1rem;\n}\n.mt-10 {\n  margin-top: 2.5rem;\n}\n.ml-16 {\n  margin-left: 4rem;\n}\n.mt-3 {\n  margin-top: 0.75rem;\n}\n.mt-5 {\n  margin-top: 1.25rem;\n}\n.mt-12 {\n  margin-top: 3rem;\n}\n.ml-3 {\n  margin-left: 0.75rem;\n}\n.block {\n  display: block;\n}\n.flex {\n  display: flex;\n}\n.inline-flex {\n  display: inline-flex;\n}\n.table {\n  display: table;\n}\n.grid {\n  display: grid;\n}\n.hidden {\n  display: none;\n}\n.h-80 {\n  height: 20rem;\n}\n.h-full {\n  height: 100%;\n}\n.h-8 {\n  height: 2rem;\n}\n.h-6 {\n  height: 1.5rem;\n}\n.h-12 {\n  height: 3rem;\n}\n.h-56 {\n  height: 14rem;\n}\n.h-1\\/3 {\n  height: 33.333333%;\n}\n.h-48 {\n  height: 12rem;\n}\n.h-10 {\n  height: 2.5rem;\n}\n.w-full {\n  width: 100%;\n}\n.w-auto {\n  width: auto;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.w-12 {\n  width: 3rem;\n}\n.w-48 {\n  width: 12rem;\n}\n.w-10 {\n  width: 2.5rem;\n}\n.max-w-7xl {\n  max-width: 80rem;\n}\n.max-w-2xl {\n  max-width: 42rem;\n}\n.max-w-lg {\n  max-width: 32rem;\n}\n.flex-1 {\n  flex: 1 1 0%;\n}\n.flex-shrink-0 {\n  flex-shrink: 0;\n}\n.flex-grow {\n  flex-grow: 1;\n}\n.origin-top-right {\n  transform-origin: top right;\n}\n.translate-x-1\\/2 {\n  --tw-translate-x: 50%;\n  transform: var(--tw-transform);\n}\n.scale-95 {\n  --tw-scale-x: .95;\n  --tw-scale-y: .95;\n  transform: var(--tw-transform);\n}\n.scale-100 {\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  transform: var(--tw-transform);\n}\n.transform {\n  transform: var(--tw-transform);\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.justify-between {\n  justify-content: space-between;\n}\n.gap-5 {\n  gap: 1.25rem;\n}\n.space-y-12 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(3rem * var(--tw-space-y-reverse));\n}\n.space-y-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));\n}\n.space-y-10 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));\n}\n.space-x-1 > :not([hidden]) ~ :not([hidden]) {\n  --tw-space-x-reverse: 0;\n  margin-right: calc(0.25rem * var(--tw-space-x-reverse));\n  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));\n}\n.overflow-hidden {\n  overflow: hidden;\n}\n.rounded-lg {\n  border-radius: 0.5rem;\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.rounded-full {\n  border-radius: 9999px;\n}\n.border {\n  border-width: 1px;\n}\n.border-transparent {\n  border-color: transparent;\n}\n.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-indigo-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(99 102 241 / var(--tw-bg-opacity));\n}\n.bg-orange-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(234 88 12 / var(--tw-bg-opacity));\n}\n.bg-indigo-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(224 231 255 / var(--tw-bg-opacity));\n}\n.bg-gray-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n.object-cover {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.object-center {\n  -o-object-position: center;\n     object-position: center;\n}\n.p-2 {\n  padding: 0.5rem;\n}\n.p-6 {\n  padding: 1.5rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.py-16 {\n  padding-top: 4rem;\n  padding-bottom: 4rem;\n}\n.px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}\n.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}\n.px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.py-12 {\n  padding-top: 3rem;\n  padding-bottom: 3rem;\n}\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n.py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n.pt-6 {\n  padding-top: 1.5rem;\n}\n.pt-4 {\n  padding-top: 1rem;\n}\n.pt-2 {\n  padding-top: 0.5rem;\n}\n.pb-3 {\n  padding-bottom: 0.75rem;\n}\n.pb-8 {\n  padding-bottom: 2rem;\n}\n.pt-16 {\n  padding-top: 4rem;\n}\n.pb-20 {\n  padding-bottom: 5rem;\n}\n.text-center {\n  text-align: center;\n}\n.text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n.text-lg {\n  font-size: 1.125rem;\n  line-height: 1.75rem;\n}\n.text-4xl {\n  font-size: 2.25rem;\n  line-height: 2.5rem;\n}\n.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}\n.font-extrabold {\n  font-weight: 800;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.font-medium {\n  font-weight: 500;\n}\n.uppercase {\n  text-transform: uppercase;\n}\n.leading-8 {\n  line-height: 2rem;\n}\n.leading-6 {\n  line-height: 1.5rem;\n}\n.tracking-wide {\n  letter-spacing: 0.025em;\n}\n.tracking-tight {\n  letter-spacing: -0.025em;\n}\n.text-gray-900 {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\n.text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n.text-gray-400 {\n  --tw-text-opacity: 1;\n  color: rgb(156 163 175 / var(--tw-text-opacity));\n}\n.text-gray-700 {\n  --tw-text-opacity: 1;\n  color: rgb(55 65 81 / var(--tw-text-opacity));\n}\n.text-indigo-600 {\n  --tw-text-opacity: 1;\n  color: rgb(79 70 229 / var(--tw-text-opacity));\n}\n.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n.text-orange-600 {\n  --tw-text-opacity: 1;\n  color: rgb(234 88 12 / var(--tw-text-opacity));\n}\n.text-indigo-700 {\n  --tw-text-opacity: 1;\n  color: rgb(67 56 202 / var(--tw-text-opacity));\n}\n.opacity-0 {\n  opacity: 0;\n}\n.opacity-100 {\n  opacity: 1;\n}\n.shadow-md {\n  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow {\n  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.ring-1 {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n.ring-black {\n  --tw-ring-opacity: 1;\n  --tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity));\n}\n.ring-opacity-5 {\n  --tw-ring-opacity: 0.05;\n}\n.transition {\n  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\n  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n}\n.duration-150 {\n  transition-duration: 150ms;\n}\n.duration-100 {\n  transition-duration: 100ms;\n}\n.ease-out {\n  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n}\n.ease-in {\n  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n}\n.hover\\:bg-gray-100:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}\n.hover\\:bg-gray-50:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(249 250 251 / var(--tw-bg-opacity));\n}\n.hover\\:bg-indigo-700:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(67 56 202 / var(--tw-bg-opacity));\n}\n.hover\\:bg-indigo-200:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(199 210 254 / var(--tw-bg-opacity));\n}\n.hover\\:text-gray-500:hover {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n.hover\\:text-gray-900:hover {\n  --tw-text-opacity: 1;\n  color: rgb(17 24 39 / var(--tw-text-opacity));\n}\n.hover\\:underline:hover {\n  -webkit-text-decoration-line: underline;\n          text-decoration-line: underline;\n}\n.focus\\:outline-none:focus {\n  outline: 2px solid transparent;\n  outline-offset: 2px;\n}\n.focus\\:ring-2:focus {\n  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);\n}\n.focus\\:ring-inset:focus {\n  --tw-ring-inset: inset;\n}\n.focus\\:ring-indigo-500:focus {\n  --tw-ring-opacity: 1;\n  --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity));\n}\n.group:hover .group-hover\\:opacity-75 {\n  opacity: 0.75;\n}\n@media (min-width: 640px) {\n\n  .sm\\:aspect-w-2 {\n    position: relative;\n    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n    --tw-aspect-w: 2;\n  }\n\n  .sm\\:aspect-w-2 > * {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .sm\\:aspect-h-1 {\n    --tw-aspect-h: 1;\n  }\n\n  .sm\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .sm\\:mt-12 {\n    margin-top: 3rem;\n  }\n\n  .sm\\:mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .sm\\:mt-8 {\n    margin-top: 2rem;\n  }\n\n  .sm\\:mt-0 {\n    margin-top: 0px;\n  }\n\n  .sm\\:ml-3 {\n    margin-left: 0.75rem;\n  }\n\n  .sm\\:mt-4 {\n    margin-top: 1rem;\n  }\n\n  .sm\\:flex {\n    display: flex;\n  }\n\n  .sm\\:h-64 {\n    height: 16rem;\n  }\n\n  .sm\\:h-10 {\n    height: 2.5rem;\n  }\n\n  .sm\\:h-72 {\n    height: 18rem;\n  }\n\n  .sm\\:h-2\\/3 {\n    height: 66.666667%;\n  }\n\n  .sm\\:max-w-xl {\n    max-width: 36rem;\n  }\n\n  .sm\\:justify-center {\n    justify-content: center;\n  }\n\n  .sm\\:px-6 {\n    padding-left: 1.5rem;\n    padding-right: 1.5rem;\n  }\n\n  .sm\\:py-24 {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n\n  .sm\\:pb-16 {\n    padding-bottom: 4rem;\n  }\n\n  .sm\\:text-center {\n    text-align: center;\n  }\n\n  .sm\\:text-4xl {\n    font-size: 2.25rem;\n    line-height: 2.5rem;\n  }\n\n  .sm\\:text-5xl {\n    font-size: 3rem;\n    line-height: 1;\n  }\n\n  .sm\\:text-lg {\n    font-size: 1.125rem;\n    line-height: 1.75rem;\n  }\n}\n@media (min-width: 768px) {\n\n  .md\\:ml-10 {\n    margin-left: 2.5rem;\n  }\n\n  .md\\:mt-16 {\n    margin-top: 4rem;\n  }\n\n  .md\\:mt-5 {\n    margin-top: 1.25rem;\n  }\n\n  .md\\:block {\n    display: block;\n  }\n\n  .md\\:grid {\n    display: grid;\n  }\n\n  .md\\:hidden {\n    display: none;\n  }\n\n  .md\\:h-96 {\n    height: 24rem;\n  }\n\n  .md\\:w-auto {\n    width: auto;\n  }\n\n  .md\\:grid-cols-2 {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .md\\:gap-x-8 {\n    -moz-column-gap: 2rem;\n         column-gap: 2rem;\n  }\n\n  .md\\:gap-y-10 {\n    row-gap: 2.5rem;\n  }\n\n  .md\\:space-x-8 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-x-reverse: 0;\n    margin-right: calc(2rem * var(--tw-space-x-reverse));\n    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));\n  }\n\n  .md\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .md\\:py-4 {\n    padding-top: 1rem;\n    padding-bottom: 1rem;\n  }\n\n  .md\\:px-10 {\n    padding-left: 2.5rem;\n    padding-right: 2.5rem;\n  }\n\n  .md\\:pr-4 {\n    padding-right: 1rem;\n  }\n\n  .md\\:pb-20 {\n    padding-bottom: 5rem;\n  }\n\n  .md\\:text-6xl {\n    font-size: 3.75rem;\n    line-height: 1;\n  }\n\n  .md\\:text-xl {\n    font-size: 1.25rem;\n    line-height: 1.75rem;\n  }\n\n  .md\\:text-lg {\n    font-size: 1.125rem;\n    line-height: 1.75rem;\n  }\n}\n@media (min-width: 1024px) {\n\n  .lg\\:aspect-w-1 {\n    position: relative;\n    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);\n    --tw-aspect-w: 1;\n  }\n\n  .lg\\:aspect-w-1 > * {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n  }\n\n  .lg\\:aspect-h-1 {\n    --tw-aspect-h: 1;\n  }\n\n  .lg\\:absolute {\n    position: absolute;\n  }\n\n  .lg\\:inset-y-0 {\n    top: 0px;\n    bottom: 0px;\n  }\n\n  .lg\\:right-0 {\n    right: 0px;\n  }\n\n  .lg\\:mx-auto {\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  .lg\\:mx-0 {\n    margin-left: 0px;\n    margin-right: 0px;\n  }\n\n  .lg\\:mt-20 {\n    margin-top: 5rem;\n  }\n\n  .lg\\:block {\n    display: block;\n  }\n\n  .lg\\:grid {\n    display: grid;\n  }\n\n  .lg\\:h-full {\n    height: 100%;\n  }\n\n  .lg\\:w-full {\n    width: 100%;\n  }\n\n  .lg\\:w-1\\/2 {\n    width: 50%;\n  }\n\n  .lg\\:max-w-none {\n    max-width: none;\n  }\n\n  .lg\\:max-w-2xl {\n    max-width: 42rem;\n  }\n\n  .lg\\:flex-grow-0 {\n    flex-grow: 0;\n  }\n\n  .lg\\:grid-cols-3 {\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n  }\n\n  .lg\\:justify-start {\n    justify-content: flex-start;\n  }\n\n  .lg\\:gap-x-6 {\n    -moz-column-gap: 1.5rem;\n         column-gap: 1.5rem;\n  }\n\n  .lg\\:space-y-0 > :not([hidden]) ~ :not([hidden]) {\n    --tw-space-y-reverse: 0;\n    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));\n    margin-bottom: calc(0px * var(--tw-space-y-reverse));\n  }\n\n  .lg\\:px-8 {\n    padding-left: 2rem;\n    padding-right: 2rem;\n  }\n\n  .lg\\:py-32 {\n    padding-top: 8rem;\n    padding-bottom: 8rem;\n  }\n\n  .lg\\:pb-28 {\n    padding-bottom: 7rem;\n  }\n\n  .lg\\:pt-24 {\n    padding-top: 6rem;\n  }\n\n  .lg\\:text-left {\n    text-align: left;\n  }\n\n  .lg\\:text-center {\n    text-align: center;\n  }\n}\n@media (min-width: 1280px) {\n\n  .xl\\:mt-28 {\n    margin-top: 7rem;\n  }\n\n  .xl\\:inline {\n    display: inline;\n  }\n\n  .xl\\:pb-32 {\n    padding-bottom: 8rem;\n  }\n}\n";
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs
+// Request: /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
@@ -1160,9 +1160,9 @@ __vite_ssr_exports__.default = "/*\n! tailwindcss v3.0.8 | MIT License | https:/
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // - /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs ($id_7b587af2)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs ($id_b6984760)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_2a0a23af)
 // --------------------
-const $id_4ab10521 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_71b9ba94 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/plugins/preload.server.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs");
@@ -1173,7 +1173,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/components.mjs");
 
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
@@ -1189,7 +1189,7 @@ __vite_ssr_import_1__.default,
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_71b9ba94)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // --------------------
@@ -1212,7 +1212,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_71b9ba94)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -1665,13 +1665,13 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/meta/runtime/plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_71b9ba94)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt3/dist/meta/runtime/components.mjs ($id_94744df3)
 // - /node_modules/nuxt3/dist/meta/runtime/composables.mjs ($id_ca9295be)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/meta.config.mjs ($id_ac2dc36f)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/meta.config.mjs ($id_b2d69e13)
 // --------------------
 const $id_9fd5f35e = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1682,7 +1682,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/meta.config.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) => {
   __vite_ssr_import_2__.useMeta(__vite_ssr_import_4__.default.globalMeta);
@@ -1948,17 +1948,17 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 // Dependencies: 
 
 // --------------------
-const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@vue/shared/dist/shared.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@vue/shared/dist/shared.cjs.js".') })
+const $id_852b06a2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@vue/shared/dist/shared.cjs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@vue/shared/dist/shared.cjs.js".') })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/meta.config.mjs
+// Request: /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/meta/runtime/plugin.mjs ($id_9fd5f35e)
 // Dependencies: 
 
 // --------------------
-const $id_ac2dc36f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_b2d69e13 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[],"style":[],"script":[]},"mixinKey":"created"};
 }
 
@@ -1966,7 +1966,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_71b9ba94)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -1974,7 +1974,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[{"charset":"utf-8"},{"name
 // - /node_modules/nuxt3/dist/pages/runtime/page.vue ($id_10628d40)
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // --------------------
 const $id_a4d6cb5b = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -1989,7 +1989,7 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt3/dis
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_5__.defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component("NuxtNestedPage", __vite_ssr_import_2__.default);
@@ -2087,7 +2087,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/pages/runtime/nested-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/pages/runtime/nested-page.vue"]]);
 }
 
 
@@ -2118,7 +2118,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Dependencies: 
 
 // --------------------
-const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue/server-renderer/index.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/vue/server-renderer/index.js".') })
+const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/vue/server-renderer/index.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/vue/server-renderer/index.js".') })
 
 
 // --------------------
@@ -2326,7 +2326,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/pages/runtime/page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/pages/runtime/page.vue"]]);
 }
 
 
@@ -2337,12 +2337,12 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs ($id_1ed87b12)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/layouts.mjs ($id_16384997)
 // --------------------
 const $id_9b68c93f = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/layouts.mjs");
 
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
   props: {
@@ -2369,13 +2369,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs
+// Request: /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/layout.mjs ($id_9b68c93f)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // --------------------
-const $id_1ed87b12 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_16384997 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 __vite_ssr_exports__.default = {};
@@ -2383,7 +2383,7 @@ __vite_ssr_exports__.default = {};
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs
+// Request: /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/pages/runtime/router.mjs ($id_a4d6cb5b)
 // Dependencies: 
@@ -2403,110 +2403,110 @@ __vite_ssr_exports__.default = {};
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
 // - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
 // --------------------
-const $id_bc836456 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_4387647a = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = [
   {
     "name": "features",
     "path": "/features",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/features.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/features.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/features.vue')
   },
   {
     "name": "index",
     "path": "/",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/index.vue')
   },
   {
     "name": "javascript-ecommerce",
     "path": "/javascript/ecommerce",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/ecommerce/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/ecommerce/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/javascript/ecommerce/index.vue')
   },
   {
     "name": "javascript",
     "path": "/javascript",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/javascript/index.vue')
   },
   {
     "name": "javascript-media",
     "path": "/javascript/media",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/media/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/media/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/javascript/media/index.vue')
   },
   {
     "name": "javascript-video",
     "path": "/javascript/video",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/video/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/video/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/javascript/video/index.vue')
   },
   {
     "name": "react-ecommerce",
     "path": "/react/ecommerce",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/ecommerce/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/ecommerce/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/react/ecommerce/index.vue')
   },
   {
     "name": "react",
     "path": "/react",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/react/index.vue')
   },
   {
     "name": "react-media",
     "path": "/react/media",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/media/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/media/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/react/media/index.vue')
   },
   {
     "name": "react-srcset",
     "path": "/react/srcset",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/srcset.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/srcset.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/react/srcset.vue')
   },
   {
     "name": "react-video",
     "path": "/react/video",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/video/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/video/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/react/video/index.vue')
   },
   {
     "name": "vuejs-ecommerce",
     "path": "/vuejs/ecommerce",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/ecommerce/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/ecommerce/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/vuejs/ecommerce/index.vue')
   },
   {
     "name": "vuejs",
     "path": "/vuejs",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/vuejs/index.vue')
   },
   {
     "name": "vuejs-media",
     "path": "/vuejs/media",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/media/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/media/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/vuejs/media/index.vue')
   },
   {
     "name": "vuejs-video",
     "path": "/vuejs/video",
-    "file": "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/video/index.vue",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/video/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/vuejs/video/index.vue')
   }
@@ -2517,7 +2517,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/features.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
@@ -2604,7 +2604,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/features.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/features.vue"]]);
 }
 
 
@@ -2626,7 +2626,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /pages/vuejs/index.vue ($id_593882d0)
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
 // - /pages/vuejs/video/index.vue ($id_c9b1f2bb)
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs ($id_b6984760)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_2a0a23af)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -2916,7 +2916,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/components/TheHeader.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/components/TheHeader.vue"]]);
 }
 
 
@@ -2977,7 +2977,7 @@ __vite_ssr_exportAll__(__vite_ssr_import_11__);
 // Dependencies: 
 
 // --------------------
-const $id_92aab129 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/combobox/combobox.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/combobox/combobox.js".') })
+const $id_92aab129 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/combobox/combobox.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/combobox/combobox.js".') })
 
 
 // --------------------
@@ -2987,7 +2987,7 @@ const $id_92aab129 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_b07f1154 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/dialog/dialog.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/dialog/dialog.js".') })
+const $id_b07f1154 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/dialog/dialog.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/dialog/dialog.js".') })
 
 
 // --------------------
@@ -2997,7 +2997,7 @@ const $id_b07f1154 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_90ea7d3e = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js".') })
+const $id_90ea7d3e = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js".') })
 
 
 // --------------------
@@ -3007,7 +3007,7 @@ const $id_90ea7d3e = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_58899675 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js".') })
+const $id_58899675 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js".') })
 
 
 // --------------------
@@ -3017,7 +3017,7 @@ const $id_58899675 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_2feddcbf = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/listbox/listbox.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/listbox/listbox.js".') })
+const $id_2feddcbf = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/listbox/listbox.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/listbox/listbox.js".') })
 
 
 // --------------------
@@ -3027,7 +3027,7 @@ const $id_2feddcbf = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_b1042eef = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/menu/menu.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/menu/menu.js".') })
+const $id_b1042eef = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/menu/menu.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/menu/menu.js".') })
 
 
 // --------------------
@@ -3037,7 +3037,7 @@ const $id_b1042eef = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_f86ffab2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/popover/popover.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/popover/popover.js".') })
+const $id_f86ffab2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/popover/popover.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/popover/popover.js".') })
 
 
 // --------------------
@@ -3047,7 +3047,7 @@ const $id_f86ffab2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_1d43fca2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/portal/portal.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/portal/portal.js".') })
+const $id_1d43fca2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/portal/portal.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/portal/portal.js".') })
 
 
 // --------------------
@@ -3057,7 +3057,7 @@ const $id_1d43fca2 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_0e8af24b = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js".') })
+const $id_0e8af24b = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js".') })
 
 
 // --------------------
@@ -3067,7 +3067,7 @@ const $id_0e8af24b = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_44a1a907 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/switch/switch.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/switch/switch.js".') })
+const $id_44a1a907 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/switch/switch.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/switch/switch.js".') })
 
 
 // --------------------
@@ -3077,7 +3077,7 @@ const $id_44a1a907 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_6cd55209 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/tabs/tabs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/tabs/tabs.js".') })
+const $id_6cd55209 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/tabs/tabs.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/tabs/tabs.js".') })
 
 
 // --------------------
@@ -3087,7 +3087,7 @@ const $id_6cd55209 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // Dependencies: 
 
 // --------------------
-const $id_99377655 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/transitions/transition.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/@headlessui/vue/dist/components/transitions/transition.js".') })
+const $id_99377655 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/transitions/transition.js').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/@headlessui/vue/dist/components/transitions/transition.js".') })
 
 
 // --------------------
@@ -11226,7 +11226,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, value
 // --------------------
 // Request: /pages/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -11318,14 +11318,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/javascript/ecommerce/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -11504,14 +11504,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/ecommerce/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/ecommerce/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/javascript/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -11691,14 +11691,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/javascript/media/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -11877,14 +11877,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/media/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/media/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/javascript/video/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -12063,14 +12063,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/javascript/video/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/video/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/react/ecommerce/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -12249,14 +12249,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/ecommerce/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/ecommerce/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/react/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -12435,14 +12435,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/react/media/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -12621,14 +12621,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/media/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/media/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/react/srcset.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /components/TheFooter.vue ($id_cdfd5170)
@@ -12672,7 +12672,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/srcset.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/srcset.vue"]]);
 }
 
 
@@ -12680,6 +12680,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // Request: /components/TheFooter.vue
 // Parents: 
 // - /pages/react/srcset.vue ($id_ded4bc0b)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_2a0a23af)
 // Dependencies: 
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
 // - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
@@ -12824,14 +12825,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/components/TheFooter.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/components/TheFooter.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/react/video/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -13010,14 +13011,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/react/video/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/video/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/vuejs/ecommerce/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -13196,14 +13197,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/ecommerce/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/ecommerce/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/vuejs/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -13382,14 +13383,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/vuejs/media/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -13568,14 +13569,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/media/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/media/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/vuejs/video/index.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs ($id_bc836456)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
 // Dependencies: 
 // - /components/TheHeader.vue ($id_d18d7003)
 // - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
@@ -13754,14 +13755,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/pages/vuejs/video/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/video/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_71b9ba94)
 // Dependencies: 
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
 // --------------------
@@ -13785,22 +13786,24 @@ __vite_ssr_exports__.default = () => {}
 // Dependencies: 
 
 // --------------------
-const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/ohmyfetch/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/ohmyfetch/dist/index.mjs".') })
+const $id_780217c4 = (global, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) => import('file:///Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/ohmyfetch/dist/index.mjs').then(r => { exports.default = r.default; ssrExportAll(r) }).catch(e => { console.error(e); throw new Error('[vite dev] Error loading external "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/ohmyfetch/dist/index.mjs".') })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs
+// Request: /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/components.mjs
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs ($id_4ab10521)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs ($id_71b9ba94)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /components/TheFooter.vue ($id_cdfd5170)
 // - /components/TheHeader.vue ($id_d18d7003)
 // --------------------
-const $id_b6984760 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_2a0a23af = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
 const components = {
+  'TheFooter': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/TheFooter.vue').then(c => c.default || c)),
   'TheHeader': __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/components/TheHeader.vue').then(c => c.default || c))
 }
 
@@ -13815,13 +13818,13 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs
+// Request: /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/root-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/components/nuxt-root.vue ($id_f8564e04)
 // --------------------
-const $id_c234ba8a = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_eb236cde = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -13831,7 +13834,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs ($id_c234ba8a)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/root-component.mjs ($id_eb236cde)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/app/index.mjs ($id_d8c2af0f)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -13882,18 +13885,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs
+// Request: /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/app-component.mjs
 // Parents: 
 // - /node_modules/nuxt3/dist/app/bootstrap.mjs ($id_fef466a9)
 // Dependencies: 
 // - /node_modules/nuxt3/dist/pages/runtime/app.vue ($id_0851ff57)
 // --------------------
-const $id_b1ed07fc = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_82010d1a = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt3/dist/pages/runtime/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -13903,7 +13906,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt3/dist/pages/runtime/app.vue
 // Parents: 
-// - /@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs ($id_b1ed07fc)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/app-component.mjs ($id_82010d1a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -13934,12 +13937,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/pages/runtime/app.vue"]]);
 }
 
 
 const __modules__ = {
- '/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/entry': $id_40a73310,
+ '/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/entry': $id_00d58239,
  '/node_modules/nuxt3/dist/app/bootstrap.mjs': $id_fef466a9,
  '/node_modules/vue/dist/vue.cjs.js': $id_60f0615f,
  '/node_modules/nuxt3/dist/app/index.mjs': $id_d8c2af0f,
@@ -13960,9 +13963,9 @@ const __modules__ = {
  '/node_modules/h3/dist/index.mjs': $id_57d7ded6,
  '/node_modules/destr/dist/index.mjs': $id_03d15ecd,
  '/node_modules/nuxt3/dist/app/composables/ssr.mjs': $id_4d0dc923,
- '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/css.mjs': $id_4a1f2191,
+ '/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/css.mjs': $id_07a57df6,
  '/assets/css/tailwind.css': $id_f75548e1,
- '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/plugins/server.mjs': $id_4ab10521,
+ '/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/plugins/server.mjs': $id_71b9ba94,
  '/node_modules/nuxt3/dist/app/plugins/preload.server.mjs': $id_b9f3c557,
  '/node_modules/nuxt3/dist/meta/runtime/lib/vueuse-head.plugin.mjs': $id_cbe5172d,
  '/node_modules/@vueuse/head/dist/index.mjs': $id_c032264e,
@@ -13970,15 +13973,15 @@ const __modules__ = {
  '/node_modules/nuxt3/dist/meta/runtime/components.mjs': $id_94744df3,
  '/node_modules/nuxt3/dist/meta/runtime/composables.mjs': $id_ca9295be,
  '/node_modules/@vue/shared/dist/shared.cjs.js': $id_852b06a2,
- '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/meta.config.mjs': $id_ac2dc36f,
+ '/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/meta.config.mjs': $id_b2d69e13,
  '/node_modules/nuxt3/dist/pages/runtime/router.mjs': $id_a4d6cb5b,
  '/node_modules/nuxt3/dist/pages/runtime/nested-page.vue': $id_c268603a,
  '/node_modules/vue/server-renderer/index.js': $id_b215fa1c,
  '/@id/plugin-vue:export-helper': $id_bbb863c1,
  '/node_modules/nuxt3/dist/pages/runtime/page.vue': $id_10628d40,
  '/node_modules/nuxt3/dist/pages/runtime/layout.mjs': $id_9b68c93f,
- '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/layouts.mjs': $id_1ed87b12,
- '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/routes.mjs': $id_bc836456,
+ '/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/layouts.mjs': $id_16384997,
+ '/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs': $id_4387647a,
  '/pages/features.vue': $id_cdc7ed81,
  '/components/TheHeader.vue': $id_d18d7003,
  '/node_modules/@headlessui/vue/dist/headlessui.esm.js': $id_2c13895f,
@@ -14242,10 +14245,10 @@ const __modules__ = {
  '/pages/vuejs/video/index.vue': $id_c9b1f2bb,
  '/node_modules/@nuxt/nitro/dist/runtime/app/nitro.client.mjs': $id_7b587af2,
  '/node_modules/ohmyfetch/dist/index.mjs': $id_780217c4,
- '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/components.mjs': $id_b6984760,
- '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/root-component.mjs': $id_c234ba8a,
+ '/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/components.mjs': $id_2a0a23af,
+ '/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/root-component.mjs': $id_eb236cde,
  '/node_modules/nuxt3/dist/app/components/nuxt-root.vue': $id_f8564e04,
- '/@id/__x00__virtual:/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/.nuxt/app-component.mjs': $id_b1ed07fc,
+ '/@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/app-component.mjs': $id_82010d1a,
  '/node_modules/nuxt3/dist/pages/runtime/app.vue': $id_0851ff57
 }
 
@@ -14323,4 +14326,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__('/Users/tom/Documents/GitHub/nuxt3-tailwind-starter/node_modules/nuxt3/dist/app/entry')
+export default await __ssrLoadModule__('/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/node_modules/nuxt3/dist/app/entry')
