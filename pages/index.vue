@@ -35,57 +35,123 @@
     </div>
   </div>
   <!-- Sections -->
-      <section aria-labelledby="collections-heading" class="bg-gray-100">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div class="max-w-2xl py-16 mx-auto sm:py-24 lg:py-32 lg:max-w-none">
-            <h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">Languages</h2>
-
-            <div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
-              <div v-for="language in languages" :key="language.name" class="relative group">
-                <div class="relative w-full overflow-hidden bg-white rounded-lg h-80 group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-                  <img :src="language.imageSrc" :alt="language.imageAlt" class="object-cover object-center w-full h-full" />
-                </div>
-                <h3 class="mt-6 text-sm text-gray-500">
-                  <a :href="language.href">
-                    <span class="absolute inset-0" />
-                    {{ language.name }}
+  <div class="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+    <div class="absolute inset-0">
+      <div class="bg-white h-1/3 sm:h-2/3" />
+    </div>
+    <div class="relative mx-auto max-w-7xl">
+      <div class="text-center">
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">imgix Demos</h2>
+        <p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video, Vue, React, and Javascript.</p>
+      </div>
+      <div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
+        <div v-for="post in posts" :key="post.title" class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+          <div class="flex-shrink-0">
+            <img class="object-cover w-full h-48" :src="post.imageUrl" alt="" />
+          </div>
+          <div class="flex flex-col justify-between flex-1 p-6 bg-white">
+            <div class="flex-1">
+              <p class="text-sm font-medium text-indigo-600">
+                <a :href="post.category.href" class="hover:underline">
+                  {{ post.category.name }}
+                </a>
+              </p>
+              <a :href="post.href" class="block mt-2">
+                <p class="text-xl font-semibold text-gray-900">
+                  {{ post.title }}
+                </p>
+                <p class="mt-3 text-base text-gray-500">
+                  {{ post.description }}
+                </p>
+              </a>
+            </div>
+            <div class="flex items-center mt-6">
+              <div class="flex-shrink-0">
+                <a :href="post.author.href">
+                  <span class="sr-only">{{ post.author.name }}</span>
+                  <img class="w-10 h-10 rounded-full" :src="post.author.imageUrl" alt="" />
+                </a>
+              </div>
+              <div class="ml-3">
+                <p class="text-sm font-medium text-gray-900">
+                  <a :href="post.author.href" class="hover:underline">
+                    {{ post.author.name }}
                   </a>
-                </h3>
-                <p class="text-base font-semibold text-gray-900">{{ language.description }}</p>
+                </p>
+                <div class="flex space-x-1 text-sm text-gray-500">
+                  <time :datetime="post.datetime">
+                    {{ post.date }}
+                  </time>
+                  <span aria-hidden="true"> &middot; </span>
+                  <span> {{ post.readingTime }} read </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        
-      </section>
+      </div>
+    </div>
+  </div>
 </template>
 <script setup>
   import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
   import { MenuIcon, XIcon } from '@heroicons/vue/outline'
 
-  const languages = [
+const posts = [
   {
-    name: 'Javascript',
-    description: 'See demos built using vanilla Javascript',
-    imageSrc: 'https://learnbatta.com/assets/images/javascript/javascript-logo.png',
-    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-    href: '/javascript',
+    title: 'Video Demo: HLS vs MP4',
+    href: 'https://hlsvsmp4-vue.vercel.app/',
+    category: { name: 'Article', href: '#' },
+    description:
+      'This app is used to showcase the user experience of playing an mp4 vs an HLS video with imgix. To test this, right-click on the browser and select "inspect", click the Network tab, change the speed to Fast 3G, and make sure the "disable cache" button next to it is selected.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
   },
   {
-    name: 'React',
-    description: 'See demos built using React, Gatsby, and Next.js',
-    imageSrc: 'https://patterns.dev/img/reactjs/react-logo@3x.svg',
-    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-    href: '/react',
+    title: 'How to use Srcset values with IX React',
+    href: '/srcset',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
   },
   {
-    name: 'Vue.js',
-    description: 'See demos built using Vue.js and Nuxt.js',
-    imageSrc: 'https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png',
-    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-    href: '/vuejs',
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
   },
 ]
-
 
 </script>

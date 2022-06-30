@@ -154,7 +154,7 @@ const languages = [
 const posts = [
   {
     title: 'Video Demo: HLS vs MP4',
-    href: 'https://gracious-gates-e1571d.netlify.app/',
+    href: 'https://hlsvsmp4-vue.vercel.app/',
     category: { name: 'Article', href: '#' },
     description:
       'This app is used to showcase the user experience of playing an mp4 vs an HLS video with imgix. To test this, right-click on the browser and select "inspect", click the Network tab, change the speed to Fast 3G, and make sure the "disable cache" button next to it is selected.',
@@ -172,7 +172,7 @@ const posts = [
   },
   {
     title: 'How to use Srcset values with IX React',
-    href: '/react/srcset',
+    href: '/srcset',
     category: { name: 'Video', href: '#' },
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',

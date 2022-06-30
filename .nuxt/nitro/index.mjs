@@ -130,7 +130,7 @@ server.listen(listenAddress, () => {
   });
 });
 
-const STATIC_ASSETS_BASE = "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/dist" + "/" + "1656464404";
+const STATIC_ASSETS_BASE = "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/dist" + "/" + "1656560782";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/dist/server/client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/dist/server/server.mjs'));

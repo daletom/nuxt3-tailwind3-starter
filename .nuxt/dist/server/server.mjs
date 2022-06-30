@@ -340,9 +340,9 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/react/ecommerce/index.vue ($id_d7595657)
 // - /pages/react/index.vue ($id_8007d07e)
 // - /pages/react/media/index.vue ($id_aa8b42f0)
-// - /components/TheFooter.vue ($id_cdfd5170)
-// - /pages/react/srcset.vue ($id_ded4bc0b)
 // - /pages/react/video/index.vue ($id_b1916b54)
+// - /components/TheFooter.vue ($id_cdfd5170)
+// - /pages/srcset.vue ($id_610f9b00)
 // - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
 // - /pages/vuejs/index.vue ($id_593882d0)
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
@@ -2106,9 +2106,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/react/ecommerce/index.vue ($id_d7595657)
 // - /pages/react/index.vue ($id_8007d07e)
 // - /pages/react/media/index.vue ($id_aa8b42f0)
-// - /components/TheFooter.vue ($id_cdfd5170)
-// - /pages/react/srcset.vue ($id_ded4bc0b)
 // - /pages/react/video/index.vue ($id_b1916b54)
+// - /components/TheFooter.vue ($id_cdfd5170)
+// - /pages/srcset.vue ($id_610f9b00)
 // - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
 // - /pages/vuejs/index.vue ($id_593882d0)
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
@@ -2136,9 +2136,9 @@ const $id_b215fa1c = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // - /pages/react/ecommerce/index.vue ($id_d7595657)
 // - /pages/react/index.vue ($id_8007d07e)
 // - /pages/react/media/index.vue ($id_aa8b42f0)
-// - /components/TheFooter.vue ($id_cdfd5170)
-// - /pages/react/srcset.vue ($id_ded4bc0b)
 // - /pages/react/video/index.vue ($id_b1916b54)
+// - /components/TheFooter.vue ($id_cdfd5170)
+// - /pages/srcset.vue ($id_610f9b00)
 // - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
 // - /pages/vuejs/index.vue ($id_593882d0)
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
@@ -2396,8 +2396,8 @@ __vite_ssr_exports__.default = {};
 // - /pages/react/ecommerce/index.vue ($id_d7595657)
 // - /pages/react/index.vue ($id_8007d07e)
 // - /pages/react/media/index.vue ($id_aa8b42f0)
-// - /pages/react/srcset.vue ($id_ded4bc0b)
 // - /pages/react/video/index.vue ($id_b1916b54)
+// - /pages/srcset.vue ($id_610f9b00)
 // - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
 // - /pages/vuejs/index.vue ($id_593882d0)
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
@@ -2469,18 +2469,18 @@ __vite_ssr_exports__.default = [
     "component": () => __vite_ssr_dynamic_import__('/pages/react/media/index.vue')
   },
   {
-    "name": "react-srcset",
-    "path": "/react/srcset",
-    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/srcset.vue",
-    "children": [],
-    "component": () => __vite_ssr_dynamic_import__('/pages/react/srcset.vue')
-  },
-  {
     "name": "react-video",
     "path": "/react/video",
     "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/video/index.vue",
     "children": [],
     "component": () => __vite_ssr_dynamic_import__('/pages/react/video/index.vue')
+  },
+  {
+    "name": "srcset",
+    "path": "/srcset",
+    "file": "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/srcset.vue",
+    "children": [],
+    "component": () => __vite_ssr_dynamic_import__('/pages/srcset.vue')
   },
   {
     "name": "vuejs-ecommerce",
@@ -2620,8 +2620,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /pages/react/ecommerce/index.vue ($id_d7595657)
 // - /pages/react/index.vue ($id_8007d07e)
 // - /pages/react/media/index.vue ($id_aa8b42f0)
-// - /pages/react/srcset.vue ($id_ded4bc0b)
 // - /pages/react/video/index.vue ($id_b1916b54)
+// - /pages/srcset.vue ($id_610f9b00)
 // - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
 // - /pages/vuejs/index.vue ($id_593882d0)
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
@@ -2932,8 +2932,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /pages/react/ecommerce/index.vue ($id_d7595657)
 // - /pages/react/index.vue ($id_8007d07e)
 // - /pages/react/media/index.vue ($id_aa8b42f0)
-// - /components/TheFooter.vue ($id_cdfd5170)
 // - /pages/react/video/index.vue ($id_b1916b54)
+// - /components/TheFooter.vue ($id_cdfd5170)
 // - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
 // - /pages/vuejs/index.vue ($id_593882d0)
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
@@ -3103,8 +3103,8 @@ const $id_99377655 = (global, exports, importMeta, ssrImport, ssrDynamicImport, 
 // - /pages/react/ecommerce/index.vue ($id_d7595657)
 // - /pages/react/index.vue ($id_8007d07e)
 // - /pages/react/media/index.vue ($id_aa8b42f0)
-// - /components/TheFooter.vue ($id_cdfd5170)
 // - /pages/react/video/index.vue ($id_b1916b54)
+// - /components/TheFooter.vue ($id_cdfd5170)
 // - /pages/vuejs/ecommerce/index.vue ($id_36c3d2e5)
 // - /pages/vuejs/index.vue ($id_593882d0)
 // - /pages/vuejs/media/index.vue ($id_b096f2b2)
@@ -11243,38 +11243,70 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headless
   const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
 
 
-  
+
 const _sfc_main = {
   setup(__props, { expose }) {
   expose();
 
-  const languages = [
+  const posts = [
   {
-    name: 'Javascript',
-    description: 'See demos built using vanilla Javascript',
-    imageSrc: 'https://learnbatta.com/assets/images/javascript/javascript-logo.png',
-    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-    href: '/javascript',
+    title: 'Video Demo: HLS vs MP4',
+    href: 'https://hlsvsmp4-vue.vercel.app/',
+    category: { name: 'Article', href: '#' },
+    description:
+      'This app is used to showcase the user experience of playing an mp4 vs an HLS video with imgix. To test this, right-click on the browser and select "inspect", click the Network tab, change the speed to Fast 3G, and make sure the "disable cache" button next to it is selected.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
   },
   {
-    name: 'React',
-    description: 'See demos built using React, Gatsby, and Next.js',
-    imageSrc: 'https://patterns.dev/img/reactjs/react-logo@3x.svg',
-    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-    href: '/react',
+    title: 'How to use Srcset values with IX React',
+    href: '/srcset',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
   },
   {
-    name: 'Vue.js',
-    description: 'See demos built using Vue.js and Nuxt.js',
-    imageSrc: 'https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png',
-    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-    href: '/vuejs',
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
   },
 ]
 
 
-
-const __returned__ = { languages, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
+const __returned__ = { posts, Popover: __vite_ssr_import_1__.Popover, PopoverButton: __vite_ssr_import_1__.PopoverButton, PopoverPanel: __vite_ssr_import_1__.PopoverPanel, MenuIcon: __vite_ssr_import_2__.MenuIcon, XIcon: __vite_ssr_import_2__.XIcon }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
@@ -11288,23 +11320,41 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_TheHeader = __vite_ssr_import_0__.default
 
-  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(`<!--[--><div class="relative overflow-hidden bg-white"><div class="mx-auto max-w-7xl"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
   _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
-  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">All Your imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Three Powerful Languages</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> See Demos </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">Languages</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
-  __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
-    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
-      __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
-    }${
-      __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
-    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
-      __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
-    }><span class="absolute inset-0"></span> ${
-      __vite_ssr_import_4__.ssrInterpolate(language.name)
-    }</a></h3><p class="text-base font-semibold text-gray-900">${
-      __vite_ssr_import_4__.ssrInterpolate(language.description)
-    }</p></div>`)
+  _push(`<main class="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">All Your imgix Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-5xl text-orange-600 xl:inline">Three Powerful Languages</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-orange-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="#" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> See Demos </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative mx-auto max-w-7xl"><div class="text-center"><h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">imgix Demos</h2><p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video, Vue, React, and Javascript.</p></div><div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
+    _push(`<div class="flex flex-col overflow-hidden rounded-lg shadow-lg"><div class="flex-shrink-0"><img class="object-cover w-full h-48"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
+    } alt=""></div><div class="flex flex-col justify-between flex-1 p-6 bg-white"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.category.name)
+    }</a></p><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.href)
+    } class="block mt-2"><p class="text-xl font-semibold text-gray-900">${
+      __vite_ssr_import_4__.ssrInterpolate(post.title)
+    }</p><p class="mt-3 text-base text-gray-500">${
+      __vite_ssr_import_4__.ssrInterpolate(post.description)
+    }</p></a></div><div class="flex items-center mt-6"><div class="flex-shrink-0"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    }><span class="sr-only">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</span><img class="w-10 h-10 rounded-full"${
+      __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
+    } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
+      __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
+    } class="hover:underline">${
+      __vite_ssr_import_4__.ssrInterpolate(post.author.name)
+    }</a></p><div class="flex space-x-1 text-sm text-gray-500"><time${
+      __vite_ssr_import_4__.ssrRenderAttr("datetime", post.datetime)
+    }>${
+      __vite_ssr_import_4__.ssrInterpolate(post.date)
+    }</time><span aria-hidden="true"> · </span><span>${
+      __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
+    } read </span></div></div></div></div></div>`)
   })
-  _push(`<!--]--></div></div></div></section><!--]-->`)
+  _push(`<!--]--></div></div></div><!--]-->`)
 }
 
 
@@ -11560,7 +11610,7 @@ const _sfc_main = {
 const posts = [
   {
     title: 'Video Demo: HLS vs MP4',
-    href: 'https://gracious-gates-e1571d.netlify.app/',
+    href: 'https://hlsvsmp4-vue.vercel.app/',
     category: { name: 'Article', href: '#' },
     description:
       'This app is used to showcase the user experience of playing an mp4 vs an HLS video with imgix. To test this, right-click on the browser and select "inspect", click the Network tab, change the speed to Fast 3G, and make sure the "disable cache" button next to it is selected.',
@@ -11578,7 +11628,7 @@ const posts = [
   },
   {
     title: 'How to use Srcset values with IX React',
-    href: '/react/srcset',
+    href: '/srcset',
     category: { name: 'Video', href: '#' },
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
@@ -11629,13 +11679,13 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_TheHeader = __vite_ssr_import_0__.default
 
-  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(`<!--[--><div class="relative overflow-hidden bg-white"><div class="mx-auto max-w-7xl"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
   _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
-  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://www.springboard.com/blog/wp-content/uploads/2019/08/sb-blog-java.png" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  _push(`<main class="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Javascript Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-5xl text-orange-600 xl:inline">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-orange-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Javascript? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://www.springboard.com/blog/wp-content/uploads/2019/08/sb-blog-java.png" alt=""></div></div><!-- Sections --><div class="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative mx-auto max-w-7xl"><div class="text-center"><h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Video Demos in Javascript</h2><p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p></div><div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
   __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
-    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+    _push(`<div class="flex flex-col overflow-hidden rounded-lg shadow-lg"><div class="flex-shrink-0"><img class="object-cover w-full h-48"${
       __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
-    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+    } alt=""></div><div class="flex flex-col justify-between flex-1 p-6 bg-white"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
     } class="hover:underline">${
       __vite_ssr_import_4__.ssrInterpolate(post.category.name)
@@ -11645,11 +11695,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_4__.ssrInterpolate(post.title)
     }</p><p class="mt-3 text-base text-gray-500">${
       __vite_ssr_import_4__.ssrInterpolate(post.description)
-    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+    }</p></a></div><div class="flex items-center mt-6"><div class="flex-shrink-0"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
     }><span class="sr-only">${
       __vite_ssr_import_4__.ssrInterpolate(post.author.name)
-    }</span><img class="h-10 w-10 rounded-full"${
+    }</span><img class="w-10 h-10 rounded-full"${
       __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
     } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
@@ -11663,13 +11713,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
     } read </span></div></div></div></div></div>`)
   })
-  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8"><div class="max-w-2xl py-16 mx-auto sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
   __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
-    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+    _push(`<div class="relative group"><div class="relative w-full overflow-hidden bg-white rounded-lg h-80 group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
       __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
     }${
       __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
-    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+    } class="object-cover object-center w-full h-full"></div><h3 class="mt-6 text-sm text-gray-500"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
     }><span class="absolute inset-0"></span> ${
       __vite_ssr_import_4__.ssrInterpolate(language.name)
@@ -12373,13 +12423,13 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_TheHeader = __vite_ssr_import_0__.default
 
-  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(`<!--[--><div class="relative overflow-hidden bg-white"><div class="mx-auto max-w-7xl"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
   _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
-  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  _push(`<main class="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-5xl text-orange-600 xl:inline">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-orange-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative mx-auto max-w-7xl"><div class="text-center"><h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Video Demos in Javascript</h2><p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p></div><div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
   __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
-    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+    _push(`<div class="flex flex-col overflow-hidden rounded-lg shadow-lg"><div class="flex-shrink-0"><img class="object-cover w-full h-48"${
       __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
-    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+    } alt=""></div><div class="flex flex-col justify-between flex-1 p-6 bg-white"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
     } class="hover:underline">${
       __vite_ssr_import_4__.ssrInterpolate(post.category.name)
@@ -12389,11 +12439,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_4__.ssrInterpolate(post.title)
     }</p><p class="mt-3 text-base text-gray-500">${
       __vite_ssr_import_4__.ssrInterpolate(post.description)
-    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+    }</p></a></div><div class="flex items-center mt-6"><div class="flex-shrink-0"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
     }><span class="sr-only">${
       __vite_ssr_import_4__.ssrInterpolate(post.author.name)
-    }</span><img class="h-10 w-10 rounded-full"${
+    }</span><img class="w-10 h-10 rounded-full"${
       __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
     } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
@@ -12407,13 +12457,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
     } read </span></div></div></div></div></div>`)
   })
-  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8"><div class="max-w-2xl py-16 mx-auto sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
   __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
-    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+    _push(`<div class="relative group"><div class="relative w-full overflow-hidden bg-white rounded-lg h-80 group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
       __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
     }${
       __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
-    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+    } class="object-cover object-center w-full h-full"></div><h3 class="mt-6 text-sm text-gray-500"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
     }><span class="absolute inset-0"></span> ${
       __vite_ssr_import_4__.ssrInterpolate(language.name)
@@ -12626,210 +12676,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 
 
 // --------------------
-// Request: /pages/react/srcset.vue
-// Parents: 
-// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
-// Dependencies: 
-// - /components/TheHeader.vue ($id_d18d7003)
-// - /components/TheFooter.vue ($id_cdfd5170)
-// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
-// - /@id/plugin-vue:export-helper ($id_bbb863c1)
-// --------------------
-const $id_ded4bc0b = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/TheFooter.vue");
-
-const _sfc_main = {}
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
-
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_TheHeader = __vite_ssr_import_0__.default
-  const _component_TheFooter = __vite_ssr_import_1__.default
-
-  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
-  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
-  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">React imgix Demos</span> ${
-    __vite_ssr_import_3__.ssrInterpolate(' ')
-  } <span class="block text-orange-600 xl:inline text-5xl">Media Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><iframe src="https://codesandbox.io/embed/srcset-example-with-imgix-react-vxorss?fontsize=14&amp;hidenavigation=1&amp;theme=dark" style="${
-    __vite_ssr_import_3__.ssrRenderStyle({"width":"100%","height":"1000px","border":"0","border-radius":"4px","overflow":"hidden"})
-  }" title="srcset example with imgix react" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>`)
-  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheFooter, null, null, _parent))
-  _push(`<!--]-->`)
-}
-
-
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_4__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/react/srcset.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/srcset.vue"]]);
-}
-
-
-// --------------------
-// Request: /components/TheFooter.vue
-// Parents: 
-// - /pages/react/srcset.vue ($id_ded4bc0b)
-// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_2a0a23af)
-// Dependencies: 
-// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
-// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
-// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
-// - /@id/plugin-vue:export-helper ($id_bbb863c1)
-// --------------------
-const $id_cdfd5170 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
-
-  const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
-
-
-
-const _sfc_main = {
-  setup(__props, { expose }) {
-  expose();
-
-  const languages = [
-  {
-    name: 'Javascript',
-    description: 'See demos built using vanilla Javascript',
-    imageSrc: 'https://learnbatta.com/assets/images/javascript/javascript-logo.png',
-    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
-    href: '/javascript',
-  },
-  {
-    name: 'React',
-    description: 'See demos built using React, Gatsby, and Next.js',
-    imageSrc: 'https://patterns.dev/img/reactjs/react-logo@3x.svg',
-    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-    href: '/react',
-  },
-  {
-    name: 'Vue.js',
-    description: 'See demos built using Vue.js and Nuxt.js',
-    imageSrc: 'https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png',
-    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
-    href: '/vuejs',
-  },
-]
-
-const posts = [
-  {
-    title: 'Video Demo: HLS vs MP4',
-    href: 'https://gracious-gates-e1571d.netlify.app/',
-    category: { name: 'Article', href: '#' },
-    description:
-      'This app is used to showcase the user experience of playing an mp4 vs an HLS video with imgix. To test this, right-click on the browser and select "inspect", click the Network tab, change the speed to Fast 3G, and make sure the "disable cache" button next to it is selected.',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    imageUrl:
-      'https://source.unsplash.com/random/700x700',
-    readingTime: '6 min',
-    author: {
-      name: 'Roel Aufderehar',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
-  {
-    title: 'How to use search engine optimization to drive sales',
-    href: '#',
-    category: { name: 'Video', href: '#' },
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
-    date: 'Mar 10, 2020',
-    datetime: '2020-03-10',
-    imageUrl:
-      'https://source.unsplash.com/random/699x699',
-    readingTime: '4 min',
-    author: {
-      name: 'Brenna Goyette',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
-  {
-    title: 'Improve your customer experience',
-    href: '#',
-    category: { name: 'Case Study', href: '#' },
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
-    date: 'Feb 12, 2020',
-    datetime: '2020-02-12',
-    imageUrl:
-      'https://source.unsplash.com/random/698x698',
-    readingTime: '11 min',
-    author: {
-      name: 'Daniela Metz',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
-]
-  
-
-const __returned__ = { languages, posts, Popover: __vite_ssr_import_0__.Popover, PopoverButton: __vite_ssr_import_0__.PopoverButton, PopoverPanel: __vite_ssr_import_0__.PopoverPanel, MenuIcon: __vite_ssr_import_1__.MenuIcon, XIcon: __vite_ssr_import_1__.XIcon }
-Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
-return __returned__
-}
-
-}
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
-
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<section${__vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({
-    "aria-labelledby": "collections-heading",
-    class: "bg-gray-100"
-  }, _attrs))}><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
-  __vite_ssr_import_3__.ssrRenderList($setup.languages, (language) => {
-    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
-      __vite_ssr_import_3__.ssrRenderAttr("src", language.imageSrc)
-    }${
-      __vite_ssr_import_3__.ssrRenderAttr("alt", language.imageAlt)
-    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
-      __vite_ssr_import_3__.ssrRenderAttr("href", language.href)
-    }><span class="absolute inset-0"></span> ${
-      __vite_ssr_import_3__.ssrInterpolate(language.name)
-    }</a></h3><p class="text-base font-semibold text-gray-900">${
-      __vite_ssr_import_3__.ssrInterpolate(language.description)
-    }</p></div>`)
-  })
-  _push(`<!--]--></div></div></div></section>`)
-}
-
-
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_4__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/TheFooter.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/components/TheFooter.vue"]]);
-}
-
-
-// --------------------
 // Request: /pages/react/video/index.vue
 // Parents: 
 // - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
@@ -13012,6 +12858,210 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/video/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/srcset.vue
+// Parents: 
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_4387647a)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_d18d7003)
+// - /components/TheFooter.vue ($id_cdfd5170)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_610f9b00 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/TheFooter.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+  const _component_TheFooter = __vite_ssr_import_1__.default
+
+  _push(`<!--[--><div class="relative overflow-hidden bg-white"><div class="mx-auto max-w-7xl"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"><span class="block 3xl:inline">imgix Demos</span> ${
+    __vite_ssr_import_3__.ssrInterpolate(' ')
+  } <span class="block text-5xl text-orange-600 xl:inline">Srcset IX React Example</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-orange-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><iframe src="https://codesandbox.io/embed/srcset-example-with-imgix-react-vxorss?fontsize=14&amp;hidenavigation=1&amp;theme=dark" style="${
+    __vite_ssr_import_3__.ssrRenderStyle({"width":"100%","height":"1000px","border":"0","border-radius":"4px","overflow":"hidden"})
+  }" title="srcset example with imgix react" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheFooter, null, null, _parent))
+  _push(`<!--]-->`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/srcset.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/srcset.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/TheFooter.vue
+// Parents: 
+// - /pages/srcset.vue ($id_610f9b00)
+// - /@id/__x00__virtual:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/components.mjs ($id_2a0a23af)
+// Dependencies: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_cdfd5170 = async function (global, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
+
+  const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
+
+
+
+const _sfc_main = {
+  setup(__props, { expose }) {
+  expose();
+
+  const languages = [
+  {
+    name: 'Javascript',
+    description: 'See demos built using vanilla Javascript',
+    imageSrc: 'https://learnbatta.com/assets/images/javascript/javascript-logo.png',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '/javascript',
+  },
+  {
+    name: 'React',
+    description: 'See demos built using React, Gatsby, and Next.js',
+    imageSrc: 'https://patterns.dev/img/reactjs/react-logo@3x.svg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '/react',
+  },
+  {
+    name: 'Vue.js',
+    description: 'See demos built using Vue.js and Nuxt.js',
+    imageSrc: 'https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '/vuejs',
+  },
+]
+
+const posts = [
+  {
+    title: 'Video Demo: HLS vs MP4',
+    href: 'https://gracious-gates-e1571d.netlify.app/',
+    category: { name: 'Article', href: '#' },
+    description:
+      'This app is used to showcase the user experience of playing an mp4 vs an HLS video with imgix. To test this, right-click on the browser and select "inspect", click the Network tab, change the speed to Fast 3G, and make sure the "disable cache" button next to it is selected.',
+    date: 'Mar 16, 2020',
+    datetime: '2020-03-16',
+    imageUrl:
+      'https://source.unsplash.com/random/700x700',
+    readingTime: '6 min',
+    author: {
+      name: 'Roel Aufderehar',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'How to use search engine optimization to drive sales',
+    href: '#',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+    date: 'Mar 10, 2020',
+    datetime: '2020-03-10',
+    imageUrl:
+      'https://source.unsplash.com/random/699x699',
+    readingTime: '4 min',
+    author: {
+      name: 'Brenna Goyette',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    title: 'Improve your customer experience',
+    href: '#',
+    category: { name: 'Case Study', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://source.unsplash.com/random/698x698',
+    readingTime: '11 min',
+    author: {
+      name: 'Daniela Metz',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+]
+  
+
+const __returned__ = { languages, posts, Popover: __vite_ssr_import_0__.Popover, PopoverButton: __vite_ssr_import_0__.PopoverButton, PopoverPanel: __vite_ssr_import_0__.PopoverPanel, MenuIcon: __vite_ssr_import_1__.MenuIcon, XIcon: __vite_ssr_import_1__.XIcon }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<section${__vite_ssr_import_3__.ssrRenderAttrs(__vite_ssr_import_2__.mergeProps({
+    "aria-labelledby": "collections-heading",
+    class: "bg-gray-100"
+  }, _attrs))}><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  __vite_ssr_import_3__.ssrRenderList($setup.languages, (language) => {
+    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+      __vite_ssr_import_3__.ssrRenderAttr("src", language.imageSrc)
+    }${
+      __vite_ssr_import_3__.ssrRenderAttr("alt", language.imageAlt)
+    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+      __vite_ssr_import_3__.ssrRenderAttr("href", language.href)
+    }><span class="absolute inset-0"></span> ${
+      __vite_ssr_import_3__.ssrInterpolate(language.name)
+    }</a></h3><p class="text-base font-semibold text-gray-900">${
+      __vite_ssr_import_3__.ssrInterpolate(language.description)
+    }</p></div>`)
+  })
+  _push(`<!--]--></div></div></div></section>`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/TheFooter.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/components/TheFooter.vue"]]);
 }
 
 
@@ -13321,13 +13371,13 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_TheHeader = __vite_ssr_import_0__.default
 
-  _push(`<!--[--><div class="relative bg-white overflow-hidden"><div class="max-w-7xl mx-auto"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(`<!--[--><div class="relative overflow-hidden bg-white"><div class="mx-auto max-w-7xl"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
   _push(__vite_ssr_import_4__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
-  _push(`<main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-orange-600 xl:inline text-5xl">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative max-w-7xl mx-auto"><div class="text-center"><h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Video Demos in Javascript</h2><p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p></div><div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
+  _push(`<main class="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"><span class="block xl:inline">Vue.js Demos</span> ${__vite_ssr_import_4__.ssrInterpolate(' ')} <span class="block text-5xl text-orange-600 xl:inline">Three Industry Examples</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-orange-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want Vue.js? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ix-www.imgix.net/press/imgix-unsplash.jpeg?w=1200&amp;auto=format,compress&amp;cs=srgb" alt=""></div></div><!-- Sections --><div class="relative px-4 pt-16 pb-20 bg-gray-50 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"><div class="absolute inset-0"><div class="bg-white h-1/3 sm:h-2/3"></div></div><div class="relative mx-auto max-w-7xl"><div class="text-center"><h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Video Demos in Javascript</h2><p class="max-w-2xl mx-auto mt-3 text-xl text-gray-500 sm:mt-4">These are a list of some demos we have made using imgix Video in Javascript.</p></div><div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none"><!--[-->`)
   __vite_ssr_import_4__.ssrRenderList($setup.posts, (post) => {
-    _push(`<div class="flex flex-col rounded-lg shadow-lg overflow-hidden"><div class="flex-shrink-0"><img class="h-48 w-full object-cover"${
+    _push(`<div class="flex flex-col overflow-hidden rounded-lg shadow-lg"><div class="flex-shrink-0"><img class="object-cover w-full h-48"${
       __vite_ssr_import_4__.ssrRenderAttr("src", post.imageUrl)
-    } alt=""></div><div class="flex-1 bg-white p-6 flex flex-col justify-between"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
+    } alt=""></div><div class="flex flex-col justify-between flex-1 p-6 bg-white"><div class="flex-1"><p class="text-sm font-medium text-indigo-600"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", post.category.href)
     } class="hover:underline">${
       __vite_ssr_import_4__.ssrInterpolate(post.category.name)
@@ -13337,11 +13387,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_4__.ssrInterpolate(post.title)
     }</p><p class="mt-3 text-base text-gray-500">${
       __vite_ssr_import_4__.ssrInterpolate(post.description)
-    }</p></a></div><div class="mt-6 flex items-center"><div class="flex-shrink-0"><a${
+    }</p></a></div><div class="flex items-center mt-6"><div class="flex-shrink-0"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
     }><span class="sr-only">${
       __vite_ssr_import_4__.ssrInterpolate(post.author.name)
-    }</span><img class="h-10 w-10 rounded-full"${
+    }</span><img class="w-10 h-10 rounded-full"${
       __vite_ssr_import_4__.ssrRenderAttr("src", post.author.imageUrl)
     } alt=""></a></div><div class="ml-3"><p class="text-sm font-medium text-gray-900"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", post.author.href)
@@ -13355,13 +13405,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_4__.ssrInterpolate(post.readingTime)
     } read </span></div></div></div></div></div>`)
   })
-  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
+  _push(`<!--]--></div></div></div><section aria-labelledby="collections-heading" class="bg-gray-100"><div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8"><div class="max-w-2xl py-16 mx-auto sm:py-24 lg:py-32 lg:max-w-none"><h2 id="collections-heading" class="text-2xl font-extrabold text-gray-900">See Other Categories in Javascript?</h2><div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6"><!--[-->`)
   __vite_ssr_import_4__.ssrRenderList($setup.languages, (language) => {
-    _push(`<div class="group relative"><div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
+    _push(`<div class="relative group"><div class="relative w-full overflow-hidden bg-white rounded-lg h-80 group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1"><img${
       __vite_ssr_import_4__.ssrRenderAttr("src", language.imageSrc)
     }${
       __vite_ssr_import_4__.ssrRenderAttr("alt", language.imageAlt)
-    } class="w-full h-full object-center object-cover"></div><h3 class="mt-6 text-sm text-gray-500"><a${
+    } class="object-cover object-center w-full h-full"></div><h3 class="mt-6 text-sm text-gray-500"><a${
       __vite_ssr_import_4__.ssrRenderAttr("href", language.href)
     }><span class="absolute inset-0"></span> ${
       __vite_ssr_import_4__.ssrInterpolate(language.name)
@@ -14236,9 +14286,9 @@ const __modules__ = {
  '/pages/react/ecommerce/index.vue': $id_d7595657,
  '/pages/react/index.vue': $id_8007d07e,
  '/pages/react/media/index.vue': $id_aa8b42f0,
- '/pages/react/srcset.vue': $id_ded4bc0b,
- '/components/TheFooter.vue': $id_cdfd5170,
  '/pages/react/video/index.vue': $id_b1916b54,
+ '/pages/srcset.vue': $id_610f9b00,
+ '/components/TheFooter.vue': $id_cdfd5170,
  '/pages/vuejs/ecommerce/index.vue': $id_36c3d2e5,
  '/pages/vuejs/index.vue': $id_593882d0,
  '/pages/vuejs/media/index.vue': $id_b096f2b2,
