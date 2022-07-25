@@ -351,6 +351,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/javascript/index.vue?macro=true ($id_CSVoJBrkno)
 // - /pages/javascript/media/index.vue?macro=true ($id_XhYSuASd0Q)
 // - /pages/javascript/video/index.vue?macro=true ($id_7FdGRkDl16)
+// - /pages/plyrimgixvideo.vue?macro=true ($id_cvqQVgwPD9)
 // - /pages/react/ecommerce/index.vue?macro=true ($id_Q05pVvSaAd)
 // - /pages/react/index.vue?macro=true ($id_l1BzszBSFK)
 // - /pages/react/media/index.vue?macro=true ($id_hlledcmPgH)
@@ -367,6 +368,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/javascript/index.vue ($id_oYar5Z7ttg)
 // - /pages/javascript/media/index.vue ($id_zVjwDUFWGT)
 // - /pages/javascript/video/index.vue ($id_5a9lI1fkVq)
+// - /pages/plyrimgixvideo.vue ($id_ikxrwRVcYR)
 // - /pages/react/ecommerce/index.vue ($id_11lWV9VcXL)
 // - /pages/react/index.vue ($id_gAfQftVZgr)
 // - /pages/react/media/index.vue ($id_qotC8EYcGp)
@@ -2978,6 +2980,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/javascript/index.vue?macro=true ($id_CSVoJBrkno)
 // - /pages/javascript/media/index.vue?macro=true ($id_XhYSuASd0Q)
 // - /pages/javascript/video/index.vue?macro=true ($id_7FdGRkDl16)
+// - /pages/plyrimgixvideo.vue?macro=true ($id_cvqQVgwPD9)
 // - /pages/react/ecommerce/index.vue?macro=true ($id_Q05pVvSaAd)
 // - /pages/react/index.vue?macro=true ($id_l1BzszBSFK)
 // - /pages/react/media/index.vue?macro=true ($id_hlledcmPgH)
@@ -2994,6 +2997,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/javascript/index.vue ($id_oYar5Z7ttg)
 // - /pages/javascript/media/index.vue ($id_zVjwDUFWGT)
 // - /pages/javascript/video/index.vue ($id_5a9lI1fkVq)
+// - /pages/plyrimgixvideo.vue ($id_ikxrwRVcYR)
 // - /pages/react/ecommerce/index.vue ($id_11lWV9VcXL)
 // - /pages/react/index.vue ($id_gAfQftVZgr)
 // - /pages/react/media/index.vue ($id_qotC8EYcGp)
@@ -3004,7 +3008,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/vuejs/media/index.vue ($id_sJbyss6t69)
 // - /pages/vuejs/video/index.vue ($id_ybHyu2tpvm)
 // --------------------
-const $id_Pm2MIlg8ie = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_OVlvyTZA7w = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/features.vue?macro=true");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
@@ -3019,23 +3023,25 @@ const __vite_ssr_import_5__ = await __vite_ssr_import__("/pages/javascript/media
 
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/pages/javascript/video/index.vue?macro=true");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/pages/react/ecommerce/index.vue?macro=true");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/pages/plyrimgixvideo.vue?macro=true");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/pages/react/index.vue?macro=true");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/pages/react/ecommerce/index.vue?macro=true");
 
-const __vite_ssr_import_9__ = await __vite_ssr_import__("/pages/react/media/index.vue?macro=true");
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/pages/react/index.vue?macro=true");
 
-const __vite_ssr_import_10__ = await __vite_ssr_import__("/pages/react/video/index.vue?macro=true");
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/pages/react/media/index.vue?macro=true");
 
-const __vite_ssr_import_11__ = await __vite_ssr_import__("/pages/srcset.vue?macro=true");
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/pages/react/video/index.vue?macro=true");
 
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/pages/vuejs/ecommerce/index.vue?macro=true");
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/pages/srcset.vue?macro=true");
 
-const __vite_ssr_import_13__ = await __vite_ssr_import__("/pages/vuejs/index.vue?macro=true");
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/pages/vuejs/ecommerce/index.vue?macro=true");
 
-const __vite_ssr_import_14__ = await __vite_ssr_import__("/pages/vuejs/media/index.vue?macro=true");
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/pages/vuejs/index.vue?macro=true");
 
-const __vite_ssr_import_15__ = await __vite_ssr_import__("/pages/vuejs/video/index.vue?macro=true");
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/pages/vuejs/media/index.vue?macro=true");
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/pages/vuejs/video/index.vue?macro=true");
 
 __vite_ssr_exports__.default = [
   {
@@ -3102,12 +3108,21 @@ __vite_ssr_exports__.default = [
     component: () => __vite_ssr_dynamic_import__('/pages/javascript/video/index.vue')
   },
   {
+    name: "plyrimgixvideo",
+    path: "/plyrimgixvideo",
+    file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/plyrimgixvideo.vue",
+    children: [],
+    meta: __vite_ssr_import_7__.meta,
+    alias: __vite_ssr_import_7__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/plyrimgixvideo.vue')
+  },
+  {
     name: "react-ecommerce",
     path: "/react/ecommerce",
     file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/ecommerce/index.vue",
     children: [],
-    meta: __vite_ssr_import_7__.meta,
-    alias: __vite_ssr_import_7__.meta?.alias || [],
+    meta: __vite_ssr_import_8__.meta,
+    alias: __vite_ssr_import_8__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/react/ecommerce/index.vue')
   },
   {
@@ -3115,8 +3130,8 @@ __vite_ssr_exports__.default = [
     path: "/react",
     file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/index.vue",
     children: [],
-    meta: __vite_ssr_import_8__.meta,
-    alias: __vite_ssr_import_8__.meta?.alias || [],
+    meta: __vite_ssr_import_9__.meta,
+    alias: __vite_ssr_import_9__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/react/index.vue')
   },
   {
@@ -3124,8 +3139,8 @@ __vite_ssr_exports__.default = [
     path: "/react/media",
     file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/media/index.vue",
     children: [],
-    meta: __vite_ssr_import_9__.meta,
-    alias: __vite_ssr_import_9__.meta?.alias || [],
+    meta: __vite_ssr_import_10__.meta,
+    alias: __vite_ssr_import_10__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/react/media/index.vue')
   },
   {
@@ -3133,8 +3148,8 @@ __vite_ssr_exports__.default = [
     path: "/react/video",
     file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/react/video/index.vue",
     children: [],
-    meta: __vite_ssr_import_10__.meta,
-    alias: __vite_ssr_import_10__.meta?.alias || [],
+    meta: __vite_ssr_import_11__.meta,
+    alias: __vite_ssr_import_11__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/react/video/index.vue')
   },
   {
@@ -3142,8 +3157,8 @@ __vite_ssr_exports__.default = [
     path: "/srcset",
     file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/srcset.vue",
     children: [],
-    meta: __vite_ssr_import_11__.meta,
-    alias: __vite_ssr_import_11__.meta?.alias || [],
+    meta: __vite_ssr_import_12__.meta,
+    alias: __vite_ssr_import_12__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/srcset.vue')
   },
   {
@@ -3151,8 +3166,8 @@ __vite_ssr_exports__.default = [
     path: "/vuejs/ecommerce",
     file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/ecommerce/index.vue",
     children: [],
-    meta: __vite_ssr_import_12__.meta,
-    alias: __vite_ssr_import_12__.meta?.alias || [],
+    meta: __vite_ssr_import_13__.meta,
+    alias: __vite_ssr_import_13__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/vuejs/ecommerce/index.vue')
   },
   {
@@ -3160,8 +3175,8 @@ __vite_ssr_exports__.default = [
     path: "/vuejs",
     file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/index.vue",
     children: [],
-    meta: __vite_ssr_import_13__.meta,
-    alias: __vite_ssr_import_13__.meta?.alias || [],
+    meta: __vite_ssr_import_14__.meta,
+    alias: __vite_ssr_import_14__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/vuejs/index.vue')
   },
   {
@@ -3169,8 +3184,8 @@ __vite_ssr_exports__.default = [
     path: "/vuejs/media",
     file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/media/index.vue",
     children: [],
-    meta: __vite_ssr_import_14__.meta,
-    alias: __vite_ssr_import_14__.meta?.alias || [],
+    meta: __vite_ssr_import_15__.meta,
+    alias: __vite_ssr_import_15__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/vuejs/media/index.vue')
   },
   {
@@ -3178,8 +3193,8 @@ __vite_ssr_exports__.default = [
     path: "/vuejs/video",
     file: "/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/vuejs/video/index.vue",
     children: [],
-    meta: __vite_ssr_import_15__.meta,
-    alias: __vite_ssr_import_15__.meta?.alias || [],
+    meta: __vite_ssr_import_16__.meta,
+    alias: __vite_ssr_import_16__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/vuejs/video/index.vue')
   }
 ];
@@ -3292,6 +3307,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /pages/javascript/index.vue?macro=true ($id_CSVoJBrkno)
 // - /pages/javascript/media/index.vue?macro=true ($id_XhYSuASd0Q)
 // - /pages/javascript/video/index.vue?macro=true ($id_7FdGRkDl16)
+// - /pages/plyrimgixvideo.vue?macro=true ($id_cvqQVgwPD9)
 // - /pages/react/ecommerce/index.vue?macro=true ($id_Q05pVvSaAd)
 // - /pages/react/index.vue?macro=true ($id_l1BzszBSFK)
 // - /pages/react/media/index.vue?macro=true ($id_hlledcmPgH)
@@ -3308,6 +3324,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /pages/javascript/index.vue ($id_oYar5Z7ttg)
 // - /pages/javascript/media/index.vue ($id_zVjwDUFWGT)
 // - /pages/javascript/video/index.vue ($id_5a9lI1fkVq)
+// - /pages/plyrimgixvideo.vue ($id_ikxrwRVcYR)
 // - /pages/react/ecommerce/index.vue ($id_11lWV9VcXL)
 // - /pages/react/index.vue ($id_gAfQftVZgr)
 // - /pages/react/media/index.vue ($id_qotC8EYcGp)
@@ -12074,6 +12091,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // - /pages/javascript/index.vue?macro=true ($id_CSVoJBrkno)
 // - /pages/javascript/media/index.vue?macro=true ($id_XhYSuASd0Q)
 // - /pages/javascript/video/index.vue?macro=true ($id_7FdGRkDl16)
+// - /pages/plyrimgixvideo.vue?macro=true ($id_cvqQVgwPD9)
 // - /pages/react/ecommerce/index.vue?macro=true ($id_Q05pVvSaAd)
 // - /pages/react/index.vue?macro=true ($id_l1BzszBSFK)
 // - /pages/react/media/index.vue?macro=true ($id_hlledcmPgH)
@@ -12090,6 +12108,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // - /pages/javascript/index.vue ($id_oYar5Z7ttg)
 // - /pages/javascript/media/index.vue ($id_zVjwDUFWGT)
 // - /pages/javascript/video/index.vue ($id_5a9lI1fkVq)
+// - /pages/plyrimgixvideo.vue ($id_ikxrwRVcYR)
 // - /pages/react/ecommerce/index.vue ($id_11lWV9VcXL)
 // - /pages/react/index.vue ($id_gAfQftVZgr)
 // - /pages/react/media/index.vue ($id_qotC8EYcGp)
@@ -12134,6 +12153,7 @@ import("vue/server-renderer")
 // - /pages/javascript/index.vue?macro=true ($id_CSVoJBrkno)
 // - /pages/javascript/media/index.vue?macro=true ($id_XhYSuASd0Q)
 // - /pages/javascript/video/index.vue?macro=true ($id_7FdGRkDl16)
+// - /pages/plyrimgixvideo.vue?macro=true ($id_cvqQVgwPD9)
 // - /pages/react/ecommerce/index.vue?macro=true ($id_Q05pVvSaAd)
 // - /pages/react/index.vue?macro=true ($id_l1BzszBSFK)
 // - /pages/react/media/index.vue?macro=true ($id_hlledcmPgH)
@@ -12150,6 +12170,7 @@ import("vue/server-renderer")
 // - /pages/javascript/index.vue ($id_oYar5Z7ttg)
 // - /pages/javascript/media/index.vue ($id_zVjwDUFWGT)
 // - /pages/javascript/video/index.vue ($id_5a9lI1fkVq)
+// - /pages/plyrimgixvideo.vue ($id_ikxrwRVcYR)
 // - /pages/react/ecommerce/index.vue ($id_11lWV9VcXL)
 // - /pages/react/index.vue ($id_gAfQftVZgr)
 // - /pages/react/media/index.vue ($id_qotC8EYcGp)
@@ -12194,7 +12215,7 @@ __vite_ssr_exports__.default = (sfc, props) => {
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_nWbLR13xIh = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_KsuQAvpMAo = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
@@ -12243,6 +12264,17 @@ const _sfc_main = {
     datetime: '2020-02-12',
     imageUrl:
       'https://assets.imgix.net/docs/setup/image-manager/Tag+Search.png?auto=format&w=800&usm=15',
+  },
+  {
+    title: 'Using Plyr.io with imgix Video',
+    href: '/plyrimgixvideo',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://mux-tom.imgix.net/02wBXRA6PpXwgqZdwXbIGgP00Ggj2hdbyd/thumbnail.jpg?mark-align=bottom%2Cright&mark-scale=40&mark64=aHR0cHM6Ly91c2VyLWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vMjM1Nzk5NTgvMTQzNzM4NjEzLWQzNzRhZGNmLTI0YjgtNGY0NC04ZTc1LTY3M2Q1NjgxYzFhNS5wbmc&blend-w=.3&blend-mode=normal&blend64=aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9tM1lJMUk1R2syUmxmcEd3RWZXbm1MY1JBZklSVERldVNGMEZUN3c4bVhQQ094WmpyZEpnZXlPYzVDbjBJQTR1cmtoeg&w=800&auto=format%2Ccompress&mark-pad=30',
   },
 ]
 
@@ -12408,8 +12440,10 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // Request: /components/TheFooter.vue
 // Parents: 
 // - /pages/ixmgmtjs.vue?macro=true ($id_EyDC9nOz0N)
+// - /pages/plyrimgixvideo.vue?macro=true ($id_cvqQVgwPD9)
 // - /pages/srcset.vue?macro=true ($id_JfH6XJNkDR)
 // - /pages/ixmgmtjs.vue ($id_p5KOD0uAPW)
+// - /pages/plyrimgixvideo.vue ($id_ikxrwRVcYR)
 // - /pages/srcset.vue ($id_YQbAAEXIil)
 // Dependencies: 
 // - @headlessui/vue ($id_qu4stM4w9F)
@@ -13311,6 +13345,64 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/video/index.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /pages/plyrimgixvideo.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_LqgGyULdEW)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_0Y1wAzZTJs)
+// - /components/TheFooter.vue ($id_zf1RcF7Wrz)
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_iLqC1D5EyC = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/TheFooter.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue/server-renderer");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+  const _component_TheFooter = __vite_ssr_import_1__.default
+
+  _push(`<!--[--><div class="relative overflow-hidden bg-white"><div class="mx-auto max-w-7xl"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"><span class="block 3xl:inline">imgix Demos</span> ${
+    __vite_ssr_import_3__.ssrInterpolate(' ')
+  } <span class="block text-5xl text-orange-600 xl:inline">Plyr.io with imgix</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-orange-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://mux-tom.imgix.net/02wBXRA6PpXwgqZdwXbIGgP00Ggj2hdbyd/thumbnail.jpg?mark-align=center%2Cright&amp;mark-scale=40&amp;mark64=aHR0cHM6Ly91c2VyLWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vMjM1Nzk5NTgvMTQzNzM4NjEzLWQzNzRhZGNmLTI0YjgtNGY0NC04ZTc1LTY3M2Q1NjgxYzFhNS5wbmc&amp;blend-w=.3&amp;blend-mode=normal&amp;blend64=aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9tM1lJMUk1R2syUmxmcEd3RWZXbm1MY1JBZklSVERldVNGMEZUN3c4bVhQQ094WmpyZEpnZXlPYzVDbjBJQTR1cmtoeg&amp;w=1200&amp;auto=format%2Ccompress&amp;mark-pad=30" alt="Header Image for Player IO and imgix Video"></div></div><!-- Sections --><iframe height="800" style="${
+    __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
+  }" scrolling="no" title="imgix + plyr with hls" src="https://codepen.io/jdawsonimgix/embed/OJjywgL?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen &lt;a href=&quot;https://codepen.io/jdawsonimgix/pen/OJjywgL&quot;&gt;
+  imgix + plyr with hls&lt;/a&gt; by Jdawson (&lt;a href=&quot;https://codepen.io/jdawsonimgix&quot;&gt;@jdawsonimgix&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+</iframe>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheFooter, null, null, _parent))
+  _push(`<!--]-->`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/plyrimgixvideo.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/plyrimgixvideo.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -14989,7 +15081,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_bLoFsBg4Tt = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_4kQyCyqljG = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
@@ -15038,6 +15130,17 @@ const _sfc_main = {
     datetime: '2020-02-12',
     imageUrl:
       'https://assets.imgix.net/docs/setup/image-manager/Tag+Search.png?auto=format&w=800&usm=15',
+  },
+  {
+    title: 'Using Plyr.io with imgix Video',
+    href: '/plyrimgixvideo',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://mux-tom.imgix.net/02wBXRA6PpXwgqZdwXbIGgP00Ggj2hdbyd/thumbnail.jpg?mark-align=bottom%2Cright&mark-scale=40&mark64=aHR0cHM6Ly91c2VyLWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vMjM1Nzk5NTgvMTQzNzM4NjEzLWQzNzRhZGNmLTI0YjgtNGY0NC04ZTc1LTY3M2Q1NjgxYzFhNS5wbmc&blend-w=.3&blend-mode=normal&blend64=aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9tM1lJMUk1R2syUmxmcEd3RWZXbm1MY1JBZklSVERldVNGMEZUN3c4bVhQQ094WmpyZEpnZXlPYzVDbjBJQTR1cmtoeg&w=800&auto=format%2Ccompress&mark-pad=30',
   },
 ]
 
@@ -15941,6 +16044,62 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/javascript/video/index.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/plyrimgixvideo.vue
+// Parents: 
+// - /@id/virtual:nuxt:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs ($id_LqgGyULdEW)
+// Dependencies: 
+// - /components/TheHeader.vue ($id_0Y1wAzZTJs)
+// - /components/TheFooter.vue ($id_zf1RcF7Wrz)
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_eGyOuxtQVi = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/TheHeader.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/TheFooter.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue/server-renderer");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_TheHeader = __vite_ssr_import_0__.default
+  const _component_TheFooter = __vite_ssr_import_1__.default
+
+  _push(`<!--[--><div class="relative overflow-hidden bg-white"><div class="mx-auto max-w-7xl"><div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"><svg class="absolute inset-y-0 right-0 hidden w-48 h-full text-white transform translate-x-1/2 lg:block" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polygon points="50,0 100,0 50,100 0,100"></polygon></svg>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheHeader, null, null, _parent))
+  _push(`<main class="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"><div class="sm:text-center lg:text-left"><h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl"><span class="block 3xl:inline">imgix Demos</span> ${
+    __vite_ssr_import_3__.ssrInterpolate(' ')
+  } <span class="block text-5xl text-orange-600 xl:inline">Plyr.io with imgix</span></h1><p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">imgix transforms, optimizes, and intelligently caches your entire asset library for faster pages, higher engagement, and a simpler workflow.</p><div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"><div class="rounded-md shadow"><a href="https://dashboard.imgix.com/sign-up" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-orange-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> TRY IT FREE </a></div><div class="mt-3 sm:mt-0 sm:ml-3"><a href="/" class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Don&#39;t Want React? </a></div></div></div></main></div></div><div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"><img class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://mux-tom.imgix.net/02wBXRA6PpXwgqZdwXbIGgP00Ggj2hdbyd/thumbnail.jpg?mark-align=center%2Cright&amp;mark-scale=40&amp;mark64=aHR0cHM6Ly91c2VyLWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vMjM1Nzk5NTgvMTQzNzM4NjEzLWQzNzRhZGNmLTI0YjgtNGY0NC04ZTc1LTY3M2Q1NjgxYzFhNS5wbmc&amp;blend-w=.3&amp;blend-mode=normal&amp;blend64=aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9tM1lJMUk1R2syUmxmcEd3RWZXbm1MY1JBZklSVERldVNGMEZUN3c4bVhQQ094WmpyZEpnZXlPYzVDbjBJQTR1cmtoeg&amp;w=1200&amp;auto=format%2Ccompress&amp;mark-pad=30" alt="Header Image for Player IO and imgix Video"></div></div><!-- Sections --><iframe height="800" style="${
+    __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
+  }" scrolling="no" title="imgix + plyr with hls" src="https://codepen.io/jdawsonimgix/embed/OJjywgL?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen &lt;a href=&quot;https://codepen.io/jdawsonimgix/pen/OJjywgL&quot;&gt;
+  imgix + plyr with hls&lt;/a&gt; by Jdawson (&lt;a href=&quot;https://codepen.io/jdawsonimgix&quot;&gt;@jdawsonimgix&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+</iframe>`)
+  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_TheFooter, null, null, _parent))
+  _push(`<!--]-->`)
+}
+
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_4__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/plyrimgixvideo.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/pages/plyrimgixvideo.vue"]]);
 }
 
 
@@ -18244,7 +18403,7 @@ const __modules__ = {
   "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_apSmSFWG1q,
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_ZR0LUqwyer,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_NgApSiB2xA,
-  "/@id/virtual:nuxt:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs": $id_Pm2MIlg8ie,
+  "/@id/virtual:nuxt:/Users/Tom/Documents/GitHub/nuxt3-tailwind3-starter/.nuxt/routes.mjs": $id_OVlvyTZA7w,
   "/pages/features.vue?macro=true": $id_7Iz2Rj4mhb,
   "/components/TheHeader.vue": $id_yUQ2cMFFH0,
   "@headlessui/vue": $id_feK3GYBlVa,
@@ -18493,13 +18652,14 @@ const __modules__ = {
   "/node_modules/@heroicons/vue/outline/esm/ZoomOutIcon.js": $id_Ts9FIltk1K,
   "vue/server-renderer": $id_aRHphPzMpI,
   "/@id/__x00__plugin-vue:export-helper": $id_mHD6riC5ol,
-  "/pages/index.vue?macro=true": $id_nWbLR13xIh,
+  "/pages/index.vue?macro=true": $id_KsuQAvpMAo,
   "/pages/ixmgmtjs.vue?macro=true": $id_lpRaWIjEBe,
   "/components/TheFooter.vue": $id_32WgUHTnnN,
   "/pages/javascript/ecommerce/index.vue?macro=true": $id_nk5oqgVfTo,
   "/pages/javascript/index.vue?macro=true": $id_6NBJxrIhD0,
   "/pages/javascript/media/index.vue?macro=true": $id_FSOVLviXAV,
   "/pages/javascript/video/index.vue?macro=true": $id_XYsEb0JF2b,
+  "/pages/plyrimgixvideo.vue?macro=true": $id_iLqC1D5EyC,
   "/pages/react/ecommerce/index.vue?macro=true": $id_FyIoqS0D1E,
   "/pages/react/index.vue?macro=true": $id_TzmkUPuL6w,
   "/pages/react/media/index.vue?macro=true": $id_OqgN706IsE,
@@ -18510,12 +18670,13 @@ const __modules__ = {
   "/pages/vuejs/media/index.vue?macro=true": $id_sbihYpnS5C,
   "/pages/vuejs/video/index.vue?macro=true": $id_zTqnwoFfK1,
   "/pages/features.vue": $id_T4ME3Bxqfn,
-  "/pages/index.vue": $id_bLoFsBg4Tt,
+  "/pages/index.vue": $id_4kQyCyqljG,
   "/pages/ixmgmtjs.vue": $id_iU7iy0O8pE,
   "/pages/javascript/ecommerce/index.vue": $id_ayfupNvIBF,
   "/pages/javascript/index.vue": $id_ZpnjGihkjI,
   "/pages/javascript/media/index.vue": $id_kFnIfBCsN5,
   "/pages/javascript/video/index.vue": $id_PTWVpOkjm6,
+  "/pages/plyrimgixvideo.vue": $id_eGyOuxtQVi,
   "/pages/react/ecommerce/index.vue": $id_DhwIgemPqv,
   "/pages/react/index.vue": $id_0ZrMTSgvVN,
   "/pages/react/media/index.vue": $id_GYYmVSEaNK,

@@ -111,6 +111,17 @@ const posts = [
     imageUrl:
       'https://assets.imgix.net/docs/setup/image-manager/Tag+Search.png?auto=format&w=800&usm=15',
   },
+  {
+    title: 'Using Plyr.io with imgix Video',
+    href: '/plyrimgixvideo',
+    category: { name: 'Video', href: '#' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+    date: 'Feb 12, 2020',
+    datetime: '2020-02-12',
+    imageUrl:
+      'https://mux-tom.imgix.net/02wBXRA6PpXwgqZdwXbIGgP00Ggj2hdbyd/thumbnail.jpg?mark-align=bottom%2Cright&mark-scale=40&mark64=aHR0cHM6Ly91c2VyLWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vMjM1Nzk5NTgvMTQzNzM4NjEzLWQzNzRhZGNmLTI0YjgtNGY0NC04ZTc1LTY3M2Q1NjgxYzFhNS5wbmc&blend-w=.3&blend-mode=normal&blend64=aHR0cHM6Ly9wbGF5LWxoLmdvb2dsZXVzZXJjb250ZW50LmNvbS9tM1lJMUk1R2syUmxmcEd3RWZXbm1MY1JBZklSVERldVNGMEZUN3c4bVhQQ094WmpyZEpnZXlPYzVDbjBJQTR1cmtoeg&w=800&auto=format%2Ccompress&mark-pad=30',
+  },
 ]
 
 </script>
